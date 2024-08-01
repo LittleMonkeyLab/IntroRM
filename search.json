@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "chapter1.html",
+    "href": "chapter1.html",
+    "title": "funny",
+    "section": "",
+    "text": "content\n\n\ncontent"
+  },
+  {
+    "objectID": "chapter1.html#this-is-a-subhead",
+    "href": "chapter1.html#this-is-a-subhead",
+    "title": "funny",
+    "section": "",
+    "text": "content"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Hello Quarto CI",
