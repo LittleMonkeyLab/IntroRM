@@ -1,27 +1,81 @@
 [
   {
-    "objectID": "readings.html",
-    "href": "readings.html",
-    "title": "readings",
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "funny",
     "section": "",
-    "text": "content\n\n\ncontent",
+    "text": "content\n\n\ncontent"
+  },
+  {
+    "objectID": "schedule.html#this-is-a-subhead",
+    "href": "schedule.html#this-is-a-subhead",
+    "title": "funny",
+    "section": "",
+    "text": "content"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hello Quarto CI",
+    "section": "",
+    "text": "Setting up CI for quarto website.",
     "crumbs": [
       "Schedule",
       "Module Overview",
-      "Readings"
+      "Syllabus"
     ]
   },
   {
-    "objectID": "readings.html#this-is-a-subhead",
-    "href": "readings.html#this-is-a-subhead",
-    "title": "readings",
+    "objectID": "chapter1.html",
+    "href": "chapter1.html",
+    "title": "funny",
     "section": "",
-    "text": "content",
+    "text": "content\n\n\ncontent"
+  },
+  {
+    "objectID": "chapter1.html#this-is-a-subhead",
+    "href": "chapter1.html#this-is-a-subhead",
+    "title": "funny",
+    "section": "",
+    "text": "content"
+  },
+  {
+    "objectID": "materials/home_week1.html",
+    "href": "materials/home_week1.html",
+    "title": "homeweek1",
+    "section": "",
+    "text": "content\n\n\ncontent\nInsert an iframe",
     "crumbs": [
       "Schedule",
-      "Module Overview",
-      "Readings"
+      "Course Content",
+      "Week 1 Content"
     ]
+  },
+  {
+    "objectID": "materials/home_week1.html#this-is-a-subheading",
+    "href": "materials/home_week1.html#this-is-a-subheading",
+    "title": "homeweek1",
+    "section": "",
+    "text": "content\nInsert an iframe",
+    "crumbs": [
+      "Schedule",
+      "Course Content",
+      "Week 1 Content"
+    ]
+  },
+  {
+    "objectID": "materials/lecture_week1.html#here-again",
+    "href": "materials/lecture_week1.html#here-again",
+    "title": "test presentation",
+    "section": "here again",
+    "text": "here again\ncontent"
+  },
+  {
+    "objectID": "materials/lecture_week1.html#another",
+    "href": "materials/lecture_week1.html#another",
+    "title": "test presentation",
+    "section": "Another",
+    "text": "Another\ncontent"
   },
   {
     "objectID": "data.html",
@@ -48,53 +102,27 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hello Quarto CI",
+    "objectID": "readings.html",
+    "href": "readings.html",
+    "title": "readings",
     "section": "",
-    "text": "Setting up CI for quarto website.",
+    "text": "content\n\n\ncontent",
     "crumbs": [
       "Schedule",
       "Module Overview",
-      "Syllabus"
+      "Readings"
     ]
   },
   {
-    "objectID": "materials/lecture_week1.html#here-again",
-    "href": "materials/lecture_week1.html#here-again",
-    "title": "test presentation",
-    "section": "here again",
-    "text": "here again\ncontent"
-  },
-  {
-    "objectID": "materials/lecture_week1.html#another",
-    "href": "materials/lecture_week1.html#another",
-    "title": "test presentation",
-    "section": "Another",
-    "text": "Another\ncontent"
-  },
-  {
-    "objectID": "materials/home_week1.html",
-    "href": "materials/home_week1.html",
-    "title": "homeweek1",
+    "objectID": "readings.html#this-is-a-subhead",
+    "href": "readings.html#this-is-a-subhead",
+    "title": "readings",
     "section": "",
-    "text": "content\n\n\ncontent\nInsert an iframe\n\n  Download PDF File\n   \n    Unable to display PDF file. Download instead.",
+    "text": "content",
     "crumbs": [
       "Schedule",
-      "Course Content",
-      "Week 1 Content"
-    ]
-  },
-  {
-    "objectID": "materials/home_week1.html#this-is-a-subheading",
-    "href": "materials/home_week1.html#this-is-a-subheading",
-    "title": "homeweek1",
-    "section": "",
-    "text": "content\nInsert an iframe\n\n  Download PDF File\n   \n    Unable to display PDF file. Download instead.",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Week 1 Content"
+      "Module Overview",
+      "Readings"
     ]
   },
   {
@@ -120,33 +148,5 @@
       "Assignments",
       "Assignments Overview"
     ]
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "funny",
-    "section": "",
-    "text": "content\n\n\ncontent"
-  },
-  {
-    "objectID": "schedule.html#this-is-a-subhead",
-    "href": "schedule.html#this-is-a-subhead",
-    "title": "funny",
-    "section": "",
-    "text": "content"
-  },
-  {
-    "objectID": "chapter1.html",
-    "href": "chapter1.html",
-    "title": "funny",
-    "section": "",
-    "text": "content\n\n\ncontent"
-  },
-  {
-    "objectID": "chapter1.html#this-is-a-subhead",
-    "href": "chapter1.html#this-is-a-subhead",
-    "title": "funny",
-    "section": "",
-    "text": "content"
   }
 ]
