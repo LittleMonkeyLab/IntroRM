@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  
+resources: 
+  - CNAME
 
 mainfont: "Atkinson Hyperlegible"
 logo: "images/LMLLOGO.png"
