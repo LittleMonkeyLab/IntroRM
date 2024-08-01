@@ -2,7 +2,7 @@
 title: homeweek1
 ---
 
-# This is the title
+# This is the titles
 
 content
 
