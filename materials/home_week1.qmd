@@ -6,7 +6,7 @@ title: homeweek1
 
 content
 
-## This is a subhead
+## This is a subheading
 
 content
 
