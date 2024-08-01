@@ -1,1 +1,1 @@
-Sitemap: https://littlemonkeylab.github.io/IntroRM/sitemap.xml
+Sitemap: http://introrm.littlemonkeylab.com/sitemap.xml

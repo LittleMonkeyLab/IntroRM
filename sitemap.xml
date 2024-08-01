@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://littlemonkeylab.github.io/IntroRM/chapter1.html</loc>
-    <lastmod>2024-08-01T13:37:22.566Z</lastmod>
+    <loc>http://introrm.littlemonkeylab.com/materials/home_week1.html</loc>
+    <lastmod>2024-08-01T13:51:53.248Z</lastmod>
   </url>
   <url>
-    <loc>https://littlemonkeylab.github.io/IntroRM/index.html</loc>
-    <lastmod>2024-08-01T13:37:23.122Z</lastmod>
+    <loc>http://introrm.littlemonkeylab.com/data.html</loc>
+    <lastmod>2024-08-01T13:51:54.104Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/chapter1.html</loc>
+    <lastmod>2024-08-01T13:51:54.368Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/readings.html</loc>
+    <lastmod>2024-08-01T13:51:54.628Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/index.html</loc>
+    <lastmod>2024-08-01T13:51:54.916Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/rubrics/rubric_muddiest-point.html</loc>
+    <lastmod>2024-08-01T13:51:55.180Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/schedule.html</loc>
+    <lastmod>2024-08-01T13:51:55.444Z</lastmod>
   </url>
 </urlset>

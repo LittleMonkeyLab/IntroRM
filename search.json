@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "materials/home_week1.html",
+    "href": "materials/home_week1.html",
+    "title": "homeweek1",
+    "section": "",
+    "text": "content\n\n\ncontent"
+  },
+  {
+    "objectID": "materials/home_week1.html#this-is-a-subhead",
+    "href": "materials/home_week1.html#this-is-a-subhead",
+    "title": "homeweek1",
+    "section": "",
+    "text": "content"
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
+    "section": "",
+    "text": "content\n\n\ncontent"
+  },
+  {
+    "objectID": "data.html#this-is-a-subhead",
+    "href": "data.html#this-is-a-subhead",
+    "title": "Data",
+    "section": "",
+    "text": "content"
+  },
+  {
     "objectID": "chapter1.html",
     "href": "chapter1.html",
     "title": "funny",
@@ -14,10 +42,52 @@
     "text": "content"
   },
   {
+    "objectID": "readings.html",
+    "href": "readings.html",
+    "title": "readings",
+    "section": "",
+    "text": "content\n\n\ncontent"
+  },
+  {
+    "objectID": "readings.html#this-is-a-subhead",
+    "href": "readings.html#this-is-a-subhead",
+    "title": "readings",
+    "section": "",
+    "text": "content"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Hello Quarto CI",
     "section": "",
     "text": "Setting up CI for quarto website."
+  },
+  {
+    "objectID": "rubrics/rubric_muddiest-point.html",
+    "href": "rubrics/rubric_muddiest-point.html",
+    "title": "Rub Mud Point",
+    "section": "",
+    "text": "content\n\n\ncontent"
+  },
+  {
+    "objectID": "rubrics/rubric_muddiest-point.html#this-is-a-subhead",
+    "href": "rubrics/rubric_muddiest-point.html#this-is-a-subhead",
+    "title": "Rub Mud Point",
+    "section": "",
+    "text": "content"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "funny",
+    "section": "",
+    "text": "content\n\n\ncontent"
+  },
+  {
+    "objectID": "schedule.html#this-is-a-subhead",
+    "href": "schedule.html#this-is-a-subhead",
+    "title": "funny",
+    "section": "",
+    "text": "content"
   }
 ]
