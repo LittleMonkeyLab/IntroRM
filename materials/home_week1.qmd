@@ -9,3 +9,9 @@ content
 ## This is a subhead
 
 content
+
+Insert an iframe\
+
+{{< pdf file="materials/assets/test.pdf" height="500px" >}}
+
+{{< revealjs file="materials/lecture_week1.html" height="500px>}}
