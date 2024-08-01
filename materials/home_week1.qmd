@@ -10,16 +10,14 @@ content
 
 content
 
-Insert an iframe\
+Insert an iframe
 
-{{< pdf file="materials/assets/test.pdf" height="500px" >}}
-
-{{< revealjs file="materials/lecture_week1.html" height="500px>}}
+<!-- {{< revealjs file="lecture_week1.html" height="500px" >}} -->
 
 <div>
 
 ```{=html}
-<iframe class="slide-deck" src="https://introrm.littlemonkeylab.com/materials/lecture_week1.html"></iframe>
+<iframe class="slide-deck" src="https://introrm.littlemonkeylab.com/materials/lecture_week1.html" height="500px"></iframe>
 ```
 
 </div>

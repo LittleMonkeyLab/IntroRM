@@ -25,7 +25,7 @@ website:
         href: https://github.com/
         aria-label: GitHub
   sidebar:
-    style: "docked"
+    style: docked
     alignment: left
     border: true
     collapse-level: 2
