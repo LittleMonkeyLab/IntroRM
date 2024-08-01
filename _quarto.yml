@@ -1,8 +1,86 @@
 project:
   type: website
   output-dir: docs
+
+mainfont: "Atkinson Hyperlegible"
+logo: "images/LMLLOGO.png"
+
+website:
+  title: "IntroRM"
+  repo-url: https://github.com/LittleMonkeyLab/introrm
+  site-url: "http://introrm.littlemonkeylab.com/"
+  repo-actions: [issue]
+  navbar:
+    right:
+      - text: "Schedule"
+        href: schedule.qmd
+      - text: "Staff"
+        menu:
+          - text: "Dr. Gordon Wright"
+            href: https://littlemonkeylab.github.io/
+      - icon: github
+        href: https://github.com/
+        aria-label: GitHub
+  sidebar:
+    style: "docked"
+    alignment: left
+    border: true
+    collapse-level: 2
+    contents:
+      - section: "Module Overview"
+        contents:
+          - text: "Syllabus"
+            href: index.qmd
+          - text: "Example Data"
+            href: data.qmd
+          - text: "Readings"
+            href: readings.qmd
+          # - text: "Answer Keys"
+          #   href: keys.qmd
+      - section: "Assignments"
+        contents:
+          - text: "Assignments Overview"
+            href: rubrics/rubric_muddiest-point.qmd
+          # - text: "Critical Proposal"
+          #   href: rubrics/rubric_homework.qmd
+          # - text: "Mini-Dissertation"
+          #   href: rubrics/rubric_github.qmd
+          # - text: "CHIP Log"
+          #   href: rubrics/rubric_tutorials.qmd
+      - section: "Course Content"
+        contents:
+          - text: "Week 1 Content"
+            href: materials/home_week1.qmd
+          # - text: "Week 2 Content"
+          #   href: materials/home_week2.qmd
+          # - text: "Week 3 Content"
+          #   href: materials/home_week3.qmd
+          # - text: "Week 4 Content"
+          #   href: materials/home_week4.qmd
+          # - text: "Week 5 Content"
+          #   href: materials/home_week5.qmd
+          # - text: "Week 6 Content"
+          #   href: materials/home_week6.qmd
+          # - text: "Week 7 Content"
+          #   href: materials/home_week7.qmd
+          # - text: "Week 8 Content"
+          #   href: materials/home_week8.qmd
+  page-footer:
+    center: "Copyright 2024, Dr. Gordon Wright"
+
 execute:
   freeze: auto
-format: html
-website:
-  site-url: "https://littlemonkeylab.github.io/IntroRM/"
+  self-contained: true
+
+format:
+  html:
+    code-overflow: wrap
+    code-line-numbers: false
+    code-copy: hover
+    theme:
+      light: light.scss
+      dark: dark.scss
+    mainfont: "Atkinson Hyperlegible"
+    toc: true
+    link-external-newwindow: true
+    link-external-icon: false
