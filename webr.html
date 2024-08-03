@@ -70,6 +70,23 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "openSidebar": false,
+  "showHighlights": "whenSidebarOpen",
+  "focus": {
+    "user": {
+      "username": "drdeception"
+    }
+  }
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/monaco-editor@0.47.0/min/vs/editor/editor.main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   
@@ -360,7 +377,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"id":1,"code":"gapminder_filtered <- gapminder |>\n  filter(year == 2007)\n\nggplot(data = gapminder_filtered,\n       mapping = aes(x = gdpPercap, y = lifeExp, \n                     size = pop, color = continent)) +\n  geom_point() + \n  scale_x_log10(labels = scales::dollar_format(accuracy = 1)) +\n  scale_size_continuous(labels = scales::label_comma()) +\n  scale_color_viridis_d(option = \"plasma\") +\n  labs(x = \"GDP per capita\", y = \"Life expectancy\",\n       title = \"Health and wealth are strongly related\",\n       subtitle = \"142 countries; 2007 only\", caption = \"Source: The Gapminder Project\",\n       color = \"Continent\", size = \"Population\") +\n  theme_bw()","options":{"comment":"","fig-width":"7","autorun":"false","out-width":"100%","editor-font-scale":"0.8","editor-word-wrap":"true","classes":"","context":"interactive","warning":"true","fig-height":"4.3","results":"markup","read-only":"false","out-height":"","output":"true","fig-cap":"","label":"unnamed-chunk-1","editor-max-height":"","editor-quick-suggestions":"false","message":"true","dpi":72}}];
+globalThis.qwebrCellDetails = [{"options":{"comment":"","context":"interactive","editor-quick-suggestions":"false","warning":"true","out-height":"","autorun":"false","classes":"","fig-height":"4.3","fig-cap":"","out-width":"100%","results":"markup","message":"true","editor-font-scale":"0.8","label":"unnamed-chunk-1","editor-max-height":"","editor-word-wrap":"true","output":"true","read-only":"false","dpi":72,"fig-width":"7"},"id":1,"code":"gapminder_filtered <- gapminder |>\n  filter(year == 2007)\n\nggplot(data = gapminder_filtered,\n       mapping = aes(x = gdpPercap, y = lifeExp, \n                     size = pop, color = continent)) +\n  geom_point() + \n  scale_x_log10(labels = scales::dollar_format(accuracy = 1)) +\n  scale_size_continuous(labels = scales::label_comma()) +\n  scale_color_viridis_d(option = \"plasma\") +\n  labs(x = \"GDP per capita\", y = \"Life expectancy\",\n       title = \"Health and wealth are strongly related\",\n       subtitle = \"142 countries; 2007 only\", caption = \"Source: The Gapminder Project\",\n       color = \"Continent\", size = \"Population\") +\n  theme_bw()"}];
 
 </script>
 <script type="module">
