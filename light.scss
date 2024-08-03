@@ -1,41 +1,87 @@
 /*-- scss:defaults --*/
+/*-- scss:defaults --*/
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #ddd !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
 
-// Colors
-/* source: https://coolors.co/palettes/trending */
-$blue-4: #283E82;
-$blue-3: #077DC2;
-$blue-2: #01BAEF;
-$blue-1: #5DDBFE;
-$orange-4: #EB6534;
-$orange-3: #FF9B00;
-$orange-2: #F9B000;
-$orange-1: #FFD879;
+// Inferno colors
+// viridisLite::viridis(8, option = "inferno", begin = 0.1, end = 0.9)
+$blue:    #42159D !default;
+$indigo:  #771C6D !default;
+$purple:  #480B6A !default;
+$pink:    #A52C60 !default;
+$red:     #CF4446 !default;
+$orange:  #EE6A24 !default;
+$yellow:  #FB9E07 !default;
+$green:   #02b875 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
 
-$cream: #F4F3EE;
-$gray-0: #d6d6d6;
-$gray-1: #BCB8B1;
-$gray-2: #8A817C;
-$gray-3: #222823;
-$gray-4: #191919;
-$black: #08090A;
+$primary:       $blue !default;
+$secondary:     $gray-500 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
 
 // Fonts
 $font-size: 25px;
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+$h1-font-size: $font-size-base * 2.45;
+$h2-font-size: $font-size-base * 1.85;
+$h3-font-size: $font-size-base * 1.5;
+$h4-font-size: $font-size-base * 1.2;
+$h5-font-size: $font-size-base * 1;
+$h6-font-size: $font-size-base * 0.8;
+
+$toc-font-size: 0.95rem;
+$sidebar-font-size: 1.1rem;
+$sidebar-font-size-section: 0.95rem;
+$footer-font-size: 0.9rem;
+
+$link-color: $red;
+$link-hover-color: $yellow;
+
+
 // Base document colors
-$navbar-bg: $orange-2; // navbar
-$navbar-fg: $blue-4; // navbar foreground elements
-$navbar-hl: $blue-3; // highlight color when on a page
-$body-bg: $cream; // page background
+$navbar-bg: $orange; // navbar
+$navbar-fg: $blue; // navbar foreground elements
+$navbar-hl: $teal; // highlight color when on a page
+$body-bg: $gray-100; // page background
 $body-color: $black; // page text
-$footer-bg: $blue-2; // footer
-$footer-text: $cream; // footer text
-$link-color: $blue-2; // hyperlinks
+$footer-bg: $purple; // footer
+$footer-text: $white; // footer text
+$link-color: $red; // hyperlinks
 
 // Inline code
-$code-bg: $gray-0; // inline code background color
-$code-color: $gray-3; // inline code text color
+$code-bg: $gray-200; // inline code background color
+$code-color: $gray-300; // inline code text color
 
 // Code blocks
-$code-block-bg: $gray-0; // code block background color
+$code-block-bg: $gray-100; // code block background color
+
+// Callouts
+// Make callout text and icon bigger
+.callout.callout-style-default {
+  > div.callout-header,
+  > .callout-body {
+    font-size: 1.1rem;
+  }
+
+  .callout-icon::before {
+    height: 1.2rem;
+    width: 1.2rem;
+    background-size: 1.2rem 1.2rem;
+  }
+}
