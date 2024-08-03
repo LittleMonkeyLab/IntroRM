@@ -42,6 +42,10 @@ website:
       contents:
       - text: Week 1 Content
         href: materials/home_week1.qmd
+      - text: Webr
+        href: webr.qmd  
+      - text: Webexercises
+        href: webexercises.qmd    
   page-footer:
     center: Copyright 2024, Dr. Gordon Wright
 execute:
