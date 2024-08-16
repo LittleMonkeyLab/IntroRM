@@ -1,43 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://introrm.littlemonkeylab.com/readings.html</loc>
-    <lastmod>2024-08-03T16:56:58.158Z</lastmod>
+    <loc>http://introrm.littlemonkeylab.com/index.html</loc>
+    <lastmod>2024-08-16T15:49:30.916Z</lastmod>
   </url>
   <url>
-    <loc>http://introrm.littlemonkeylab.com/webexercises.html</loc>
-    <lastmod>2024-08-03T16:56:58.158Z</lastmod>
+    <loc>http://introrm.littlemonkeylab.com/08-complex-designs.html</loc>
+    <lastmod>2024-08-16T15:49:30.788Z</lastmod>
   </url>
   <url>
-    <loc>http://introrm.littlemonkeylab.com/schedule.html</loc>
-    <lastmod>2024-08-03T16:56:58.158Z</lastmod>
+    <loc>http://introrm.littlemonkeylab.com/07-sampling.html</loc>
+    <lastmod>2024-08-16T15:49:30.784Z</lastmod>
   </url>
   <url>
-    <loc>http://introrm.littlemonkeylab.com/rubrics/rubric_muddiest-point.html</loc>
-    <lastmod>2024-08-03T16:56:58.158Z</lastmod>
+    <loc>http://introrm.littlemonkeylab.com/03-theory.html</loc>
+    <lastmod>2024-08-16T15:49:30.784Z</lastmod>
   </url>
   <url>
-    <loc>http://introrm.littlemonkeylab.com/materials/home_week1.html</loc>
-    <lastmod>2024-08-03T16:56:58.158Z</lastmod>
+    <loc>http://introrm.littlemonkeylab.com/10-single-N.html</loc>
+    <lastmod>2024-08-16T15:49:30.788Z</lastmod>
   </url>
   <url>
     <loc>http://introrm.littlemonkeylab.com/webr.html</loc>
-    <lastmod>2024-08-03T16:56:58.158Z</lastmod>
+    <lastmod>2024-08-16T15:49:30.920Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/04-ethics.html</loc>
+    <lastmod>2024-08-16T15:49:30.784Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/webexercises.html</loc>
+    <lastmod>2024-08-16T15:49:30.920Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/11-ideas.html</loc>
+    <lastmod>2024-08-16T15:49:30.788Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/12-presenting.html</loc>
+    <lastmod>2024-08-16T15:49:30.788Z</lastmod>
   </url>
   <url>
     <loc>http://introrm.littlemonkeylab.com/materials/lecture_week1.html</loc>
-    <lastmod>2024-08-03T16:56:58.158Z</lastmod>
+    <lastmod>2024-08-16T15:49:30.920Z</lastmod>
   </url>
   <url>
-    <loc>http://introrm.littlemonkeylab.com/index.html</loc>
-    <lastmod>2024-08-03T16:56:58.150Z</lastmod>
+    <loc>http://introrm.littlemonkeylab.com/14-inferentials.html</loc>
+    <lastmod>2024-08-16T15:49:30.788Z</lastmod>
   </url>
   <url>
-    <loc>http://introrm.littlemonkeylab.com/data.html</loc>
-    <lastmod>2024-08-03T16:56:58.150Z</lastmod>
+    <loc>http://introrm.littlemonkeylab.com/13-descriptives.html</loc>
+    <lastmod>2024-08-16T15:49:30.788Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/rubrics/rubric_muddiest-point.html</loc>
+    <lastmod>2024-08-16T15:49:30.920Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/materials/home_week1.html</loc>
+    <lastmod>2024-08-16T15:49:30.920Z</lastmod>
   </url>
   <url>
     <loc>http://introrm.littlemonkeylab.com/chapter1.html</loc>
-    <lastmod>2024-08-03T16:56:58.150Z</lastmod>
+    <lastmod>2024-08-16T15:49:30.844Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/01-science-of-psych.html</loc>
+    <lastmod>2024-08-16T15:49:30.784Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/06-measurement.html</loc>
+    <lastmod>2024-08-16T15:49:30.784Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/data.html</loc>
+    <lastmod>2024-08-16T15:49:30.844Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/05-experiments.html</loc>
+    <lastmod>2024-08-16T15:49:30.784Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/09-nonexperiments.html</loc>
+    <lastmod>2024-08-16T15:49:30.788Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/readings.html</loc>
+    <lastmod>2024-08-16T15:49:30.920Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/02-getting-started.html</loc>
+    <lastmod>2024-08-16T15:49:30.784Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/schedule.html</loc>
+    <lastmod>2024-08-16T15:49:30.920Z</lastmod>
   </url>
 </urlset>
