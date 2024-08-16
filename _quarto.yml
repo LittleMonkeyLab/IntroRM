@@ -2,6 +2,7 @@ project:
   type: website
   output-dir: docs
 resources: CNAME
+bibliography: references.bib
 mainfont: Atkinson Hyperlegible
 logo: images/LMLLOGO.png
 website:
