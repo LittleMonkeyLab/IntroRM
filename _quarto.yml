@@ -25,7 +25,7 @@ website:
     style: docked
     alignment: left
     border: true
-    collapse-level: 2
+    collapse-level: 1
     contents:
     - section: Module Overview
       contents:
@@ -40,7 +40,17 @@ website:
       - text: Assignments Overview
         href: rubrics/rubric_muddiest-point.qmd
     - section: Course Content
-      contents: auto   
+      contents:
+      - section: Week 01
+        contents: 
+          - week01/chapter.qmd
+          - week01/lab.qmd
+          - week01/dataskills.qmd 
+      - section: Week 02
+        contents: 
+          - week02/chapter.qmd
+          - week02/lab.qmd
+          - week02/dataskills.qmd  
   page-footer:
     center: Copyright 2024, Dr. Gordon Wright
 execute:
