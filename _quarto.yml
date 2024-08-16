@@ -57,95 +57,95 @@ website:
           - week02/lab.qmd
           - week02/dataskills.qmd
       - section: Week 03
-      contents: 
-        - week03/chapter.qmd
-        - week03/lab.qmd
-        - week03/dataskills.qmd
-    - section: Week 04
-      contents: 
-        - week04/chapter.qmd
-        - week04/lab.qmd
-        - week04/dataskills.qmd
-    - section: Week 05
-      contents: 
-        - week05/chapter.qmd
-        - week05/lab.qmd
-        - week05/dataskills.qmd
-    - section: Week 06
-      contents: 
-        - week06/chapter.qmd
-        - week06/lab.qmd
-        - week06/dataskills.qmd
-    - section: Week 07
-      contents: 
-        - week07/chapter.qmd
-        - week07/lab.qmd
-        - week07/dataskills.qmd
-    - section: Week 08
-      contents: 
-        - week08/chapter.qmd
-        - week08/lab.qmd
-        - week08/dataskills.qmd
-    - section: Week 09
-      contents: 
-        - week09/chapter.qmd
-        - week09/lab.qmd
-        - week09/dataskills.qmd
-    - section: Week 10
-      contents: 
-        - week10/chapter.qmd
-        - week10/lab.qmd
-        - week10/dataskills.qmd
-    - section: Week 11
-      contents: 
-        - week11/chapter.qmd
-        - week11/lab.qmd
-        - week11/dataskills.qmd
-    - section: Week 12
-      contents: 
-        - week12/chapter.qmd
-        - week12/lab.qmd
-        - week12/dataskills.qmd
-    - section: Week 13
-      contents: 
-        - week13/chapter.qmd
-        - week13/lab.qmd
-        - week13/dataskills.qmd
-    - section: Week 14
-      contents: 
-        - week14/chapter.qmd
-        - week14/lab.qmd
-        - week14/dataskills.qmd
-    - section: Week 15
-      contents: 
-        - week15/chapter.qmd
-        - week15/lab.qmd
-        - week15/dataskills.qmd
-    - section: Week 16
-      contents: 
-        - week16/chapter.qmd
-        - week16/lab.qmd
-        - week16/dataskills.qmd
-    - section: Week 17
-      contents: 
-        - week17/chapter.qmd
-        - week17/lab.qmd
-        - week17/dataskills.qmd
-    - section: Week 18
-      contents: 
-        - week18/chapter.qmd
-        - week18/lab.qmd
-        - week18/dataskills.qmd
-    - section: Week 19
-      contents: 
-        - week19/chapter.qmd
-        - week19/lab.qmd
-        - week19/dataskills.qmd
-    - section: Week 20
-      contents: 
-        - week20/chapter.qmd
-        - week20/lab.qmd
-        - week20/dataskills.qmd
+        contents: 
+          - week03/chapter.qmd
+          - week03/lab.qmd
+          - week03/dataskills.qmd
+      - section: Week 04
+        contents: 
+          - week04/chapter.qmd
+          - week04/lab.qmd
+          - week04/dataskills.qmd
+      - section: Week 05
+        contents: 
+          - week05/chapter.qmd
+          - week05/lab.qmd
+          - week05/dataskills.qmd
+      - section: Week 06
+        contents: 
+          - week06/chapter.qmd
+          - week06/lab.qmd
+          - week06/dataskills.qmd
+      - section: Week 07
+        contents: 
+          - week07/chapter.qmd
+          - week07/lab.qmd
+          - week07/dataskills.qmd
+      - section: Week 08
+        contents: 
+          - week08/chapter.qmd
+          - week08/lab.qmd
+          - week08/dataskills.qmd
+      - section: Week 09
+        contents: 
+          - week09/chapter.qmd
+          - week09/lab.qmd
+          - week09/dataskills.qmd
+      - section: Week 10
+        contents: 
+          - week10/chapter.qmd
+          - week10/lab.qmd
+          - week10/dataskills.qmd
+      - section: Week 11
+        contents: 
+          - week11/chapter.qmd
+          - week11/lab.qmd
+          - week11/dataskills.qmd
+      - section: Week 12
+        contents: 
+          - week12/chapter.qmd
+          - week12/lab.qmd
+          - week12/dataskills.qmd
+      - section: Week 13
+        contents: 
+          - week13/chapter.qmd
+          - week13/lab.qmd
+          - week13/dataskills.qmd
+      - section: Week 14
+        contents: 
+          - week14/chapter.qmd
+          - week14/lab.qmd
+          - week14/dataskills.qmd
+      - section: Week 15
+        contents: 
+          - week15/chapter.qmd
+          - week15/lab.qmd
+          - week15/dataskills.qmd
+      - section: Week 16
+        contents: 
+          - week16/chapter.qmd
+          - week16/lab.qmd
+          - week16/dataskills.qmd
+      - section: Week 17
+        contents: 
+          - week17/chapter.qmd
+          - week17/lab.qmd
+          - week17/dataskills.qmd
+      - section: Week 18
+        contents: 
+          - week18/chapter.qmd
+          - week18/lab.qmd
+          - week18/dataskills.qmd
+      - section: Week 19
+        contents: 
+          - week19/chapter.qmd
+          - week19/lab.qmd
+          - week19/dataskills.qmd
+      - section: Week 20
+        contents: 
+          - week20/chapter.qmd
+          - week20/lab.qmd
+          - week20/dataskills.qmd
   page-footer:
     center: Copyright 2024, Dr. Gordon Wright
 execute:
