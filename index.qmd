@@ -8,6 +8,13 @@ resources:
 Setting up CI for quarto website.
 
 ``` html
-
 <iframe src="https://littlemonkeylab.github.io/placeholder_slides" width="500" height="400"></iframe>
 ```
+
+content
+
+{{< revealjs file="assets/placeholder_slides.html" height="500px" class="ratio ratio-16x9" >}}
+
+more content
+
+{{< revealjs file="https://littlemonkeylab.github.io/slides/" height="500px" class="ratio ratio-16x9" >}}
