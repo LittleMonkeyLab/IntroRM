@@ -6,3 +6,8 @@ resources:
 ---
 
 Setting up CI for quarto website.
+
+``` html
+
+<iframe src="https://littlemonkeylab.github.io/placeholder_slides" width="500" height="400"></iframe>
+```

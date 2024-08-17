@@ -46,12 +46,12 @@ website:
           - week00/chapter.qmd
           - week00/lab.qmd
           - week00/dataskills.qmd
-      - section: Week 01
+      - section: Week 01 - Intro
         contents: 
           - week01/chapter.qmd
           - week01/lab.qmd
           - week01/dataskills.qmd 
-      - section: Week 02
+      - section: Week 02 - Getting real
         contents: 
           - week02/chapter.qmd
           - week02/lab.qmd
