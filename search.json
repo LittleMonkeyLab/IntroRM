@@ -30,7 +30,7 @@
     "href": "index.html",
     "title": "Hello Quarto CI",
     "section": "",
-    "text": "Setting up CI for quarto website.\n\n&lt;iframe src=\"https://littlemonkeylab.github.io/placeholder_slides\" width=\"500\" height=\"400\"&gt;&lt;/iframe&gt;",
+    "text": "Setting up CI for quarto website.\n&lt;iframe src=\"https://littlemonkeylab.github.io/placeholder_slides\" width=\"500\" height=\"400\"&gt;&lt;/iframe&gt;\ncontent\n    View slides in full screen\n       \n      \n    \n  \nmore content\n    View slides in full screen",
     "crumbs": [
       "Schedule",
       "Module Overview",
