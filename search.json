@@ -30,7 +30,7 @@
     "href": "index.html",
     "title": "Hello Quarto CI",
     "section": "",
-    "text": "Setting up CI for quarto website.",
+    "text": "Setting up CI for quarto website.\n\n&lt;iframe src=\"https://littlemonkeylab.github.io/placeholder_slides\" width=\"500\" height=\"400\"&gt;&lt;/iframe&gt;",
     "crumbs": [
       "Schedule",
       "Module Overview",
@@ -415,7 +415,7 @@
     "crumbs": [
       "Schedule",
       "Course Content",
-      "Week 02",
+      "Week 02 - Getting real",
       "Chapter 2 - Week 2 Stuff"
     ]
   },
@@ -428,7 +428,7 @@
     "crumbs": [
       "Schedule",
       "Course Content",
-      "Week 02",
+      "Week 02 - Getting real",
       "Chapter 2 - Week 2 Stuff"
     ]
   },
@@ -469,7 +469,7 @@
     "crumbs": [
       "Schedule",
       "Course Content",
-      "Week 01",
+      "Week 01 - Intro",
       "What is Science?"
     ]
   },
@@ -865,7 +865,7 @@
     "crumbs": [
       "Schedule",
       "Course Content",
-      "Week 01",
+      "Week 01 - Intro",
       "Expectations"
     ]
   },
@@ -878,7 +878,7 @@
     "crumbs": [
       "Schedule",
       "Course Content",
-      "Week 01",
+      "Week 01 - Intro",
       "Expectations"
     ]
   },
@@ -891,7 +891,7 @@
     "crumbs": [
       "Schedule",
       "Course Content",
-      "Week 01",
+      "Week 01 - Intro",
       "Expectations"
     ]
   },
