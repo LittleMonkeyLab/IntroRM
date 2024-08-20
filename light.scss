@@ -50,13 +50,13 @@ $sidebar-font-size: 1.1rem;
 $sidebar-font-size-section: 0.95rem;
 $footer-font-size: 0.9rem;
 
-$link-color: $red;
-$link-hover-color: $yellow;
+$link-color: $green;
+$link-hover-color: $red;
 
 
 // Base document colors
-$navbar-bg: $orange; // navbar
-$navbar-fg: $blue; // navbar foreground elements
+$navbar-bg: $gray-200; // navbar
+$navbar-fg: $black; // navbar foreground elements
 $navbar-hl: $teal; // highlight color when on a page
 $body-bg: $gray-100; // page background
 $body-color: $black; // page text
@@ -84,4 +84,8 @@ $code-block-bg: $gray-100; // code block background color
     width: 1.2rem;
     background-size: 1.2rem 1.2rem;
   }
+}
+
+.navbar-logo {
+  height: 300px; 
 }

@@ -1,5 +1,34 @@
 ---
-title: "Week 2 Lab background"
+title: "Lab 00 Activity"
+description: "Indicative activity"
+date: today
+author:
+  - name: Gordon Wright
+    role: remixer
+    orcid: 0000-0003-1689-0557
+    email: g.wright@gold.ac.uk
+    affiliations:
+      - name: LittleMonkeyLab @ Goldsmiths Psychology
+        address: Goldsmiths, University of London
+        city: London
+        state: UK
+        postal-code: SE14 6NW
+  - name: Matthew Crump
+    role: Original Author
 ---
 
 ## Lab background for this week
+
+{{< revealjs "slides/lab_intro.html" >}}
+
+## So time to do the thing
+
+Here are the things you need to do
+
+1.  thing 1
+2.  thing 2
+3.  thing 3
+
+## Well done, my pretties!
+
+All I do is win, win, win, no matter what

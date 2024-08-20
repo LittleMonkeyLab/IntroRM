@@ -7,14 +7,14 @@ resources:
 
 Setting up CI for quarto website.
 
-``` html
-<iframe src="https://littlemonkeylab.github.io/placeholder_slides" width="500" height="400"></iframe>
-```
-
-content
+Embedded Slides from standalone html file in assets directory (using
+embedio shortcode)
 
 {{< revealjs file="assets/placeholder_slides.html" height="500px" class="ratio ratio-16x9" >}}
 
-more content
+Embedded Slides from published .html reveal slides at an external URL
+(using embedio shortcode)
 
 {{< revealjs file="https://littlemonkeylab.github.io/slides/" height="500px" class="ratio ratio-16x9" >}}
+
+#todo - include a raw html version for longevity?
