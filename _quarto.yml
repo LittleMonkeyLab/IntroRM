@@ -1,0 +1,49 @@
+project:
+  type: website
+mainfont: Atkinson Hyperlegible
+logo: images/LMLLOGO.png
+website:
+  title: PS51020A Research Methods & Statistics 2024/5
+  repo-url: https://github.com/LittleMonkeyLab/introrm
+  site-url: http://introrm.littlemonkeylab.com
+  description: Introduction to Research Methods in Psychology at Goldsmiths
+  page-navigation: true
+  repo-actions: issue
+  sidebar:
+    style: docked
+    alignment: left
+    border: true
+    collapse-level: 1
+    contents:
+    - section: Module Overview
+      contents:
+      - text: Syllabus
+        href: index.qmd
+      - text: Example Data
+        href: index.qmd
+      - text: Webexercises
+        href: webexercises.qmd
+    - section: Course Content
+      contents: index.qmd
+  page-footer:
+    center: Copyright 2024, Dr. Gordon Wright
+execute:
+  freeze: auto
+  self-contained: true
+format:
+  html:
+    code-overflow: wrap
+    code-line-numbers: false
+    code-copy: hover
+    theme:
+      light: light.scss
+      dark: dark.scss
+    mainfont: Atkinson Hyperlegible
+    monofont: Fira Code
+    toc: true
+    license: CC BY-NC-SA
+    citation: true
+    link-external-newwindow: true
+    link-external-icon: false
+    css: include/webex.css
+    include-after-body: include/webex.js
