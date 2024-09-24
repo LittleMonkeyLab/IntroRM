@@ -1,15 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://introrm.littlemonkeylab.com/about.html</loc>
-    <lastmod>2024-09-24T15:40:23.833Z</lastmod>
+    <loc>http://introrm.littlemonkeylab.com/webexercises.html</loc>
+    <lastmod>2024-09-24T18:36:26.335Z</lastmod>
   </url>
   <url>
-    <loc>http://introrm.littlemonkeylab.com/webexercises.html</loc>
-    <lastmod>2024-09-24T15:40:23.861Z</lastmod>
+    <loc>http://introrm.littlemonkeylab.com/webr.html</loc>
+    <lastmod>2024-09-24T18:36:26.335Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/week01/chapter.html</loc>
+    <lastmod>2024-09-24T18:36:26.336Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/week01/06-ttests.html</loc>
+    <lastmod>2024-09-24T18:36:26.335Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/week01/lecture-slides.html</loc>
+    <lastmod>2024-09-24T18:36:26.339Z</lastmod>
   </url>
   <url>
     <loc>http://introrm.littlemonkeylab.com/index.html</loc>
-    <lastmod>2024-09-24T15:40:23.834Z</lastmod>
+    <lastmod>2024-09-24T18:36:26.324Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/week01/dataskills.html</loc>
+    <lastmod>2024-09-24T18:36:26.339Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/week01/lab-slides.html</loc>
+    <lastmod>2024-09-24T18:36:26.339Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/week01/lab.html</loc>
+    <lastmod>2024-09-24T18:36:26.339Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/week01/codeoptions.html</loc>
+    <lastmod>2024-09-24T18:36:26.336Z</lastmod>
+  </url>
+  <url>
+    <loc>http://introrm.littlemonkeylab.com/about.html</loc>
+    <lastmod>2024-09-24T18:36:26.324Z</lastmod>
   </url>
 </urlset>
