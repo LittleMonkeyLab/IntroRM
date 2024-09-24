@@ -1,0 +1,225 @@
+---
+title: "Now it's your turn"
+subtitle: "Standing on the shoulders of giants"
+title-block-banner: true
+categories: [lab, week01]
+author: "Dr. Gordon Wright"
+format:
+  html: 
+    code-tools: true
+    code-fold: true
+    code-annotations: hover
+
+filters: 
+  - webr
+  
+execute: 
+  warning: false
+---
+
+## Chapter 1: Wellbeing Measurement Challenge
+
+::: callout-important
+### Standing on the Shoulders of Giants
+
+*"If I have seen further, it is by standing on the shoulders of
+giants."* — Isaac Newton
+
+Before diving into your first lab, you've had a week to explore some key
+aspects of **wellbeing**. The work of pioneers in psychology and
+wellbeing research, such as **Martin Seligman** and **Ed Diener**, has
+shaped the field you're about to engage with. In this chapter, we'll
+guide you through core concepts, helping you build on their successes
+while avoiding common pitfalls.
+:::
+
+------------------------------------------------------------------------
+
+## 1. What is Wellbeing? (15 minutes)
+
+### Concept Overview:
+
+Wellbeing is **multidimensional**, involving emotional, psychological,
+social, and physical components. By understanding these different
+dimensions, we can more accurately measure and improve wellbeing.
+
+-   **Emotional Wellbeing**: Feelings of happiness and satisfaction
+-   **Psychological Wellbeing**: Purpose, self-acceptance, and growth
+-   **Social Wellbeing**: Relationships and community belonging
+
+**Key Question**: Which dimensions of wellbeing have researchers focused
+on, and why?
+
+::: callout-tip
+#### Giants in the Field:
+
+-   **Martin Seligman**'s **PERMA Model** (Positive Emotion, Engagement,
+    Relationships, Meaning, Accomplishment)
+-   **Ed Diener**'s work on **Subjective Wellbeing**
+:::
+
+**Takeaway**: - **Success**: These models provide a comprehensive
+framework to explore wellbeing. - **Caution**: Beware of
+**over-simplifying** wellbeing—it’s not just about happiness.
+
+------------------------------------------------------------------------
+
+## 2. Measuring Wellbeing (30 minutes)
+
+### Activity Overview:
+
+You will complete several measures that assess different aspects of your
+wellbeing.
+
+**Common Wellbeing Measures**: - **Life Satisfaction Survey** (by
+Diener) - **Emotional Wellbeing Scale** - **Flourishing Scale**
+
+### Key Terminology:
+
+-   **Reliability**: Does the measure consistently capture what it’s
+    supposed to?
+-   **Validity**: Does it actually measure wellbeing, or is it capturing
+    something else?
+
+::: callout-note
+#### Reflection:
+
+What did you think about the different measures? Did they capture your
+wellbeing accurately? How did they make you feel?
+:::
+
+**What the Giants Have Achieved**: - **Strength**: These scales are
+**scientifically validated**, with a strong track record. - **Potential
+Pitfalls**: They can be too **general** or **culturally biased**. What
+can you add to future measures?
+
+::: callout-warning
+**Looking Ahead**: In future labs, you'll learn more about
+**psychometrics**—the science of measuring psychological traits like
+wellbeing. You’ll also explore how to test the **validity** and
+**reliability** of these measures in your own research.
+:::
+
+------------------------------------------------------------------------
+
+## 3. Designing Wellbeing Interventions (30 minutes)
+
+### Group Activity Overview:
+
+Design a **simple wellbeing intervention** that could improve one of the
+dimensions of wellbeing.
+
+### Key Questions:
+
+-   What issue is your intervention addressing? Is it mental, physical,
+    or social wellbeing?
+-   How will you measure its effectiveness?
+
+**Example Interventions**: - A daily **gratitude practice**
+(Psychological Wellbeing) - A **social support network** for peers
+(Social Wellbeing)
+
+::: callout-tip
+#### Giants’ Wisdom:
+
+-   **Strength**: Research has shown that small changes can make a big
+    impact, like the **power of gratitude** (Seligman).
+-   **Common Pitfalls**: Many interventions fail because they are too
+    **difficult** to implement in the real world. Keep it simple and
+    practical.
+:::
+
+**Looking Ahead**: Later in your course, you will learn how to develop
+and test interventions more formally, using **experimental designs** and
+**data analysis** to prove their effectiveness.
+
+------------------------------------------------------------------------
+
+## 4. Money and Happiness: The Relationship (30 minutes)
+
+### Concept Overview:
+
+Research shows that while **money can buy happiness** to an extent, it
+has **diminishing returns**.
+
+### Key Terminology:
+
+-   **Diminishing Marginal Returns**: Beyond a certain point, each extra
+    unit of money brings less additional happiness.
+
+### Activity:
+
+-   Plot your own hypothesis of the money-happiness relationship. How do
+    you think **income** relates to happiness?
+
+::: callout-note
+#### What Giants Have Found:
+
+-   **Strength**: Research like **Kahneman and Deaton’s** work shows a
+    clear threshold (\~\$75,000).
+-   **Common Error**: Focusing too much on income while ignoring other
+    key factors, like **relationships** or **health**.
+:::
+
+**Looking Ahead**: You’ll soon dive deeper into **economic psychology**
+and how subjective factors, like **perception** and **expectations**,
+play a role in happiness and wellbeing.
+
+::: insert-graph
+#### (Insert Graph: Money and Happiness Plot)
+:::
+
+------------------------------------------------------------------------
+
+## 5. Critical Analysis of Wellbeing Measures (15 minutes)
+
+### Activity:
+
+Evaluate the strengths and weaknesses of the wellbeing measures you’ve
+used. - Were they easy to understand? - Did they capture the
+**complexity** of wellbeing? - Would you trust them in your own
+research?
+
+::: callout-important
+#### Giants’ Learnings:
+
+-   **Success**: Existing scales have been rigorously tested for
+    **validity** and **reliability**.
+-   **Caution**: Be critical of whether these scales can be applied to
+    **different populations**. A measure that works well in the UK might
+    not translate well to other cultures.
+:::
+
+**Looking Ahead**: Next, you’ll explore how to conduct your own
+**critical reviews** of research, building the skills to assess
+strengths and weaknesses in published studies.
+
+------------------------------------------------------------------------
+
+## 6. Conclusion and Reflection (15 minutes)
+
+### Key Points:
+
+-   Wellbeing is **multifaceted** and should be approached from multiple
+    angles.
+-   Measurement tools are useful but not flawless—be mindful of their
+    limitations.
+-   Small interventions can make a big difference, but they must be
+    **practical**.
+
+### Next Steps:
+
+-   Continue exploring different **measures** of wellbeing in future
+    labs.
+-   Develop your own **intervention projects**, and learn how to
+    **evaluate their success**.
+-   Apply critical thinking when assessing research and start thinking
+    about your own **research designs**.
+
+### Final Reflection Prompt:
+
+What insights from today will you take into your own work? How will you
+use the knowledge of **giants** in this field to inform your own
+approach?
+
+------------------------------------------------------------------------

@@ -1,0 +1,133 @@
+---
+title: "DataSkills 02"
+subtitle: "Your first original research plan"
+format:
+  html: 
+    code-tools: true
+    code-fold: true
+    code-annotations: hover
+    title-block-banner: true
+
+filters: 
+  - webr
+  
+execute: 
+  warning: false
+---
+
+---
+title: "DataSkills Homework: Wellbeing Measurement Challenge"
+format: quarto
+---
+
+# DataSkills Homework: Wellbeing Measurement Challenge
+
+::: callout-tip
+### Group Submission Overview:
+
+As a group, you will submit a **balanced and evaluative** report on the
+following four components. The goal is for your group to collaborate and
+submit a cohesive piece that documents any **disagreements** or
+different perspectives. The submission doesn't have to be perfect, but
+it should reflect thoughtful discussion and analysis.
+:::
+
+------------------------------------------------------------------------
+
+## 1. Key Reference (Journal Article or Data)
+
+Your group will identify a **key reference** (a journal article or
+dataset) that you believe is foundational or highly relevant to the
+topic of **wellbeing measurement**.
+
+-   **Why this reference?** What makes this reference central to the
+    topic?
+-   **How does it support** the understanding or measurement of
+    wellbeing?
+
+::: callout-important
+*Tip*: Make sure to clearly cite the reference and provide a brief
+summary of its relevance.
+:::
+
+------------------------------------------------------------------------
+
+## 2. Preferred Measurement Approach
+
+Discuss as a group and agree on a **preferred measurement approach** for
+wellbeing. This could be one of the scales or frameworks you encountered
+in the lab (e.g., the **Life Satisfaction Survey**, the **PERMA model**,
+etc.).
+
+-   **Positives**: What are the strengths of this approach?
+-   **Negatives**: What are its limitations or potential biases?
+
+::: callout-note
+*Important*: You don’t have to agree entirely! Document any
+**disagreements** or varied perspectives within your group. This is part
+of the evaluative process.
+:::
+
+------------------------------------------------------------------------
+
+## 3. Wellbeing Intervention Plan
+
+Design a **simple intervention** that could improve a particular
+dimension of wellbeing (mental, social, or physical).
+
+-   **What is your intervention?** Describe it briefly.
+-   **Which dimension of wellbeing** does it target?
+-   **How will you implement it?** Outline any key steps for success.
+
+------------------------------------------------------------------------
+
+## 4. Defining Success & Expected Outcomes
+
+-   **What does success look like** for your intervention? Be as
+    specific as possible.
+-   **Do you think your intervention will be successful?** Discuss
+    whether the group believes it can achieve the desired outcomes, and
+    why.
+
+::: callout-warning
+*Reminder*: It’s okay to be **realistic** about potential challenges or
+limitations—documenting uncertainty or differing viewpoints is
+encouraged.
+:::
+
+------------------------------------------------------------------------
+
+## Individual Submission: Weekly Reflection
+
+Each individual in the group must submit a brief personal **reflection**
+on the week's activities. This is your opportunity to document your own
+learning, thoughts, and any disagreements or insights you had while
+working with your group.
+
+### Reflection Prompt:
+
+-   What were your key takeaways from this week's activities?
+-   Did anything surprise you or challenge your understanding of
+    wellbeing?
+-   How did working with your group influence your perspective?
+
+::: callout-tip
+*Submission Tip*: Be honest about your learning process! This reflection
+should be personal and thoughtful.
+:::
+
+------------------------------------------------------------------------
+
+## Submission Guidelines
+
+-   Your **group submission** can be turned in whenever your group feels
+    ready, but aim for a balanced, thoughtful evaluation.
+-   You can choose **how** you submit it (written report, slides, video,
+    etc.), but ensure it's clear and cohesive.
+-   **Individual reflections** should be submitted alongside the group
+    work.
+
+------------------------------------------------------------------------
+
+Good luck, and remember: It’s not about perfection—it’s about learning
+and engaging with the process!

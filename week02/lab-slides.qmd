@@ -1,0 +1,137 @@
+---
+title: "Lab 02 - Overview"
+subtitle: "The Great Wellbeing Measurement Challenge"
+format:
+  revealjs:
+    theme: simple
+    slideNumber: true
+---
+
+## Wellbeing Measurement Challenge
+
+### 2-hour Lab Activity Overview
+
+**Learning Outcomes**:
+
+1.  Understand different concepts of wellbeing
+
+2.  Apply wellbeing measurement tools
+
+3.  Critically assess research on wellbeing and happiness
+
+------------------------------------------------------------------------
+
+## Introduction (15 minutes)
+
+**What is wellbeing?**
+
+-   Physical, emotional, social, and psychological dimensions
+-   Why is it important to measure wellbeing?
+
+🧑‍🏫 **Lab Objectives**:
+
+\- Explore wellbeing measures
+
+\- Discuss interventions
+
+\- Critically analyze the money-happiness relationship
+
+::: callout-note
+Remember to think about wellbeing in your own AND others' lives
+:::
+
+------------------------------------------------------------------------
+
+## Measuring Wellbeing (30 minutes)
+
+📝 **Activity**: Complete multiple wellbeing measures
+
+-   Emotional Wellbeing Scale
+-   Life Satisfaction Survey
+-   Flourishing Scale
+
+🔍 **Key Question**: How did these measures make you feel? What were
+your first impressions?
+
+------------------------------------------------------------------------
+
+## Designing Interventions (30 minutes)
+
+**Small Group Activity**: Design a brief wellbeing intervention
+
+-   Brainstorm in groups of 3-4
+-   Focus on physical or mental wellbeing
+
+💡 **Presentation**: Share and discuss each group's intervention idea
+
+::: callout-tip
+Encourage creativity: interventions can be apps, mindfulness practices,
+or community-based.
+:::
+
+------------------------------------------------------------------------
+
+## Money and Happiness Activity (30 minutes)
+
+💰 **Does Money Buy Happiness?**
+
+1.  Review **research** on the money-happiness link
+2.  **Plot** your own hypothesized relationship
+
+📊 **Activity**: Compare your results with existing research
+
+::: callout-important
+Key insight: Money increases happiness to an extent—where do students
+think the threshold is?
+:::
+
+------------------------------------------------------------------------
+
+## Critical Analysis (15 minutes)
+
+**Evaluating Wellbeing Measures**
+
+-   What are the strengths of the scales you used?
+-   What are the weaknesses?
+
+🛠️ **Consider**:
+
+-   Reliability and validity
+
+-   Cultural differences
+
+------------------------------------------------------------------------
+
+## Conclusion and Reflection (15 minutes)
+
+🔮 **Discussion**: - Implications of wellbeing measurement for
+**research** and **practice** - What surprised you about the findings
+today?
+
+✍️ **Individual Reflection**: How will you apply these insights in your
+future work?
+
+::: callout-tip
+Encourage students to think about ethical considerations in wellbeing
+interventions.
+:::
+
+------------------------------------------------------------------------
+
+## Thank You!
+
+### Ready to start the challenge?
+
+For **DataSkills**, your group will submit a short:
+
+-   A key reference (Journal Article or Data)
+
+-   A preferred measurement approach (with positive and negatives)
+
+-   A potential intervention plan to increase wellbeing
+
+-   What success would look like and whether you think you will achieve
+    it
+
+-   Each submission can be the same, but everyone needs to write an
+    individual reflection on the week
