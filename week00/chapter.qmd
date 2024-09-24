@@ -1,6 +1,7 @@
 ---
 title: "CH.00 Describing Data"
 categories: [lecture, wellbeing, descriptives]
+image: "images/LMLLOGO.png"
 author:
   - name: Gordon Wright
     role: remixer
@@ -14,6 +15,16 @@ author:
         postal-code: SE14 6NW
   - name: Matthew Crump
     role: Original Author
+bibliography: references.bib
+format:
+  html:
+    code-fold: true
+    code-tools: true
+    toc: true
+    toc-location: left
+execute:
+  echo: true
+  warning: false
 webr:
   packages: ['ggplot2', 'dplyr', 'knitr', 'magrittr', 'gapminder']
 ---
@@ -37,7 +48,42 @@ in the license section.
 source("../global_stuff.R")
 ```
 
-# Describing Data {#DescribingData}
+## Learning Objectives
+
+By the end of this session, you should be able to:
+
+1.  Understand the principles of multivariate analysis
+2.  Apply principal component analysis (PCA) to psychological data
+3.  Interpret the results of a factor analysis
+4.  Critically evaluate the use of multivariate techniques in research
+    papers
+
+::: callout-note
+This is a note callout
+:::
+
+::: callout-warning
+Be cautious when interpreting factor loadings. Small sample sizes can
+lead to unstable solutions.
+:::
+
+::: callout-tip
+Remember to always... tip
+:::
+
+::: callout-info
+Callout Info.
+:::
+
+## Interactive Exercise
+
+Let's test your understanding with a quick exercise:
+
+What is the primary focus of this week's topic?
+
+`r mcq(c("Option 1", "Option 2", answer = "Correct Answer", "Option 4"))`
+
+## Describing Data {#DescribingData}
 
 > Far better an approximate answer to the right question, which is often
 > vague, than an exact answer to the wrong question, which can always be
@@ -55,12 +101,44 @@ describing data. Some things to keep in mind as we go along are:
 4.  Describing data is necessary because there is usually too much of
     it, so it doesn't make any sense by itself.
 
+```{webr-r}
+# Load necessary libraries
+library(tidyverse)
+library(ggplot2)
+
+# Generate some example data
+set.seed(123)
+n <- 100
+x <- rnorm(n)
+y <- 2*x + rnorm(n)
+z <- 3*x + 2*y + rnorm(n)
+df <- data.frame(x, y, z)
+
+# Perform PCA
+pca_result <- prcomp(df, scale. = TRUE)
+
+# Display summary of PCA
+summary(pca_result)
+
+# Plot the results
+autoplot(pca_result, data = df, colour = 'steelblue', loadings = TRUE, loadings.label = TRUE)
+```
+
 ## This is what too many numbers looks like
 
 Let's say you wanted to know how happy people are. So, you ask thousands
 of people on the street how happy they are. You let them pick any number
 they want from negative infinity to positive infinity. Then you record
 all the numbers. Now what?
+
+## Reflection Question
+
+::: webex-check
+How might you apply this week's concepts in your own research or
+practice?
+
+`r longmcq(c("I wouldn't use these concepts", "I'm not sure how to apply them", answer = "I could use these concepts to [specific application]"))`
+:::
 
 Well, how about you look at the numbers and see if that helps you
 determine anything about how happy people are. What could the numbers
@@ -75,6 +153,46 @@ Now, what are you going to with that big pile of numbers? Look at it all
 day long? When you deal with data, it will deal so many numbers to you
 that you will be overwhelmed by them. That is why we need ways to
 describe the data in a more manageable fashion.
+
+```{webr-r}
+# Load psych package for factor analysis
+library(psych)
+
+# Generate example data
+set.seed(456)
+n <- 200
+f1 <- rnorm(n)
+f2 <- rnorm(n)
+items <- data.frame(
+  item1 = f1 + rnorm(n, sd = 0.5),
+  item2 = f1 + rnorm(n, sd = 0.5),
+  item3 = f2 + rnorm(n, sd = 0.5),
+  item4 = f2 + rnorm(n, sd = 0.5)
+)
+
+# Perform EFA
+fa_result <- fa(items, nfactors = 2, rotate = "varimax")
+
+# Print results
+print(fa_result, cut = 0.3, digits = 2)
+```
+
+::: panel-tabset
+### Structural Equation Modeling
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua.
+
+### Latent Class Analysis
+
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+ut aliquip ex ea commodo consequat.
+
+### Network Analysis
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+dolore eu fugiat nulla pariatur.
+:::
 
 The complete description of the data is always the data itself.
 **Descriptive statistics** and other tools for describing data go one
