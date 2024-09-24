@@ -1,7 +1,0 @@
----
-title: "Chapter 2 - Week 2 Stuff"
----
-
-## Week 2 stuff
-
-insert week 2 stuff

@@ -1,5 +1,6 @@
 ---
 title: "CH.00 Describing Data"
+categories: [lecture, wellbeing, descriptives]
 author:
   - name: Gordon Wright
     role: remixer
@@ -13,11 +14,13 @@ author:
         postal-code: SE14 6NW
   - name: Matthew Crump
     role: Original Author
+webr:
+  packages: ['ggplot2', 'dplyr', 'knitr', 'magrittr', 'gapminder']
 ---
 
 ::: callout
-This placeholder/indicative text is copied (and minimally edited) from
-Professor Matthew Crump (et al)'s "Answering Questions with Data"
+This is placeholder/indicative text is copied (and minimally edited)
+from Professor Matthew Crump (et al)'s "Answering Questions with Data"
 
 Online Textbook: https://crumplab.github.io/statistics/
 

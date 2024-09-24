@@ -1,5 +1,0 @@
----
-title: "Week 2 Lab background"
----
-
-## Lab background for this week

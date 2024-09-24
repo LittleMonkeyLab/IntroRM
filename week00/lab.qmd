@@ -2,6 +2,7 @@
 title: "Lab 00 Activity"
 description: "Indicative activity"
 date: today
+categories: [lab, wellbeing, survey design]
 author:
   - name: Gordon Wright
     role: remixer
@@ -15,6 +16,8 @@ author:
         postal-code: SE14 6NW
   - name: Matthew Crump
     role: Original Author
+webr:
+  packages: ['ggplot2', 'dplyr', 'knitr', 'magrittr', 'gapminder']
 ---
 
 ## Lab background for this week

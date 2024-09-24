@@ -1,5 +1,5 @@
 ---
-title: "Lab Intro"
+title: "Lecture Slides for Week 00"
 format: 
   revealjs:
     embed-resources: true
@@ -7,7 +7,7 @@ format:
       data-background-color: "#FBCEB1"
 ---
 
-## In the lab this week
+## In the lecture this week
 
 We are going to do some things
 

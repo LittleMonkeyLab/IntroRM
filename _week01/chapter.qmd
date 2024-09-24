@@ -1,5 +1,0 @@
----
-title: "What is Science?"
----
-
-test content

@@ -1,6 +1,7 @@
 ---
 title: "DS.00 - Descriptives"
 description: "DataSkills 00 Descriptive Statistics"
+categories: [dataskills, wellbeing, questions]
 author:
   - name: Gordon Wright
     role: remixer
