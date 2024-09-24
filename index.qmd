@@ -1,8 +1,5 @@
 ---
-title: Hello Quarto CI
-date: last-modified
-resources:
-  - .nojekyll
+title: indexy
 ---
 
 Setting up CI for quarto website.
@@ -10,11 +7,10 @@ Setting up CI for quarto website.
 Embedded Slides from standalone html file in assets directory (using
 embedio shortcode)
 
-{{< revealjs file="assets/placeholder_slides.html" height="500px" class="ratio ratio-16x9" >}}
 
 Embedded Slides from published .html reveal slides at an external URL
 (using embedio shortcode)
 
-{{< revealjs file="https://littlemonkeylab.github.io/slides/" height="500px" class="ratio ratio-16x9" >}}
+
 
 #todo - include a raw html version for longevity?

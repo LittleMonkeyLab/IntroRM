@@ -1,24 +1,22 @@
 project:
   type: website
-  output-dir: docs
+
 resources: CNAME
 bibliography: references.bib
 mainfont: Atkinson Hyperlegible
 logo: images/LMLLOGO.png
-
 website:
-  title: "PS51020A Research Methods & Statistics 2024/5"
+  title: PS51020A Research Methods & Statistics 2024/5
   repo-url: https://github.com/LittleMonkeyLab/introrm
   site-url: http://introrm.littlemonkeylab.com
-  description: "Introduction to Research Methods in Psychology at Goldsmiths"
-  
+  description: Introduction to Research Methods in Psychology at Goldsmiths
   page-navigation: true
   repo-actions: issue
   navbar:
     logo: images/GoldLogo.png
     right:
     - text: Schedule
-      href: schedule.qmd
+      href: index.qmd
     - text: Staff
       menu:
       - text: Dr. Gordon Wright
@@ -37,125 +35,23 @@ website:
       - text: Syllabus
         href: index.qmd
       - text: Example Data
-        href: data.qmd
+        href: index.qmd
       - text: Readings
-        href: readings.qmd
-    - section: Assignments
-      contents:
-      - text: Assignments Overview
-        href: rubrics/rubric_muddiest-point.qmd
+        href: index.qmd
+
     - section: Course Content
       contents:
-      - section: Welcome Week
-        contents: 
-          - week00/chapter.qmd
-          - week00/lab.qmd
-          - week00/dataskills.qmd
-      # - section: Week 01 - Intro
-      #   contents: 
-      #     - week01/chapter.qmd
-      #     - week01/lab.qmd
-      #     - week01/dataskills.qmd 
-      # - section: Week 02 - Getting real
-      #   contents: 
-      #     - week02/chapter.qmd
-      #     - week02/lab.qmd
-      #     - week02/dataskills.qmd
-      # - section: Week 03
-      #   contents: 
-      #     - week03/chapter.qmd
-      #     - week03/lab.qmd
-      #     - week03/dataskills.qmd
-      # - section: Week 04
-      #   contents: 
-      #     - week04/chapter.qmd
-      #     - week04/lab.qmd
-      #     - week04/dataskills.qmd
-      # - section: Week 05
-      #   contents: 
-      #     - week05/chapter.qmd
-      #     - week05/lab.qmd
-      #     - week05/dataskills.qmd
-      # - section: Week 06
-      #   contents: 
-      #     - week06/chapter.qmd
-      #     - week06/lab.qmd
-      #     - week06/dataskills.qmd
-      # - section: Week 07
-      #   contents: 
-      #     - week07/chapter.qmd
-      #     - week07/lab.qmd
-      #     - week07/dataskills.qmd
-      # - section: Week 08
-      #   contents: 
-      #     - week08/chapter.qmd
-      #     - week08/lab.qmd
-      #     - week08/dataskills.qmd
-      # - section: Week 09
-      #   contents: 
-      #     - week09/chapter.qmd
-      #     - week09/lab.qmd
-      #     - week09/dataskills.qmd
-      # - section: Week 10
-      #   contents: 
-      #     - week10/chapter.qmd
-      #     - week10/lab.qmd
-      #     - week10/dataskills.qmd
-      # - section: Week 11
-      #   contents: 
-      #     - week11/chapter.qmd
-      #     - week11/lab.qmd
-      #     - week11/dataskills.qmd
-      # - section: Week 12
-      #   contents: 
-      #     - week12/chapter.qmd
-      #     - week12/lab.qmd
-      #     - week12/dataskills.qmd
-      # - section: Week 13
-      #   contents: 
-      #     - week13/chapter.qmd
-      #     - week13/lab.qmd
-      #     - week13/dataskills.qmd
-      # - section: Week 14
-      #   contents: 
-      #     - week14/chapter.qmd
-      #     - week14/lab.qmd
-      #     - week14/dataskills.qmd
-      # - section: Week 15
-      #   contents: 
-      #     - week15/chapter.qmd
-      #     - week15/lab.qmd
-      #     - week15/dataskills.qmd
-      # - section: Week 16
-      #   contents: 
-      #     - week16/chapter.qmd
-      #     - week16/lab.qmd
-      #     - week16/dataskills.qmd
-      # - section: Week 17
-      #   contents: 
-      #     - week17/chapter.qmd
-      #     - week17/lab.qmd
-      #     - week17/dataskills.qmd
-      # - section: Week 18
-      #   contents: 
-      #     - week18/chapter.qmd
-      #     - week18/lab.qmd
-      #     - week18/dataskills.qmd
-      # - section: Week 19
-      #   contents: 
-      #     - week19/chapter.qmd
-      #     - week19/lab.qmd
-      #     - week19/dataskills.qmd
-      # - section: Week 20
-      #   contents: 
-      #     - week20/chapter.qmd
-      #     - week20/lab.qmd
-      #     - week20/dataskills.qmd
+      - index.qmd
+      # - section: Welcome Week
+      #   contents:
+      #   - week00/chapter.qmd
+      #   - week00/lab.qmd
+      #   - week00/dataskills.qmd
   page-footer:
     center: Copyright 2024, Dr. Gordon Wright
-filters:
-  # - panelize
-  - webr
+# filters: 
+#   - webr
+engine: knitr
 execute:
   freeze: auto
   self-contained: true
@@ -170,17 +66,17 @@ format:
     mainfont: Atkinson Hyperlegible
     monofont: Fira Code
     toc: true
-    license: "CC BY-NC-SA"
+    license: CC BY-NC-SA
     citation: true
     link-external-newwindow: true
     link-external-icon: false
     css: include/webex.css
     include-after-body: include/webex.js
   revealjs: default
-comments: 
-  hypothesis: 
+comments:
+  hypothesis:
     openSidebar: false
     showHighlights: whenSidebarOpen
-    focus: 
-      user: 
-        username: "drdeception"
+    focus:
+      user:
+        username: drdeception
