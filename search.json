@@ -1,404 +1,64 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hello Quarto CI",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Setting up CI for quarto website.\nEmbedded Slides from standalone html file in assets directory (using embedio shortcode)\n    View slides in full screen\n       \n      \n    \n  \nEmbedded Slides from published .html reveal slides at an external URL (using embedio shortcode)\n    View slides in full screen\n       \n      \n    \n  \n#todo - include a raw html version for longevity?\n\n\n\nReuseCC BY-NC-SA 4.0CitationBibTeX citation:@online{2024,\n  author = {},\n  title = {Hello {Quarto} {CI}},\n  date = {2024-08-20},\n  url = {http://introrm.littlemonkeylab.com/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“Hello Quarto CI.” 2024. August 20, 2024. http://introrm.littlemonkeylab.com/.",
-    "crumbs": [
-      "Schedule",
-      "Module Overview",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "week00/chapter.html",
-    "href": "week00/chapter.html",
-    "title": "CH.00 Describing Data",
-    "section": "",
-    "text": "This placeholder/indicative text is copied (and minimally edited) from Professor Matthew Crump (et al)’s “Answering Questions with Data”\nOnline Textbook: https://crumplab.github.io/statistics/\nCitation: Crump, M. J. C., Navarro, D. J., & Suzuki, J. (2019, June 5). Answering Questions with Data (Textbook): Introductory Statistics for Psychology Students. https://doi.org/10.17605/OSF.IO/JZE52\nAll resources are released under a creative commons licence CC BY-SA 4.0. Click the link to read more about the license, or read more below in the license section.",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "CH.00 Describing Data"
-    ]
-  },
-  {
-    "objectID": "week00/chapter.html#this-is-what-too-many-numbers-looks-like",
-    "href": "week00/chapter.html#this-is-what-too-many-numbers-looks-like",
-    "title": "CH.00 Describing Data",
-    "section": "This is what too many numbers looks like",
-    "text": "This is what too many numbers looks like\nLet’s say you wanted to know how happy people are. So, you ask thousands of people on the street how happy they are. You let them pick any number they want from negative infinity to positive infinity. Then you record all the numbers. Now what?\nWell, how about you look at the numbers and see if that helps you determine anything about how happy people are. What could the numbers look like. Perhaps something like this:\n\n\n\n\n\n328\n-187\n378\n684\n-191\n-273\n540\n-128\n-552\n214\n\n\n-98\n111\n163\n57\n603\n126\n-320\n251\n-300\n-772\n\n\n-291\n-359\n-319\n-244\n325\n-377\n617\n310\n-589\n-435\n\n\n289\n446\n-230\n117\n264\n846\n162\n276\n250\n556\n\n\n197\n359\n34\n1069\n1067\n542\n311\n143\n354\n-654\n\n\n-118\n-246\n260\n132\n96\n523\n203\n-134\n-665\n-765\n\n\n-496\n-4\n-254\n478\n-319\n287\n-172\n274\n615\n-69\n\n\n336\n-486\n306\n-187\n-753\n-543\n-693\n-346\n347\n-24\n\n\n715\n-325\n195\n69\n509\n324\n502\n701\n653\n-54\n\n\n840\n589\n5\n-635\n39\n-210\n-684\n292\n300\n104\n\n\n-301\n805\n374\n772\n675\n-46\n420\n-442\n63\n-182\n\n\n632\n794\n747\n308\n-258\n758\n-388\n202\n-326\n321\n\n\n-53\n-213\n742\n144\n289\n390\n347\n340\n235\n-487\n\n\n-694\n800\n-246\n475\n1037\n558\n62\n133\n-72\n690\n\n\n426\n986\n700\n217\n985\n501\n114\n-328\n135\n-610\n\n\n592\n-874\n-138\n128\n-115\n363\n-1435\n1100\n-345\n-328\n\n\n130\n51\n98\n-457\n-162\n-61\n-454\n-312\n113\n-552\n\n\n-760\n130\n402\n934\n-119\n820\n1\n-37\n409\n-15\n\n\n289\n747\n717\n-662\n-153\n419\n-197\n1854\n116\n-651\n\n\n-356\n287\n-205\n183\n-873\n-340\n-147\n-177\n74\n550\n\n\n145\n1013\n-377\n63\n48\n-413\n311\n-828\n-790\n347\n\n\n239\n267\n190\n-559\n-321\n945\n-369\n1165\n-1083\n205\n\n\n-354\n-72\n-216\n-985\n241\n802\n88\n222\n446\n401\n\n\n516\n192\n291\n-151\n223\n82\n741\n998\n225\n622\n\n\n-178\n-215\n193\n-181\n268\n-735\n727\n107\n1454\n-441\n\n\n-302\n-912\n-133\n-175\n95\n-224\n-296\n-352\n144\n-20\n\n\n-86\n-241\n572\n736\n-394\n241\n436\n411\n-1453\n603\n\n\n-349\n153\n282\n104\n62\n806\n-154\n142\n-338\n561\n\n\n216\n-172\n918\n-318\n53\n337\n-594\n78\n-36\n282\n\n\n200\n757\n135\n878\n-40\n-35\n-193\n-13\n525\n15\n\n\n-657\n122\n1111\n97\n-466\n173\n416\n1028\n-682\n-572\n\n\n206\n287\n540\n123\n391\n420\n155\n885\n-690\n-640\n\n\n404\n-309\n834\n405\n988\n471\n-64\n-909\n-149\n177\n\n\n364\n-8\n-503\n0\n32\n-44\n-175\n570\n625\n681\n\n\n926\n144\n93\n-221\n309\n1001\n728\n21\n779\n-926\n\n\n-249\n-391\n-80\n1014\n375\n-222\n68\n-281\n622\n-498\n\n\n-173\n-37\n137\n26\n243\n306\n-207\n-435\n-232\n-229\n\n\n1118\n-335\n556\n289\n-432\n-441\n70\n390\n-84\n594\n\n\n-329\n165\n489\n-319\n-682\n204\n-755\n474\n972\n226\n\n\n185\n371\n773\n34\n-487\n570\n229\n-41\n308\n49\n\n\n758\n539\n-410\n148\n414\n-844\n630\n688\n696\n-218\n\n\n-716\n293\n-801\n666\n-69\n743\n-793\n199\n13\n273\n\n\n250\n-48\n-602\n330\n-277\n-181\n74\n-608\n214\n942\n\n\n84\n997\n1363\n1072\n-535\n11\n759\n-531\n-360\n1138\n\n\n-103\n593\n507\n380\n351\n564\n482\n-159\n432\n346\n\n\n779\n-63\n1604\n354\n1007\n462\n-254\n231\n-424\n-190\n\n\n-701\n-1080\n714\n-483\n519\n113\n45\n239\n33\n-689\n\n\n-822\n565\n-779\n1186\n415\n849\n785\n198\n443\n603\n\n\n391\n540\n-577\n309\n30\n-102\n915\n610\n-1104\n404\n\n\n-284\n390\n-485\n53\n522\n230\n-243\n458\n601\n155\n\n\n\n\n\nNow, what are you going to with that big pile of numbers? Look at it all day long? When you deal with data, it will deal so many numbers to you that you will be overwhelmed by them. That is why we need ways to describe the data in a more manageable fashion.\nThe complete description of the data is always the data itself. Descriptive statistics and other tools for describing data go one step further to summarize aspects of the data. Summaries are a way to compress the important bits of a thing down to a useful and manageable tidbit. It’s like telling your friends why they should watch a movie: you don’t replay the entire movie for them, instead you hit the highlights. Summarizing the data is just like a movie preview, only for data.",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "CH.00 Describing Data"
-    ]
-  },
-  {
-    "objectID": "week00/chapter.html#look-at-the-data",
-    "href": "week00/chapter.html#look-at-the-data",
-    "title": "CH.00 Describing Data",
-    "section": "Look at the data",
-    "text": "Look at the data\nWe already tried one way of looking at the numbers, and it wasn’t useful. Let’s look at some other ways of looking at the numbers, using graphs.\n\nStop, plotting time (o o oh) U can plot this\nLet’s turn all of the numbers into dots, then show them in a graph. Note, when we do this, we have not yet summarized anything about the data. Instead, we just look at all of the data in a visual format, rather than looking at the numbers.\n\n\n\n\n\n\n\n\nFigure 1: Pretend happiness ratings from 500 people\n\n\n\n\n\nFigure 1 shows 500 measurements of happiness. The graph has two axes. The horizontal x-axis, going from left to right is labeled “Index”. The vertical y-axis, going up and down, is labelled “happiness”. Each dot represents one measurement of every person’s happiness from our pretend study. Before we talk about what we can and cannot see about the data, it is worth mentioning that the way you plot the data will make some things easier to see and some things harder to see. So, what can we now see about the data?\nThere are lots of dots everywhere. It looks like there are 500 of them because the index goes to 500. It looks like some dots go as high as 1000-1500 and as low as -1500. It looks like there are more dots in the middle-ish area of the plot, sort of spread about 0.\n\nTake home: we can see all the numbers at once by putting them in a plot, and that is much easier and more helpful than looking at the raw numbers.\n\nOK, so if these dots represent how happy 500 people are, what can we say about those people? First, the dots are kind of all over the place, so different people have different levels of happiness. Are there any trends? Are more people happy than unhappy, or vice-versa? It’s hard to see that in the graph, so let’s make a different one, called a histogram\n\n\nHistograms\nMaking a histogram will be our first act of officially summarizing something about the data. We will no longer look at the individual bits of data, instead we will see how the numbers group together. Let’s look at Figure 2, a histogram of the happiness data, and then explain it.\n\n\n\n\n\n\n\n\nFigure 2: A histogram of the happiness ratings\n\n\n\n\n\nThe dots have disappeared, and now we some bars. Each bar is a summary of the dots, representing the number of dots (frequency count) inside a particular range of happiness, also called bins. For example, how many people gave a happiness rating between 0 and 500? The fifth bar, the one between 0 and 500 on the x-axis, tells you how many. Look how tall that bar is. How tall is it? The height is shown on the y-axis, which provides a frequency count (the number of dots or data points). It looks like around 150 people said their happiness was between 0-500.\nMore generally, we see there are many bins on the x-axis. We have divided the data into bins of 500. Bin #1 goes from -2000 to -1500, bin #2 goes from -1500 to -1000, and so on until the last bin. To make the histogram, we just count up the number of data points falling inside each bin, then plot those frequency counts as a function of the bins. Voila, a histogram.\nWhat does the histogram help us see about the data? First, we can see the shape of data. The shape of the histogram refers to how it goes up and down. The shape tells us where the data is. For example, when the bars are low we know there isn’t much data there. When the bars are high, we know there is more data there. So, where is most of the data? It looks like it’s mostly in the middle two bins, between -500 and 500. We can also see the range of the data. This tells us the minimums and the maximums of the data. Most of the data is between -1500 and +1500, so no infinite sadness or infinite happiness in our data-set.\nWhen you make a histogram you get to choose how wide each bar will be. For example, below are four different histograms of the very same happiness data. What changes is the width of the bins.\n\n\n\n\n\n\n\n\nFigure 3: Four histograms of the same data using different bin widths\n\n\n\n\n\nAll of the histograms have roughly the same overall shape: From left to right, the bars start off small, then go up, then get small again. In other words, as the numbers get closer to zero, they start to occur more frequently. We see this general trend across all the histograms. But, some aspects of the trend fall apart when the bars get really narrow. For example, although the bars generally get taller when moving from -1000 to 0, there are some exceptions and the bars seem to fluctuate a little bit. When the bars are wider, there are less exceptions to the general trend. How wide or narrow should your histogram be? It’s a Goldilocks question. Make it just right for your data.",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "CH.00 Describing Data"
-    ]
-  },
-  {
-    "objectID": "week00/chapter.html#important-ideas-distribution-central-tendency-and-variance",
-    "href": "week00/chapter.html#important-ideas-distribution-central-tendency-and-variance",
-    "title": "CH.00 Describing Data",
-    "section": "Important Ideas: Distribution, Central Tendency, and Variance",
-    "text": "Important Ideas: Distribution, Central Tendency, and Variance\nLet’s introduce three important terms we will use a lot, distribution, central tendency, and variance. These terms are similar to their everyday meanings (although I suspect most people don’t say central tendency very often).\nDistribution. When you order something from Amazon, where does it come from, and how does it get to your place? That stuff comes from one of Amazon’s distribution centers. They distribute all sorts of things by spreading them around to your doorstep. “To Distribute”” is to spread something. Notice, the data in the histogram is distributed, or spread across the bins. We can also talk about a distribution as a noun. The histogram is a distribution of the frequency counts across the bins. Distributions are very, very, very, very, very important. They can have many different shapes. They can describe data, like in the histogram above. And as we will learn in later chapters, they can produce data. Many times we will be asking questions about where our data came from, and this usually means asking what kind of distribution could have created our data (more on that later.)\nCentral Tendency is all about sameness: What is common about some numbers? For example, is there anything similar about all of the numbers in the histogram? Yes, we can say that most of them are near 0. There is a tendency for most of the numbers to be centered near 0. Notice we are being cautious about our generalization about the numbers. We are not saying they are all 0. We are saying there is a tendency for many of them to be near zero. There are lots of ways to talk about the central tendency of some numbers. There can even be more than one kind of tendency. For example, if lots of the numbers were around -1000, and a similar large amount of numbers were grouped around 1000, we could say there was two tendencies.\nVariance is all about differentness: What is different about some numbers?. For example, is there anything different about all of the numbers in the histogram? YES!!! The numbers are not all the same! When the numbers are not all the same, they must vary. So, the variance in the numbers refers to how the numbers are different. There are many ways to summarize the amount of variance in the numbers, and we discuss these very soon.",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "CH.00 Describing Data"
-    ]
-  },
-  {
-    "objectID": "week00/chapter.html#measures-of-central-tendency-sameness",
-    "href": "week00/chapter.html#measures-of-central-tendency-sameness",
-    "title": "CH.00 Describing Data",
-    "section": "Measures of Central Tendency (Sameness)",
-    "text": "Measures of Central Tendency (Sameness)\nWe’ve seen that we can get a sense of data by plotting dots in a graph, and by making a histogram. These tools show us what the numbers look like, approximately how big and small they are, and how similar and different they are from another. It is good to get a feeling about the numbers in this way. But, these visual sensitudes are not very precise. In addition to summarizing numbers with graphs, we can summarize numbers using numbers (NO, please not more numbers, we promise numbers can be your friend).\n\nFrom many numbers to one\nMeasures of central have one important summary goal: to reduce a pile of numbers to a single number that we can look at. We already know that looking at thousands of numbers is hopeless. Wouldn’t it be nice if we could just look at one number instead? We think so. It turns out there are lots of ways to do this. Then, if your friend ever asks the frightening question, “hey, what are all these numbers like?”. You can say they are like this one number right here.\nBut, just like in Indiana Jones and the Last Crusade (highly recommended movie), you must choose your measure of central tendency wisely.\n\n\nMode\nThe mode is the most frequently occurring number in your measurement. That is it. How do you find it? You have to count the number of times each number appears in your measure, then whichever one occurs the most, is the mode.\n\nExample: 1 1 1 2 3 4 5 6\n\nThe mode of the above set is 1, which occurs three times. Every other number only occurs once.\nOK fine. What happens here:\n\nExample: 1 1 1 2 2 2 3 4 5 6\n\nHmm, now 1 and 2 both occur three times each. What do we do? We say there are two modes, and they are 1 and 2.\nWhy is the mode a measure of central tendency? Well, when we ask, “what are my numbers like”, we can say, “most of the number are, like a 1 (or whatever the mode is)”.\nIs the mode a good measure of central tendency? That depends on your numbers. For example, consider these numbers\n\n1 1 2 3 4 5 6 7 8 9\n\nHere, the mode is 1 again, because there are two 1s, and all of the other numbers occur once. But, are most of the numbers like, a 1. No, they are mostly not 1s.\n“Argh, so should I or should I not use the mode? I thought this class was supposed to tell me what to do?”. There is no telling you what to do. Every time you use a tool in statistics you have to think about what you are doing and justify why what you are doing makes sense. Sorry.\n\n\nMedian\nThe median is the exact middle of the data. After all, we are asking about central tendency, so why not go to the center of the data and see where we are. What do you mean middle of the data? Let’s look at these numbers:\n\n1 5 4 3 6 7 9\n\nUmm, OK. So, three is in the middle? Isn’t that kind of arbitrary. Yes. Before we can compute the median, we need to order the numbers from smallest to largest.\n\n1 3 4 5 6 7 9\n\nNow, 5 is in the middle. And, by middle we mean in the middle. There are three numbers to the left of 5, and three numbers to the right. So, five is definitely in the middle.\nOK fine, but what happens when there aren’t an even number of numbers? Then the middle will be missing right? Let’s see:\n\n1 2 3 4 5 6\n\nThere is no number between 3 and 4 in the data, the middle is empty. In this case, we compute the median by figuring out the number in between 3 and 4. So, the median would be 3.5.\nIs the median a good measure of central tendency? Sure, it is often very useful. One property of the median is that it stays in the middle even when some of the other numbers get really weird. For example, consider these numbers:\n\n1 2 3 4 4 4 5 6 6 6 7 7 1000\n\nMost of these numbers are smallish, but the 1000 is a big old weird number, very different from the rest. The median is still 5, because it is in the middle of these ordered numbers. We can also see that five is pretty similar to most of the numbers (except for 1000). So, the median does a pretty good job of representing most of the numbers in the set, and it does so even if one or two of the numbers are very different from the others.\nFinally, outlier is a term will we use to describe numbers that appear in data that are very different from the rest. 1000 is an outlier, because it lies way out there on the number line compared to the other numbers. What to do with outliers is another topic we discuss sometimes throughout this course.\n\n\nMean\nHave you noticed this is a textbook about statistics that hasn’t used a formula yet? That is about to change, but for those of you with formula anxiety, don’t worry, we will do our best to explain them.\nThe mean is also called the average. And, we’re guessing you might already now what the average of a bunch of numbers is? It’s the sum of the numbers, divided by the number of number right? How do we express that idea in a formula? Just like this:\n\\(Mean = \\bar{X} = \\frac{\\sum_{i=1}^{n} x_{i}}{N}\\)\n“That looks like Greek to me”. Yup. The \\(\\sum\\) symbol is called sigma, and it stands for the operation of summing. The little “i” on the bottom, and the little “n” on the top refers to all of the numbers in the set, from the first number “i” to the last number “n”. The letters are just arbitrary labels, called variables that we use for descriptive purposes. The \\(x_{i}\\) refers to individual numbers in the set. We sum up all of the numbers, then divide the sum by \\(N\\), which is the total number of numbers. Sometimes you will see \\(\\bar{X}\\) to refer to the mean of all of the numbers.\nIn plain English, the formula looks like:\n\\(mean = \\frac{\\text{Sum of my numbers}}{\\text{Count of my numbers}}\\)\n“Well, why didn’t you just say that?”. We just did.\nLet’s compute the mean for these five numbers:\n\n3 7 9 2 6\n\nAdd em up:\n\n3+7+9+2+6 = 27\n\nCount em up:\n\n\\(i_{1}\\) = 3, \\(i_{2}\\) = 7, \\(i_{3}\\) = 9, \\(i_{4}\\) = 2, \\(i_{5}\\) = 6; N=5, because \\(i\\) went from 1 to 5\n\nDivide em:\n\nmean = 27 / 5 = 5.4\n\nOr, to put the numbers in the formula, it looks like this:\n\\(Mean = \\bar{X} = \\frac{\\sum_{i=1}^{n} x_{i}}{N} = \\frac{3+7+9+2+6}{5} = \\frac{27}{5} = 5.4\\)\nOK fine, that is how to compute the mean. But, like we imagined, you probably already knew that, and if you didn’t that’s OK, now you do. What’s next?\nIs the mean a good measure of central tendency? By now, you should know: it depends.\n\n\nWhat does the mean mean?\nIt is not enough to know the formula for the mean, or to be able to use the formula to compute a mean for a set of numbers. We believe in your ability to add and divide numbers. What you really need to know is what the mean really “means”. This requires that you know what the mean does, and not just how to do it. Puzzled? Let’s explain.\nCan you answer this question: What happens when you divide a sum of numbers by the number of numbers? What are the consequences of doing this? What is the formula doing? What kind of properties does the result give us? FYI, the answer is not that we compute the mean.\nOK, so what happens when you divide any number by another number? Of course, the key word here is divide. We literally carve the number up top in the numerator into pieces. How many times do we split the top number? That depends on the bottom number in the denominator. Watch:\n\\(\\frac{12}{3} = 4\\)\nSo, we know the answer is 4. But, what is really going on here is that we are slicing and dicing up 12 aren’t we. Yes, and we slicing 12 into three parts. It turns out the size of those three parts is 4. So, now we are thinking of 12 as three different pieces \\(12 = 4 + 4 + 4\\). I know this will be obvious, but what kind of properties do our pieces have? You mean the fours? Yup. Well, obviously they are all fours. Yes. The pieces are all the same size. They are all equal. So, division equalizes the numerator by the denominator…\n“Umm, I think I learned this in elementary school, what does this have to do with the mean?”. The number on top of the formula for the mean is just another numerator being divided by a denominator isn’t it. In this case, the numerator is a sum of all the values in your data. What if it was the sum of all of the 500 happiness ratings? The sum of all of them would just be a single number adding up all the different ratings. If we split the sum up into equal parts representing one part for each person’s happiness what would we get? We would get 500 identical and equal numbers for each person. It would be like taking all of the happiness in the world, then dividing it up equally, then to be fair, giving back the same equal amount of happiness to everyone in the world. This would make some people more happy than they were before, and some people less happy right. Of course, that’s because it would be equalizing the distribution of happiness for everybody. This process of equalization by dividing something into equal parts is what the mean does. See, it’s more than just a formula. It’s an idea. This is just the beginning of thinking about these kinds of ideas. We will come back to this idea about the mean, and other ideas, in later chapters.\n\nPro tip: The mean is the one and only number that can take the place of every number in the data, such that when you add up all the equal parts, you get back the original sum of the data.\n\n\n\nAll together now\nJust to remind ourselves of the mode, median, and mean, take a look at the next histogram in @fig-meanmodemed. We have overlaid the location of the mean (red), median (green), and mode (blue). For this dataset, the three measures of central tendency all give different answers. The mean is the largest because it is influenced by large numbers, even if they occur rarely. The mode and median are insensitive to large numbers that occur infrequently, so they have smaller values.\n\n\n\n\n\n\n\n\nFigure 4: A histogram with the mean (red), the median (green), and the mode (blue)",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "CH.00 Describing Data"
-    ]
-  },
-  {
-    "objectID": "week00/chapter.html#measures-of-variation-differentness",
-    "href": "week00/chapter.html#measures-of-variation-differentness",
-    "title": "CH.00 Describing Data",
-    "section": "Measures of Variation (Differentness)",
-    "text": "Measures of Variation (Differentness)\nWhat did you do when you wrote essays in high school about a book you read? Probably compare and contrast something right? When you summarize data, you do the same thing. Measures of central tendency give us something like comparing does, they tell us stuff about what is the same. Measures of variation give us something like contrasting does, they tell us stuff about what is different.\nFirst, we note that whenever you see a bunch of numbers that aren’t the same, you already know there are some differences. This means the numbers vary, and there is variation in the size of the numbers.\n\nThe Range\nConsider these 10 numbers, that I already ordered from smallest to largest for you:\n\n1 3 4 5 5 6 7 8 9 24\n\nThe numbers have variation, because they are not all the same. We can use the range to describe the width of the variation. The range refers to the minimum (smallest value) and maximum (largest value) in the set. So, the range would be 1 and 24.\nThe range is a good way to quickly summarize the boundaries of your data in just two numbers. By computing the range we know that none of the data is larger or smaller than the range. And, it can alert you to outliers. For example, if you are expecting your numbers to be between 1 and 7, but you find the range is 1 - 340,500, then you know you have some big numbers that shouldn’t be there, and then you can try to figure out why those numbers occurred (and potentially remove them if something went wrong).\n\n\nThe Difference Scores\nIt would be nice to summarize the amount of differentness in the data. Here’s why. If you thought that raw data (lots of numbers) is too big to look at, then you will be frightened to contemplate how many differences there are to look at. For example, these 10 numbers are easy to look at:\n\n1 3 4 5 5 6 7 8 9 24\n\nBut, what about the difference between the numbers, what do those look like? We can compute the difference scores between each number, then put them in a matrix like the one below:\n\n\n\n\n\n\n1\n3\n4\n5\n5\n6\n7\n8\n9\n24\n\n\n\n\n1\n0\n2\n3\n4\n4\n5\n6\n7\n8\n23\n\n\n3\n-2\n0\n1\n2\n2\n3\n4\n5\n6\n21\n\n\n4\n-3\n-1\n0\n1\n1\n2\n3\n4\n5\n20\n\n\n5\n-4\n-2\n-1\n0\n0\n1\n2\n3\n4\n19\n\n\n5\n-4\n-2\n-1\n0\n0\n1\n2\n3\n4\n19\n\n\n6\n-5\n-3\n-2\n-1\n-1\n0\n1\n2\n3\n18\n\n\n7\n-6\n-4\n-3\n-2\n-2\n-1\n0\n1\n2\n17\n\n\n8\n-7\n-5\n-4\n-3\n-3\n-2\n-1\n0\n1\n16\n\n\n9\n-8\n-6\n-5\n-4\n-4\n-3\n-2\n-1\n0\n15\n\n\n24\n-23\n-21\n-20\n-19\n-19\n-18\n-17\n-16\n-15\n0\n\n\n\n\n\nWe are looking at all of the possible differences between each number and every other number. So, in the top left, the difference between 1 and itself is 0. One column over to the right, the difference between 3 and 1 (3-1) is 2, etc. As you can see, this is a 10x10 matrix, which means there are 100 differences to look at. Not too bad, but if we had 500 numbers, then we would have 500*500 = 250,000 differences to look at (go for it if you like looking at that sort of thing).\nPause for a simple question. What would this matrix look like if all of the 10 numbers in our data were the same number? It should look like a bunch of 0s right? Good. In that case, we could easily see that the numbers have no variation.\nBut, when the numbers are different, we can see that there is a very large matrix of difference scores. How can we summarize that? How about we apply what we learned from the previous section on measures of central tendency. We have a lot of differences, so we could ask something like, what is the average difference that we have? So, we could just take all of our differences, and compute the mean difference right? What do you think would happen if we did that?\nLet’s try it out on these three numbers:\n\n1 2 3\n\n\n\n\n\n\n\n1\n2\n3\n\n\n\n\n1\n0\n1\n2\n\n\n2\n-1\n0\n1\n\n\n3\n-2\n-1\n0\n\n\n\n\n\nYou might already guess what is going to happen. Let’s compute the mean:\n\\(\\text{mean of difference scores} = \\frac{0+1+2-1+0+1-2-1+0}{9} = \\frac{0}{9} = 0\\)\nUh oh, we get zero for the mean of the difference scores. This will always happen whenever you take the mean of the difference scores. We can see that there are some differences between the numbers, so using 0 as the summary value for the variation in the numbers doesn’t make much sense.\nFurthermore, you might also notice that the matrices of difference scores are redundant. The diagonal is always zero, and numbers on one side of the diagonal are the same as the numbers on the other side, except their signs are reversed. So, that’s one reason why the difference scores add up to zero.\nThese are little problems that can be solved by computing the variance and the standard deviation. For now, the standard deviation is a just a trick that we use to avoid getting a zero. But, later we will see it has properties that are important for other reasons.\n\n\nThe Variance\nVariability, variation, variance, vary, variable, varying, variety. Confused yet? Before we describe the variance, we want to you be OK with how this word is used. First, don’t forget the big picture. We know that variability and variation refers to the big idea of differences between numbers. We can even use the word variance in the same way. When numbers are different, they have variance.\n\n\n\n\n\n\nNote\n\n\n\nThe formulas for variance and standard deviation depend on whether you think your data represents an entire population of numbers, or is sample from the population. We discuss this issue in later on. For now, we divide by N, later we discuss why you will often divide by N-1 instead.\n\n\nThe word variance also refers to a specific summary statistic, the sum of the squared deviations from the mean. Hold on what? Plain English please. The variance is the sum of the squared difference scores, where the difference scores are computed between each score and the mean. What are these scores? The scores are the numbers in the data set. Let’s see the formula in English first:\n\\(variance = \\frac{\\text{Sum of squared difference scores}}{\\text{Number of Scores}}\\)\n\nDeviations from the mean, Difference scores from the mean\nWe got a little bit complicated before when we computed the difference scores between all of the numbers in the data. Let’s do it again, but in a more manageable way. This time, we calculate the difference between each score and the mean. The idea here is\n\nWe can figure out how similar our scores are by computing the mean\nThen we can figure out how different our scores are from the mean\n\nThis could tell us, 1) something about whether our scores are really all very close to the mean (which could help us know if the mean is good representative number of the data), and 2) something about how much differences there are in the numbers.\nTake a look at this table:\n\n\n\n\n\nscores\nvalues\nmean\nDifference_from_Mean\n\n\n\n\n1\n1\n4.5\n-3.5\n\n\n2\n6\n4.5\n1.5\n\n\n3\n4\n4.5\n-0.5\n\n\n4\n2\n4.5\n-2.5\n\n\n5\n6\n4.5\n1.5\n\n\n6\n8\n4.5\n3.5\n\n\nSums\n27\n27\n0\n\n\nMeans\n4.5\n4.5\n0\n\n\n\n\n\nThe first column shows we have 6 scores in the data set, and the value columns shows each score. The sum of the values, and the mean is presented on the last two rows. The sum and the mean were obtained by:\n\\(\\frac{1+6+4+2+6+8}{6} = \\frac{27}{6} = 4.5\\).\nThe third column mean, appears a bit silly. We are just listing the mean once for every score. If you think back to our discussion about the meaning of the mean, then you will remember that it equally distributes the total sum across each data point. We can see that here, if we treat each score as the mean, then every score is a 4.5. We can also see that adding up all of the means for each score gives us back 27, which is the sum of the original values. Also, we see that if we find the mean of the mean scores, we get back the mean (4.5 again).\nAll of the action is occurring in the fourth column, Difference_from_Mean. Here, we are showing the difference scores from the mean, using \\(X_{i}-\\bar{X}\\). In other words, we subtracted the mean from each score. So, the first score, 1, is -3.5 from the mean, the second score, 6, is +1.5 from the mean, and so on.\nNow, we can look at our original scores and we can look at their differences from the mean. Notice, we don’t have a matrix of raw difference scores, so it is much easier to look at out. But, we still have a problem:\nWe can see that there are non-zero values in the difference scores, so we know there are a differences in the data. But, when we add them all up, we still get zero, which makes it seem like there are a total of zero differences in the data…Why does this happen…and what to do about it?\n\n\nThe mean is the balancing point in the data\nOne brief pause here to point out another wonderful property of the mean. It is the balancing point in the data. If you take a pen or pencil and try to balance it on your figure so it lays flat what are you doing? You need to find the center of mass in the pen, so that half of it is on one side, and the other half is on the other side. That’s how balancing works. One side = the other side.\nWe can think of data as having mass or weight to it. If we put our data on our bathroom scale, we could figure out how heavy it was by summing it up. If we wanted to split the data down the middle so that half of the weight was equal to the other half, then we could balance the data on top of a pin. The mean of the data tells you where to put the pin. It is the location in the data, where the numbers on the one side add up to the same sum as the numbers on the other side.\nIf we think this through, it means that the sum of the difference scores from the mean will always add up to zero. This is because the numbers on one side of the mean will always add up to -x (whatever the sum of those numbers is), and the numbers of the other side of the mean will always add up to +x (which will be the same value only positive). And:\n\\(-x + x = 0\\), right.\nRight.\n\n\nThe squared deviations\nSome devious someone divined a solution to the fact that differences scores from the mean always add to zero. Can you think of any solutions? For example, what could you do to the difference scores so that you could add them up, and they would weigh something useful, that is they would not be zero?\nThe devious solution is to square the numbers. Squaring numbers converts all the negative numbers to positive numbers. For example, \\(2^2 = 4\\), and \\(-2^2 = 4\\). Remember how squaring works, we multiply the number twice: \\(2^2 = 2*2 = 4\\), and \\(-2^2 = -2*-2 = 4\\). We use the term squared deviations to refer to differences scores that have been squared. Deviations are things that move away from something. The difference scores move away from the mean, so we also call them deviations.\nLet’s look at our table again, but add the squared deviations.\n\n\n\n\n\nscores\nvalues\nmean\nDifference_from_Mean\nSquared_Deviations\n\n\n\n\n1\n1\n4.5\n-3.5\n12.25\n\n\n2\n6\n4.5\n1.5\n2.25\n\n\n3\n4\n4.5\n-0.5\n0.25\n\n\n4\n2\n4.5\n-2.5\n6.25\n\n\n5\n6\n4.5\n1.5\n2.25\n\n\n6\n8\n4.5\n3.5\n12.25\n\n\nSums\n27\n27\n0\n35.5\n\n\nMeans\n4.5\n4.5\n0\n5.91666666666667\n\n\n\n\n\nOK, now we have a new column called squared_deviations. These are just the difference scores squared. So, \\(-3.5^2 = 12.25\\), etc. You can confirm for yourself with your cellphone calculator.\nNow that all of the squared deviations are positive, we can add them up. When we do this we create something very special called the sum of squares (SS), also known as the sum of the squared deviations from the mean. We will talk at length about this SS later on in the ANOVA chapter. So, when you get there, remember that you already know what it is, just some sums of some squared deviations, nothing fancy.\n\n\nFinally, the variance\nGuess what, we already computed the variance. It already happened, and maybe you didn’t notice. “Wait, I missed that, what happened?”.\nFirst, see if you can remember what we are trying to do here. Take a pause, and see if you can tell yourself what problem we are trying solve.\n\npause\n\nWithout further ado, we are trying to get a summary of the differences in our data. There are just as many difference scores from the mean as there are data points, which can be a lot, so it would be nice to have a single number to look at, something like a mean, that would tell us about the average differences in the data.\nIf you look at the table, you can see we already computed the mean of the squared deviations. First, we found the sum (SS), then below that we calculated the mean = 5.916 repeating. This is the variance. The variance is the mean of the sum of the squared deviations:\n\\(variance = \\frac{SS}{N}\\), where SS is the sum of the squared deviations, and N is the number of observations.\nOK, now what. What do I do with the variance? What does this number mean? Good question. The variance is often an unhelpful number to look at. Why? Because it is not in the same scale as the original data. This is because we squared the difference scores before taking the mean. Squaring produces large numbers. For example, we see a 12.25 in there. That’s a big difference, bigger than any difference between any two original values. What to do? How can we bring the numbers back down to their original unsquared size?\nIf you are thinking about taking the square root, that’s a ding ding ding, correct answer for you. We can always unsquare anything by taking the square root. So, let’s do that to 5.916. \\(\\sqrt{5.916} =\\) 2.4322829.\n\n\n\nThe Standard Deviation\nOops, we did it again. We already computed the standard deviation, and we didn’t tell you. The standard deviation is the square root of the variance…At least, it is right now, until we complicate matters for you in the next chapter.\nHere is the formula for the standard deviation:\n\\(\\text{standard deviation} = \\sqrt{Variance} = \\sqrt{\\frac{SS}{N}}\\).\nWe could also expand this to say:\n\\(\\text{standard deviation} = \\sqrt{\\frac{\\sum_{i}^{n}({x_{i}-\\bar{x})^2}}{N}}\\)\nDon’t let those big square root signs put you off. Now, you know what they are doing there. Just bringing our measure of the variance back down to the original size of the data. Let’s look at our table again:\n\n\n\n\n\nscores\nvalues\nmean\nDifference_from_Mean\nSquared_Deviations\n\n\n\n\n1\n1\n4.5\n-3.5\n12.25\n\n\n2\n6\n4.5\n1.5\n2.25\n\n\n3\n4\n4.5\n-0.5\n0.25\n\n\n4\n2\n4.5\n-2.5\n6.25\n\n\n5\n6\n4.5\n1.5\n2.25\n\n\n6\n8\n4.5\n3.5\n12.25\n\n\nSums\n27\n27\n0\n35.5\n\n\nMeans\n4.5\n4.5\n0\n5.91666666666667\n\n\n\n\n\nWe measured the standard deviation as 2.4322829. Notice this number fits right in the with differences scores from the mean. All of the scores are kind of in and around + or - 2.4322829. Whereas, if we looked at the variance, 5.916 is just too big, it doesn’t summarize the actual differences very well.\nWhat does all this mean? Well, if someone told they had some number with a mean of 4.5 (like the values in our table), and a standard deviation of 2.4322829, you would get a pretty good summary of the numbers. You would know that many of the numbers are around 4.5, and you would know that not all of the numbers are 4.5. You would know that the numbers spread around 4.5. You also know that the spread isn’t super huge, it’s only + or - 2.4322829 on average. That’s a good starting point for describing numbers.\nIf you had loads of numbers, you could reduce them down to the mean and the standard deviation, and still be pretty well off in terms of getting a sense of those numbers.",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "CH.00 Describing Data"
-    ]
-  },
-  {
-    "objectID": "week00/chapter.html#using-descriptive-statistics-with-data",
-    "href": "week00/chapter.html#using-descriptive-statistics-with-data",
-    "title": "CH.00 Describing Data",
-    "section": "Using Descriptive Statistics with data",
-    "text": "Using Descriptive Statistics with data\nRemember, you will be learning how to compute descriptive statistics using software in the labs. Check out the DataSkills for descriptives to see some examples of working with real data.",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "CH.00 Describing Data"
-    ]
-  },
-  {
-    "objectID": "week00/chapter.html#rolling-your-own-descriptive-statistics",
-    "href": "week00/chapter.html#rolling-your-own-descriptive-statistics",
-    "title": "CH.00 Describing Data",
-    "section": "Rolling your own descriptive statistics",
-    "text": "Rolling your own descriptive statistics\nWe spent many paragraphs talking about variation in numbers, and how to use calculate the variance and standard deviation to summarize the average differences between numbers in a data set. The basic process was to 1) calculate some measure of the differences, then 2) average the differences to create a summary. We found that we couldn’t average the raw difference scores, because we would always get a zero. So, we squared the differences from the mean, then averaged the squared differences differences. Finally, we square rooted our measure to bring the summary back down to the scale of the original numbers.\nPerhaps you haven’t heard, but there is more than one way to skin a cat, but we prefer to think of this in terms of petting cats, because some of us love cats. Jokes aside, perhaps you were also thinking that the problem of summing differences scores (so that they don’t equal zero), can be solved in more than one way. Can you think of a different way, besides squaring?\n\nAbsolute deviations\nHow about just taking the absolute value of the difference scores. Remember, the absolute value converts any number to a positive value. Check out the following table:\n\n\n\n\n\nscores\nvalues\nmean\nDifference_from_Mean\nAbsolute_Deviations\n\n\n\n\n1\n1\n4.5\n-3.5\n3.5\n\n\n2\n6\n4.5\n1.5\n1.5\n\n\n3\n4\n4.5\n-0.5\n0.5\n\n\n4\n2\n4.5\n-2.5\n2.5\n\n\n5\n6\n4.5\n1.5\n1.5\n\n\n6\n8\n4.5\n3.5\n3.5\n\n\nSums\n27\n27\n0\n13\n\n\nMeans\n4.5\n4.5\n0\n2.16666666666667\n\n\n\n\n\nThis works pretty well too. By converting the difference scores from the mean to positive values, we can now add them up and get a non-zero value (if there are differences). Then, we can find the mean of the sum of the absolute deviations. If we were to map the terms sum of squares (SS), variance and standard deviation onto these new measures based off of the absolute deviation, how would the mapping go? For example, what value in the table corresponds to the SS? That would be the sum of absolute deviations in the last column. How about the variance and standard deviation, what do those correspond to? Remember that the variance is mean (\\(SS/N\\)), and the standard deviation is a square-rooted mean (\\(\\sqrt{SS/N}\\)). In the table above we only have one corresponding mean, the mean of the sum of the absolute deviations. So, we have a variance measure that does not need to be square rooted. We might say the mean absolute deviation, is doing double-duty as a variance and a standard-deviation. Neat.\n\n\nOther sign-inverting operations\nIn principle, we could create lots of different summary statistics for variance that solve the summing to zero problem. For example, we could raise every difference score to any even numbered power beyond 2 (which is the square). We could use, 4, 6, 8, 10, etc. There is an infinity of even numbers, so there is an infinity of possible variance statistics. We could also use odd numbers as powers, and then take their absolute value. Many things are possible. The important aspect to any of this is to have a reason for what you are doing, and to choose a method that works for the data-analysis problem you are trying to solve. Note also, we bring up this general issue because we want you to understand that statistics is a creative exercise. We invent things when we need them, and we use things that have already been invented when they work for the problem at hand.",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "CH.00 Describing Data"
-    ]
-  },
-  {
-    "objectID": "week00/chapter.html#remember-to-look-at-your-data",
-    "href": "week00/chapter.html#remember-to-look-at-your-data",
-    "title": "CH.00 Describing Data",
-    "section": "Remember to look at your data",
-    "text": "Remember to look at your data\nDescriptive statistics are great and we will use them a lot in the course to describe data. You may suspect that descriptive statistics also have some short-comings. This is very true. They are compressed summaries of large piles of numbers. They will almost always be unable to represent all of the numbers fairly. There are also different kinds of descriptive statistics that you could use, and it sometimes not clear which one’s you should use.\nPerhaps the most important thing you can do when using descriptives is to use them in combination with looking at the data in a graph form. This can help you see whether or not your descriptives are doing a good job of representing the data.\n\nAnscombe’s Quartet\nTo hit this point home, and to get you thinking about the issues we discuss in the next chapter, check this out. It’s called Anscombe’s Quartet, because these interesting graphs and numbers and numbers were produced by Anscombe (1973). In Figure 5 you are looking at pairs of measurements. Each graph has an X and Y axis, and each point represents two measurements. Each of the graphs looks very different, right?\n\n\n\n\n\n\n\n\nFigure 5: Anscombe’s Quartet\n\n\n\n\n\nWell, would you be surprised if I told that the descriptive statistics for the numbers in these graphs are exactly the same? It turns out they do have the same descriptive statistics. In the table below I present the mean and variance for the x-values in each graph, and the mean and the variance for the y-values in each graph.\n\n\n\n\n\nquartet\nmean_x\nvar_x\nmean_y\nvar_y\n\n\n\n\n1\n9\n11\n7.500909\n4.127269\n\n\n2\n9\n11\n7.500909\n4.127629\n\n\n3\n9\n11\n7.500000\n4.122620\n\n\n4\n9\n11\n7.500909\n4.123249\n\n\n\n\n\nThe descriptives are all the same! Anscombe put these special numbers together to illustrate the point of graphing your numbers. If you only look at your descriptives, you don’t know what patterns in the data they are hiding. If you look at the graph, then you can get a better understanding.\n\n\nDatasaurus Dozen\nIf you thought that Anscombe’s quartet was neat, you should take a look at the Datasaurus Dozen (Matejka and Fitzmaurice 2017). Scroll down to see the examples. You will be looking at dot plots. The dot plots show many different patterns, including dinosaurs! What’s amazing is that all of the dots have very nearly the same descriptive statistics. Just another reminder to look at your data, it might look like a dinosaur!",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "CH.00 Describing Data"
-    ]
-  },
-  {
-    "objectID": "week00/chapter.html#videos",
-    "href": "week00/chapter.html#videos",
-    "title": "CH.00 Describing Data",
-    "section": "Videos",
-    "text": "Videos\n\nMeasures of center: Mode\n\n\n\n\nMeasures of center: Median and Mean\n\n\n\n\nStandard deviation part I\n\n\n\n\nStandard deviation part II",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "CH.00 Describing Data"
-    ]
-  },
-  {
-    "objectID": "week00/lab.html",
-    "href": "week00/lab.html",
-    "title": "Lab 00 Activity",
-    "section": "",
-    "text": "View slides in full screen",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "Lab 00 Activity"
-    ]
-  },
-  {
-    "objectID": "week00/lab.html#lab-background-for-this-week",
-    "href": "week00/lab.html#lab-background-for-this-week",
-    "title": "Lab 00 Activity",
-    "section": "",
-    "text": "View slides in full screen",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "Lab 00 Activity"
-    ]
-  },
-  {
-    "objectID": "week00/lab.html#so-time-to-do-the-thing",
-    "href": "week00/lab.html#so-time-to-do-the-thing",
-    "title": "Lab 00 Activity",
-    "section": "So time to do the thing",
-    "text": "So time to do the thing\nHere are the things you need to do\n\nthing 1\nthing 2\nthing 3",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "Lab 00 Activity"
-    ]
-  },
-  {
-    "objectID": "week00/lab.html#well-done-my-pretties",
-    "href": "week00/lab.html#well-done-my-pretties",
-    "title": "Lab 00 Activity",
-    "section": "Well done, my pretties!",
-    "text": "Well done, my pretties!\nAll I do is win, win, win, no matter what",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "Lab 00 Activity"
-    ]
-  },
-  {
-    "objectID": "readings.html",
-    "href": "readings.html",
-    "title": "readings",
-    "section": "",
-    "text": "content\n\n\ncontent",
-    "crumbs": [
-      "Schedule",
-      "Module Overview",
-      "Readings"
-    ]
-  },
-  {
-    "objectID": "readings.html#this-is-a-subhead",
-    "href": "readings.html#this-is-a-subhead",
-    "title": "readings",
-    "section": "",
-    "text": "content",
-    "crumbs": [
-      "Schedule",
-      "Module Overview",
-      "Readings"
-    ]
-  },
-  {
-    "objectID": "data.html",
-    "href": "data.html",
-    "title": "Data",
-    "section": "",
-    "text": "content\n\n\ncontent",
-    "crumbs": [
-      "Schedule",
-      "Module Overview",
-      "Example Data"
-    ]
-  },
-  {
-    "objectID": "data.html#this-is-a-subhead",
-    "href": "data.html#this-is-a-subhead",
-    "title": "Data",
-    "section": "",
-    "text": "content",
-    "crumbs": [
-      "Schedule",
-      "Module Overview",
-      "Example Data"
-    ]
-  },
-  {
-    "objectID": "materials/home_week1.html",
-    "href": "materials/home_week1.html",
-    "title": "homeweek1",
-    "section": "",
-    "text": "content\n\n\ncontent\nInsert an iframe"
-  },
-  {
-    "objectID": "materials/home_week1.html#this-is-a-subheading",
-    "href": "materials/home_week1.html#this-is-a-subheading",
-    "title": "homeweek1",
-    "section": "",
-    "text": "content\nInsert an iframe"
-  },
-  {
-    "objectID": "rubrics/rubric_muddiest-point.html",
-    "href": "rubrics/rubric_muddiest-point.html",
-    "title": "Rub Mud Point",
-    "section": "",
-    "text": "content\n\n\ncontent",
-    "crumbs": [
-      "Schedule",
-      "Assignments",
-      "Assignments Overview"
-    ]
-  },
-  {
-    "objectID": "rubrics/rubric_muddiest-point.html#this-is-a-subhead",
-    "href": "rubrics/rubric_muddiest-point.html#this-is-a-subhead",
-    "title": "Rub Mud Point",
-    "section": "",
-    "text": "content",
-    "crumbs": [
-      "Schedule",
-      "Assignments",
-      "Assignments Overview"
-    ]
-  },
-  {
-    "objectID": "materials/lecture_week1.html#here-again",
-    "href": "materials/lecture_week1.html#here-again",
-    "title": "test presentation",
-    "section": "here again",
-    "text": "here again\ncontent"
-  },
-  {
-    "objectID": "materials/lecture_week1.html#another",
-    "href": "materials/lecture_week1.html#another",
-    "title": "test presentation",
-    "section": "Another",
-    "text": "Another\ncontent"
+    "text": "About this site\n\n\n\nReuseCC BY-NC-SA 4.0CitationBibTeX citation:@online{untitled,\n  author = {},\n  title = {About},\n  url = {http://introrm.littlemonkeylab.com/about.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“About.” n.d. http://introrm.littlemonkeylab.com/about.html."
   },
   {
     "objectID": "webexercises.html",
     "href": "webexercises.html",
     "title": "Webexercises",
     "section": "",
-    "text": "This is a Web Exercise template created by the psychology teaching team at the University of Glasgow, based on ideas from Software Carpentry. This template shows how instructors can easily create interactive web documents that students can use in self-guided learning.\nThe {webexercises} package provides a number of functions that you use in inline R code or through code chunk options to create HTML widgets (text boxes, pull down menus, buttons that reveal hidden content). Examples are given below. Render this file to HTML to see how it works.\nNOTE: To use the widgets in the compiled HTML file, you need to have a JavaScript-enabled browser."
+    "text": "This is a Web Exercise template created by the psychology teaching team at the University of Glasgow, based on ideas from Software Carpentry. This template shows how instructors can easily create interactive web documents that students can use in self-guided learning.\nThe {webexercises} package provides a number of functions that you use in inline R code or through code chunk options to create HTML widgets (text boxes, pull down menus, buttons that reveal hidden content). Examples are given below. Render this file to HTML to see how it works.\nNOTE: To use the widgets in the compiled HTML file, you need to have a JavaScript-enabled browser.",
+    "crumbs": [
+      "Module Overview",
+      "Webexercises"
+    ]
   },
   {
     "objectID": "webexercises.html#example-questions",
     "href": "webexercises.html#example-questions",
     "title": "Webexercises",
     "section": "Example Questions",
-    "text": "Example Questions\n\nFill-In-The-Blanks (fitb())\nCreate fill-in-the-blank questions using fitb(), providing the answer as the first argument.\n\n2 + 2 is \n\nYou can also create these questions dynamically, using variables from your R session.\n\nThe square root of 16 is: \n\nThe blanks are case-sensitive; if you don’t care about case, use the argument ignore_case = TRUE.\n\nWhat is the letter after D? \n\nIf you want to ignore differences in whitespace use, use the argument ignore_ws = TRUE (which is the default) and include spaces in your answer anywhere they could be acceptable.\n\nHow do you load the tidyverse package? \n\nYou can set more than one possible correct answer by setting the answers as a vector.\n\nType a vowel: \n\nYou can use regular expressions to test answers against more complex rules.\n\nType any 3 letters: \n\n\n\nMultiple Choice (mcq())\n\n“Never gonna give you up, never gonna: let you goturn you downrun awaylet you down”\n“I bless the rainsguess it rainssense the rain down in Africa” -Toto\n\n\n\nTrue or False (torf())\n\nTrue or False? You can permute values in a vector using sample(). TRUEFALSE\n\n\n\nLonger MCQs (longmcq())\nWhen your answers are very long, sometimes a drop-down select box gets formatted oddly. You can use longmcq() to deal with this. Since the answers are long, It’s probably best to set up the options inside an R chunk with echo=FALSE.\nWhat is a p-value?\n\n the probability that the null hypothesis is true the probability of the observed, or more extreme, data, under the assumption that the null-hypothesis is true the probability of making an error in your conclusion\n\nWhat is true about a 95% confidence interval of the mean?\n\n there is a 95% probability that the true mean lies within this range if you repeated the process many times, 95% of intervals calculated in this way contain the true mean 95% of the data fall within this range"
+    "text": "Example Questions\n\nFill-In-The-Blanks (fitb())\nCreate fill-in-the-blank questions using fitb(), providing the answer as the first argument.\n\n2 + 2 is \n\nYou can also create these questions dynamically, using variables from your R session.\n\nThe square root of 49 is: \n\nThe blanks are case-sensitive; if you don’t care about case, use the argument ignore_case = TRUE.\n\nWhat is the letter after D? \n\nIf you want to ignore differences in whitespace use, use the argument ignore_ws = TRUE (which is the default) and include spaces in your answer anywhere they could be acceptable.\n\nHow do you load the tidyverse package? \n\nYou can set more than one possible correct answer by setting the answers as a vector.\n\nType a vowel: \n\nYou can use regular expressions to test answers against more complex rules.\n\nType any 3 letters: \n\n\n\nMultiple Choice (mcq())\n\n“Never gonna give you up, never gonna: let you goturn you downrun awaylet you down”\n“I bless the rainsguess it rainssense the rain down in Africa” -Toto\n\n\n\nTrue or False (torf())\n\nTrue or False? You can permute values in a vector using sample(). TRUEFALSE\n\n\n\nLonger MCQs (longmcq())\nWhen your answers are very long, sometimes a drop-down select box gets formatted oddly. You can use longmcq() to deal with this. Since the answers are long, It’s probably best to set up the options inside an R chunk with echo=FALSE.\nWhat is a p-value?\n\n the probability that the null hypothesis is true the probability of the observed, or more extreme, data, under the assumption that the null-hypothesis is true the probability of making an error in your conclusion\n\nWhat is true about a 95% confidence interval of the mean?\n\n if you repeated the process many times, 95% of intervals calculated in this way contain the true mean 95% of the data fall within this range there is a 95% probability that the true mean lies within this range",
+    "crumbs": [
+      "Module Overview",
+      "Webexercises"
+    ]
   },
   {
     "objectID": "webexercises.html#checked-sections",
     "href": "webexercises.html#checked-sections",
     "title": "Webexercises",
     "section": "Checked sections",
-    "text": "Checked sections\nCreate sections with the class webex-check to add a button that hides feedback until it is pressed. Add the class webex-box to draw a box around the section (or use your own styles).\n\nI am going to learn a lot: TRUEFALSE\nWhat is a p-value?\n\n the probability that the null hypothesis is true the probability of the observed, or more extreme, data, under the assumption that the null-hypothesis is true the probability of making an error in your conclusion"
+    "text": "Checked sections\nCreate sections with the class webex-check to add a button that hides feedback until it is pressed. Add the class webex-box to draw a box around the section (or use your own styles).\n\nI am going to learn a lot: TRUEFALSE\nWhat is a p-value?\n\n the probability that the null hypothesis is true the probability of the observed, or more extreme, data, under the assumption that the null-hypothesis is true the probability of making an error in your conclusion",
+    "crumbs": [
+      "Module Overview",
+      "Webexercises"
+    ]
   },
   {
     "objectID": "webexercises.html#hidden-solutions-and-hints",
     "href": "webexercises.html#hidden-solutions-and-hints",
     "title": "Webexercises",
     "section": "Hidden solutions and hints",
-    "text": "Hidden solutions and hints\nYou can fence off a solution area that will be hidden behind a button using hide() before the solution and unhide() after, each as inline R code. Pass the text you want to appear on the button to the hide() function.\nIf the solution is a code chunk, instead of using hide() and unhide(), simply set the webex.hide chunk option to TRUE, or set it to the string you wish to display on the button.\nRecreate the scatterplot below, using the built-in cars dataset.\n\n\n\n\n\n\n\n\n\n\n\nI need a hint\n\nSee the documentation for plot() (?plot)\n\n\n\n\n\nClick here to see the solution\n\nplot(cars$speed, cars$dist)"
-  },
-  {
-    "objectID": "webr.html",
-    "href": "webr.html",
-    "title": "webR in Quarto HTML Documents",
-    "section": "",
-    "text": "Each class session has an interactive lesson that you will work through after doing the readings and watching the lecture. These lessons are a central part of the class—they will teach you how to use {ggplot2} and other packages in the tidyverse to create beautiful and truthful visualizations with R.\nInteractive code sections look like this. Make changes in the text box and click on the green “Run Code” button to see the results. Sometimes there will be a tab with a hint or solution.\n\n\n\n\n\n\nYour turn\n\n\n\nModify the code here to show the relationship between health and wealth for 2002 instead of 2007.\n\n Interactive editor Hint\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nHint: You’ll want to change something in the code that creates gapminder_filtered. The text in the subtitle won’t change automatically, so you’ll want to edit that too.\n\n\n\n\n\nIf you’re curious how this works, each interactive code section uses the amazing {quarto-webr} package to run R directly in your browser.\n\n\n\nReuseCC BY-NC-SA 4.0CitationBibTeX citation:@online{untitled,\n  author = {},\n  title = {webR in {Quarto} {HTML} {Documents}},\n  url = {http://introrm.littlemonkeylab.com/webr.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“webR in Quarto HTML Documents.” n.d. http://introrm.littlemonkeylab.com/webr.html."
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "funny",
-    "section": "",
-    "text": "content\n\n\ncontent"
-  },
-  {
-    "objectID": "schedule.html#this-is-a-subhead",
-    "href": "schedule.html#this-is-a-subhead",
-    "title": "funny",
-    "section": "",
-    "text": "content"
-  },
-  {
-    "objectID": "week00/lab_intro.html#in-the-lab-this-week",
-    "href": "week00/lab_intro.html#in-the-lab-this-week",
-    "title": "Lab Intro",
-    "section": "In the lab this week",
-    "text": "In the lab this week\nWe are going to do some things\n## We know not what they are\nBut they shall be the terrors of the earth"
-  },
-  {
-    "objectID": "week00/dataskills.html",
-    "href": "week00/dataskills.html",
-    "title": "DS.00 - Descriptives",
-    "section": "",
-    "text": "This placeholder/indicative text is copied (and minimally edited) from Professor Matthew Crump (et al)’s “Answering Questions with Data”\nOnline Textbook: https://crumplab.github.io/statistics/\nCitation: Crump, M. J. C., Navarro, D. J., & Suzuki, J. (2019, June 5). Answering Questions with Data (Textbook): Introductory Statistics for Psychology Students. https://doi.org/10.17605/OSF.IO/JZE52\nAll resources are released under a creative commons licence CC BY-SA 4.0. Click the link to read more about the license, or read more below in the license section.",
+    "text": "Hidden solutions and hints\nYou can fence off a solution area that will be hidden behind a button using hide() before the solution and unhide() after, each as inline R code. Pass the text you want to appear on the button to the hide() function.\nIf the solution is a code chunk, instead of using hide() and unhide(), simply set the webex.hide chunk option to TRUE, or set it to the string you wish to display on the button.\nRecreate the scatterplot below, using the built-in cars dataset.\n\n\n\n\n\n\n\n\n\n\n\nI need a hint\n\nSee the documentation for plot() (?plot)\n\n\n\n\n\nClick here to see the solution\n\nplot(cars$speed, cars$dist)",
     "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "DS.00 - Descriptives"
+      "Module Overview",
+      "Webexercises"
     ]
   },
   {
-    "objectID": "week00/dataskills.html#general-goals",
-    "href": "week00/dataskills.html#general-goals",
-    "title": "DS.00 - Descriptives",
-    "section": "General Goals",
-    "text": "General Goals\n\nCompute measures of central tendency using software\nCompute measures of variation using software\nAsk some questions of a data set using descriptive statistics\n\n\nImportant info\nWe will be using data from the gapminder project. You can download a small snippet of the data in .csv format from this link (note this dataset was copied from the gapminder library for R) gapminder.csv. If you are using R, then you can install the gapminder package. This method is described later in the R section.",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Y1RM",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\nReuseCC BY-NC-SA 4.0CitationBibTeX citation:@online{untitled,\n  author = {},\n  title = {Y1RM},\n  url = {http://introrm.littlemonkeylab.com/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“Y1RM.” n.d. http://introrm.littlemonkeylab.com/.",
     "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "DS.00 - Descriptives"
-    ]
-  },
-  {
-    "objectID": "week00/dataskills.html#r",
-    "href": "week00/dataskills.html#r",
-    "title": "DS.00 - Descriptives",
-    "section": "R",
-    "text": "R\n\nDescriptives basics in R\nWe learned in lecture and from the textbook that data we want to use ask and answer questions often comes with loads of numbers. Too many numbers to look at all at once. That’s one reason we use descriptive statistics. To reduce the big set of numbers to one or two summary numbers that tell use something about all of the numbers. R can produce descriptive statistics for you in many ways. There are base functions for most of the ones that you want. We’ll go over some R basics for descriptive statistics, and then use our new found skills to ask some questions about real data.\n\nMaking numbers in R\nIn order to do descriptive statistics we need to put some numbers in a variable. You can also do this using the c() command, which stands for combine\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nThere a few other handy ways to make numbers. We can use seq() to make a sequence. Here’s making the numbers from 1 to 100\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWe can repeat things, using rep. Here’s making 10 5s, and 25 1s:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nSum\nLet’s play with the number 1 to 100. First, let’s use the sum() function to add them up\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nLength\nWe put 100 numbers into the variable one_to_one_hundred. We know how many numbers there are in there. How can we get R to tell us? We use length() for that.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nCentral Tendency\n\nMean\nRemember the mean of some numbers is their sum, divided by the number of numbers. We can compute the mean like this:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nOr, we could just use the mean() function like this:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nMedian\nThe median is the number in the exact middle of the numbers ordered from smallest to largest. If there are an even number of numbers (no number in the middle), then we take the number in between the two (decimal .5). Use the median function. There’s only 3 numbers here. The middle one is 2, that should be the median\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nMode\nR does not a base function for the Mode. You would have to write one for yourself. Here is an example of writing your own mode function, and then using it. Note I searched how to do this on Google, and am using the mode defined by this answer on stack overflow\nRemember, the mode is the most frequently occurring number in the set. Below 1 occurs the most, so the mode will be one.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nVariation\nWe often want to know how variable the numbers are. We are going to look at descriptive statistics to describe this such as the range, variance, the standard deviation, and a few others.\nFirst, let’s remind ourselves what variation looks like (it’s when the numbers are different). We will sample 100 numbers from a normal distribution (don’t worry about this yet), with a mean of 10, and a standard deviation of 5, and then make a histogram so we can see the variation around 10..\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nrange\nThe range is the minimum and maximum values in the set, we use the range function.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nvar = variance\nWe can find the sample variance using var. Note, divides by (n-1)\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nsd = standard deviation\nWe find the sample standard deviation us SD. Note, divides by (n-1)\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nRemember that the standard deviation is just the square root of the variance, see:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nAll Descriptives\nLet’s put all of the descriptives and other functions so far in one place:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nDescriptives by conditions\nSometimes you will have a single variable with some numbers, and you can use the above functions to find the descriptives for that variable. Other times (most often in this course), you will have a big data frame of numbers, with different numbers in different conditions. You will want to find descriptive statistics for each the sets of numbers inside each of the conditions. Fortunately, this is where R really shines, it does it all for you in one go.\nLet’s illustrate the problem. Here I make a date frame with 10 numbers in each condition. There are 10 conditions, each labelled, A, B, C, D, E, F, G, H, I, J.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nIf you look at the my_df data frame, you will see it has 100 rows, there are 10 rows for each condition with a label in the conditions column, and 10 scores for each condition in the scores column. What if you wanted to know the mean of the scores in each condition? You would want to find 10 means.\nThe slow way to do it would be like this:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nNobody wants to do that! Not, me I stopped doing it that way, you should to.\n\ngroup_by and summarise\nWe can easily do everything all at once using the group_by and summarise function from the dplyr package. Just watch\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nA couple things now. First, the print out of this was ugly. Let’s fix that. we put the results of our code into a new variable, then we use knitr::kable to print it out nicely when we knit the document\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nmultiple descriptives\nThe best thing about the dplyr method, is that we can add more than one function, and we’ll get more than one summary returned, all in a nice format, let’s add the standard deviation:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nWe’ll add the min and the max too:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nDescribing gapminder\nNow that we know how to get descriptive statistics from R, we cam do this will some real data. Let’s quickly ask a few question about the gapminder data.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nNote: The above code will only work if you have installed the gapminder package. Make sure you are connected to the internet, then choose the Packages tab from the bottom right panel, and choose install. Thens search for gapminder, choose it, and install it.\n\nWhat are some descriptive for Life expectancy by continent?\nCopy the code from the last part of descriptives using dplyr, then change the names like this:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nGeneralization Exercise\n(1 point - Pass/Fail)\nComplete the generalization exercise described in your R Markdown document for this lab.\n\nWhat is the mean, standard deviation, minimum and maximum life expectancy for all the gapminder data (across all the years and countries). Hint: do not use group_by\nWhat is the mean, standard deviation, minimum and maximum life expectancy for all of the continents in 2007, the most recent year in the dataset. Hint: add another pipe using filter(year==2007) %&gt;%\n\n\n\nWriting assignment\n(2 points - Graded)\nComplete the writing assignment described in your R Markdown document for this lab. When you have finished everything. Knit the document and hand in your stuff (you can submit your .RMD file to blackboard if it does not knit.)\nYour writing assignment is to answer these questions in full sentences using simple plain langauge:\n\nDefine the mode.\nExplain what would need to happen in order for a set of numbers to have two modes\nDefine the median\nDefine the mean\nDefine the range\nWhen calculating the standard deviation, explain what the difference scores represent\nExplain why the difference scores are squared when calculating the standard deviation\nIf one set of numbers had a standard deviation of 5, and another had a standard deviation of 10, which set of numbers would have greater variance, explain why.\n\nRubric\nGeneral grading.\n\nYou will receive 0 points for missing answers (say, if you do not answer question c, then you will receive 0 out .25 points for that question)\nYou must write in complete sentences. Point form sentences will be given 0 points.\nCompletely incorrect answers will receive 0 points.\nIf your answer is generally correct but very difficult to understand and unclear you may receive half points for the question",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "DS.00 - Descriptives"
-    ]
-  },
-  {
-    "objectID": "week00/dataskills.html#spss",
-    "href": "week00/dataskills.html#spss",
-    "title": "DS.00 - Descriptives",
-    "section": "SPSS",
-    "text": "SPSS\nIn this lab, we will use SPSS to calculate a variety of descriptive statistics. SPSS allows us to specify which statistics we would like calculated and produce them all in one output table. Here, we will learn to:\n\nCalculate descriptive statistics\nGraph data using a histogram\nEditing graphs\n\nLet’s begin with a short data set {x= 1, 1, 4, 1, 2, 5, 7}\nSuppose we want to calculate the measures of central tendency (mean, median, and mode) as well as variability (range, standard deviation, and variance). First, we will have to enter our data into the SPSS spreadsheet. There are 7 measurements, so we will need 7 rows of data (I have also changed the name of this variable in Variable View to x:\n\n\n\n\n\n\n\n\n\n\nCalculating Descriptive Statistics\n\nFrom here, go to the top menu and choose Analyze, then Descriptive Statistics and then Frequencies:\n\n\n\n\n\n\n\n\n\nA new window will ask you to specify for which variables you want descriptives statistics calculated. Use the arrow to move the x variable from the left-hand to the right-hand field.\n\n\n\n\n\n\n\n\n\nNow, click the Statistics button. This will open a new window containing a list of statistics. You can choose as many as you want to be calculated. We will choose mean, median mode, range, standard deviation, and variance.\n\n\n\n\n\n\n\n\n\nThen click Continue, and then OK. SPSS will produce a set of two output tables: one containing the descriptive statistics we have chosen, and the other a frequency table–a list of all the possible values in our data set and their corresponding frequencies.\n\n\n\n\n\n\n\n\n\n\n\nDescriptive Statistics and Histograms\n\nNow let’s use a real dataset to calculate the same measures of central tendency and variability as in the last example, but with the addition of a histogram to visualize a distribution to relate back to the descriptive statistics. Here is a link to the life expectancy dataset we used for our graphing tutorial. It is named life_expectancy.sav.\nSuppose we wanted to know about life expectancy (around the world) in 2018. This will include calculating descriptive statistics, as well as graphing a histogram to examine the distribution of our data. SPSS often has neat shortcuts to graph data within other menu options. For example, in the process of asking SPSS to produce a table of descriptive statistics, we can also add a histogram to the output without having to go to the Graphs menu.\nFirst, we go to Analyze, then Descriptive Statistics, then Frequencies.\n\n\n\n\n\n\n\n\n\nA window will appear asking us to indicate which variable to use. We will scroll all the way down in the list of variables on the left, choose 2018 [V220], and then move it into the field on the right using the arrow.\n\n\n\n\n\n\n\n\n\nAs in the previous example, we will click the Statistics button next, and choose our measures of central tendency (mean, median, mode) as well as variability (range, standard deviation, variance).\n\n\n\n\n\n\n\n\n\nOnce we click continue, we are back to the previous window. Here, we can conveniently ask SPSS to insert a histogram. Let’s click on the Charts button:\n\n\n\n\n\n\n\n\n\nThis will open a new window that asks us to specify the type of chart we would like. Let’s select Histogram, and check off Show normal curve on histogram:\n\n\n\n\n\n\n\n\n\nClick Continue, and then OK.\nSPSS will produce a table of the requested descriptive statistics, a frequency table (we will ignore this for now because it is long and not relevant to this exercise), and finally, a histogram showing the distribution of life expectancy (in years) with a normal distribution superimposed for comparison.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSomething to think about: What do the mean, median, and mode indicate about the shape of the distribution? Is it confirmed when we look at the histogram? How does the shape of this distribution compare to the symmetrical normal distribution which is superimposed over it?\n\n\nEditing graphs\n\nFor future reference, we will take this opportunity to make edits to the appearance of this graph. It is helpful to know how to manipulate not just the superficial, cosmetic appearance of data visualizations, but also the components of graphs that communicate important information. One feature to consider is the scale of our axes.\nTo modify the scale in a graph, first double-click on the graph itself in the output window. A Chart Editor should pop up.\n\n\n\n\n\n\n\n\n\nNow, hover your mouse over one of the values on the x-axis, and click down once. You will see all the x-axis values suddenly highlight:\n\n\n\n\n\n\n\n\n\nNow that you know how to select the entire axis, double click on it. A properties window will pop up:\n\n\n\n\n\n\n\n\n\nNotice that in the default tab, you can change the fill color of components of your graph. For now, we will select the Scale tab instead:\n\n\n\n\n\n\n\n\n\nNotice in this tab, we can change the minimum, maximum, and increments of our scale. Lets change the major increment to 5:\n\n\n\n\n\n\n\n\n\nClick Apply. Then Close. Now, close your Chart Editor window by simply x-ing it out. The SPSS output window will now contain your edited graph:\n\n\n\n\n\n\n\n\n\n\n\nPractice Problems\n\n\nUsing the life expectancy data set, produce a table of output showing the descriptive statistics (measures of central tendency and variability) for both years 1800 and 1934 (during the Great Depression).\nPlot histograms of life expectancy for both years. How are these distributions different? (Hint: Plot these on the same axes so that they are comparable).",
-    "crumbs": [
-      "Schedule",
-      "Course Content",
-      "Welcome Week",
-      "DS.00 - Descriptives"
+      "Module Overview",
+      "Syllabus"
     ]
   }
 ]
