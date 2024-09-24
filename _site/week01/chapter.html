@@ -64,8 +64,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../week01/codeoptions.html" rel="next">
-<link href="../week01/06-ttests.html" rel="prev">
+<link href="../week01/dataskills.html" rel="next">
+<link href="../webr.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -394,7 +394,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"options":{"output":"true","fig-height":5,"out-height":"","context":"interactive","warning":"true","message":"true","read-only":"false","fig-width":7,"editor-word-wrap":"true","dpi":72,"results":"markup","comment":"","classes":"","autorun":"false","label":"unnamed-chunk-1","fig-cap":"","editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","out-width":"700px"},"id":1,"code":"sample_mean <- length(1000)\nsample_se <- length(1000)\n\nfor (i in 1:1000) {\n  s <- rnorm(10, 0, 1)\n  sample_mean[i] <- mean(s)\n  sample_se[i] <- sd(s) / sqrt(length(s))\n}\n\nplot(sample_mean, sample_se)"},{"options":{"output":"true","fig-height":5,"out-height":"","context":"interactive","warning":"true","message":"true","read-only":"false","fig-width":7,"editor-word-wrap":"true","dpi":72,"results":"markup","comment":"","classes":"","autorun":"false","label":"unnamed-chunk-2","fig-cap":"","editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","out-width":"700px"},"id":2,"code":"# Initialize vectors to store the sample means and standard errors, each of length 1000\nsample_mean <- numeric(1000)  # creates a numeric vector of length 1000 filled with zeros\nsample_se <- numeric(1000)    # creates a numeric vector of length 1000 filled with zeros\n\n# Run a loop 1000 times to generate samples, calculate their means, and standard errors\nfor (i in 1:1000) { # <1>\n  # Generate a sample of 10 random numbers from a normal distribution with mean 0 and standard deviation 1\n  s <- rnorm(10, 0, 1) # <2>\n  \n  # Calculate the mean of the sample and store it in the ith position of the sample_mean vector\n  sample_mean[i] <- mean(s)\n  \n  # Calculate the standard error of the sample mean and store it in the ith position of the sample_se vector\n  sample_se[i] <- sd(s) / sqrt(length(s))\n}\n\n# Plot the sample means against their corresponding standard errors\nplot(sample_mean, sample_se)"},{"options":{"output":"true","fig-height":5,"out-height":"","context":"interactive","warning":"true","message":"true","read-only":"false","fig-width":7,"editor-word-wrap":"true","dpi":72,"results":"markup","comment":"","classes":"","autorun":"false","label":"unnamed-chunk-3","fig-cap":"","editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","out-width":"700px"},"id":3,"code":"# Simulated data\nCBT <- c(23, 19, 21, 22, 20, 24, 25, 18, 22, 23)\nPlacebo <- c(30, 28, 27, 29, 31, 32, 33, 30, 29, 28)\n\n# Combine into a data frame\ndata <- data.frame(\n  group = factor(rep(c(\"CBT\", \"Placebo\"), each = 10)),\n  anxiety = c(CBT, Placebo)\n)\n\n# View the data\nprint(data)"},{"options":{"output":"true","fig-height":5,"out-height":"","context":"interactive","warning":"true","message":"true","read-only":"false","fig-width":7,"editor-word-wrap":"true","dpi":72,"results":"markup","comment":"","classes":"","autorun":"false","label":"unnamed-chunk-4","fig-cap":"","editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","out-width":"700px"},"id":4,"code":"# Independent samples t-test\nt_test_results <- t.test(anxiety ~ group, data = data)\n\n# Display the results\nprint(t_test_results)"}];
+globalThis.qwebrCellDetails = [{"options":{"label":"unnamed-chunk-1","results":"markup","out-height":"","message":"true","read-only":"false","output":"true","comment":"","out-width":"700px","context":"interactive","editor-quick-suggestions":"false","fig-cap":"","classes":"","fig-width":7,"autorun":"false","dpi":72,"fig-height":5,"editor-font-scale":"1","editor-max-height":"","editor-word-wrap":"true","warning":"true"},"id":1,"code":"sample_mean <- length(1000)\nsample_se <- length(1000)\n\nfor (i in 1:1000) {\n  s <- rnorm(10, 0, 1)\n  sample_mean[i] <- mean(s)\n  sample_se[i] <- sd(s) / sqrt(length(s))\n}\n\nplot(sample_mean, sample_se)"},{"options":{"label":"unnamed-chunk-2","results":"markup","out-height":"","message":"true","read-only":"false","output":"true","comment":"","out-width":"700px","context":"interactive","editor-quick-suggestions":"false","fig-cap":"","classes":"","fig-width":7,"autorun":"false","dpi":72,"fig-height":5,"editor-font-scale":"1","editor-max-height":"","editor-word-wrap":"true","warning":"true"},"id":2,"code":"# Initialize vectors to store the sample means and standard errors, each of length 1000\nsample_mean <- numeric(1000)  # creates a numeric vector of length 1000 filled with zeros\nsample_se <- numeric(1000)    # creates a numeric vector of length 1000 filled with zeros\n\n# Run a loop 1000 times to generate samples, calculate their means, and standard errors\nfor (i in 1:1000) { # <1>\n  # Generate a sample of 10 random numbers from a normal distribution with mean 0 and standard deviation 1\n  s <- rnorm(10, 0, 1) # <2>\n  \n  # Calculate the mean of the sample and store it in the ith position of the sample_mean vector\n  sample_mean[i] <- mean(s)\n  \n  # Calculate the standard error of the sample mean and store it in the ith position of the sample_se vector\n  sample_se[i] <- sd(s) / sqrt(length(s))\n}\n\n# Plot the sample means against their corresponding standard errors\nplot(sample_mean, sample_se)"},{"options":{"label":"unnamed-chunk-3","results":"markup","out-height":"","message":"true","read-only":"false","output":"true","comment":"","out-width":"700px","context":"interactive","editor-quick-suggestions":"false","fig-cap":"","classes":"","fig-width":7,"autorun":"false","dpi":72,"fig-height":5,"editor-font-scale":"1","editor-max-height":"","editor-word-wrap":"true","warning":"true"},"id":3,"code":"# Simulated data\nCBT <- c(23, 19, 21, 22, 20, 24, 25, 18, 22, 23)\nPlacebo <- c(30, 28, 27, 29, 31, 32, 33, 30, 29, 28)\n\n# Combine into a data frame\ndata <- data.frame(\n  group = factor(rep(c(\"CBT\", \"Placebo\"), each = 10)),\n  anxiety = c(CBT, Placebo)\n)\n\n# View the data\nprint(data)"},{"options":{"label":"unnamed-chunk-4","results":"markup","out-height":"","message":"true","read-only":"false","output":"true","comment":"","out-width":"700px","context":"interactive","editor-quick-suggestions":"false","fig-cap":"","classes":"","fig-width":7,"autorun":"false","dpi":72,"fig-height":5,"editor-font-scale":"1","editor-max-height":"","editor-word-wrap":"true","warning":"true"},"id":4,"code":"# Independent samples t-test\nt_test_results <- t.test(anxiety ~ group, data = data)\n\n# Display the results\nprint(t_test_results)"}];
 
 </script>
 <script type="module">
@@ -1634,7 +1634,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../week01/06-ttests.html">Week01</a></li><li class="breadcrumb-item"><a href="../week01/chapter.html">T-Tests</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../week01/chapter.html">Week01</a></li><li class="breadcrumb-item"><a href="../week01/chapter.html">T-Tests</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -1646,7 +1646,7 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../week01/06-ttests.html">Week01</a></li><li class="breadcrumb-item"><a href="../week01/chapter.html">T-Tests</a></li></ol></nav>
+    <div class="quarto-title column-body"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../week01/chapter.html">Week01</a></li><li class="breadcrumb-item"><a href="../week01/chapter.html">T-Tests</a></li></ol></nav>
       <div class="quarto-title-block"><div><h1 class="title">T-Tests</h1><button type="button" class="btn code-tools-button dropdown-toggle" id="quarto-code-tools-menu" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi"></i> Code</button><ul class="dropdown-menu dropdown-menu-end" aria-labelelledby="quarto-code-tools-menu"><li><a id="quarto-show-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Show All Code</a></li><li><a id="quarto-hide-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Hide All Code</a></li><li><hr class="dropdown-divider"></li><li><a id="quarto-view-source" class="dropdown-item" href="javascript:void(0)" role="button">View Source</a></li></ul></div></div>
             <p class="subtitle lead">A Year 1 Textbook Chapter</p>
                       </div>
@@ -1708,20 +1708,8 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../week01/06-ttests.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">06-ttests</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../week01/chapter.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">T-Tests</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../week01/codeoptions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">codeoptions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1739,13 +1727,54 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../week01/lab-slides.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">My Presentation</span></a>
+ <span class="menu-text">Lab 01</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../week01/lecture-slides.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">My Presentation</span></a>
+ <span class="menu-text">Lecture 01</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Week02</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week02/chapter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Measuring Wellbeing</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week02/dataskills.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">DataSkills 02</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week02/lab.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Now it’s your turn</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week02/lab-slides.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 02 - Overview</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../week02/lecture-slides.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture 01</span></a>
   </div>
 </li>
       </ul>
@@ -5116,13 +5145,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../week01/06-ttests.html" class="pagination-link" aria-label="06-ttests">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">06-ttests</span>
+      <a href="../webr.html" class="pagination-link" aria-label="webR in Quarto HTML Documents">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">webR in Quarto HTML Documents</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../week01/codeoptions.html" class="pagination-link" aria-label="codeoptions">
-        <span class="nav-page-text">codeoptions</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../week01/dataskills.html" class="pagination-link" aria-label="Expectations">
+        <span class="nav-page-text">Expectations</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">

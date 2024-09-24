@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./week01/06-ttests.html" rel="next">
+<link href="./week01/chapter.html" rel="next">
 <link href="./webexercises.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -360,7 +360,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"id":1,"options":{"message":"true","fig-height":"4.3","editor-word-wrap":"true","warning":"true","context":"interactive","label":"unnamed-chunk-1","fig-width":"7","output":"true","results":"markup","out-width":"100%","editor-quick-suggestions":"false","fig-cap":"","read-only":"false","classes":"","comment":"","dpi":72,"editor-max-height":"","editor-font-scale":"0.8","out-height":"","autorun":"false"},"code":"gapminder_filtered <- gapminder |>\n  filter(year == 2007)\n\nggplot(data = gapminder_filtered,\n       mapping = aes(x = gdpPercap, y = lifeExp, \n                     size = pop, color = continent)) +\n  geom_point() + \n  scale_x_log10(labels = scales::dollar_format(accuracy = 1)) +\n  scale_size_continuous(labels = scales::label_comma()) +\n  scale_color_viridis_d(option = \"plasma\") +\n  labs(x = \"GDP per capita\", y = \"Life expectancy\",\n       title = \"Health and wealth are strongly related\",\n       subtitle = \"142 countries; 2007 only\", caption = \"Source: The Gapminder Project\",\n       color = \"Continent\", size = \"Population\") +\n  theme_bw()"}];
+globalThis.qwebrCellDetails = [{"options":{"editor-word-wrap":"true","results":"markup","out-height":"","comment":"","autorun":"false","out-width":"100%","classes":"","output":"true","dpi":72,"label":"unnamed-chunk-1","editor-font-scale":"0.8","read-only":"false","context":"interactive","fig-height":"4.3","editor-max-height":"","warning":"true","fig-cap":"","message":"true","fig-width":"7","editor-quick-suggestions":"false"},"code":"gapminder_filtered <- gapminder |>\n  filter(year == 2007)\n\nggplot(data = gapminder_filtered,\n       mapping = aes(x = gdpPercap, y = lifeExp, \n                     size = pop, color = continent)) +\n  geom_point() + \n  scale_x_log10(labels = scales::dollar_format(accuracy = 1)) +\n  scale_size_continuous(labels = scales::label_comma()) +\n  scale_color_viridis_d(option = \"plasma\") +\n  labs(x = \"GDP per capita\", y = \"Life expectancy\",\n       title = \"Health and wealth are strongly related\",\n       subtitle = \"142 countries; 2007 only\", caption = \"Source: The Gapminder Project\",\n       color = \"Continent\", size = \"Population\") +\n  theme_bw()","id":1}];
 
 </script>
 <script type="module">
@@ -1628,20 +1628,8 @@ globalThis.qwebrExecuteCode = async function (
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week01/06-ttests.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">06-ttests</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./week01/chapter.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">T-Tests</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./week01/codeoptions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">codeoptions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -1659,13 +1647,54 @@ globalThis.qwebrExecuteCode = async function (
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week01/lab-slides.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">My Presentation</span></a>
+ <span class="menu-text">Lab 01</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week01/lecture-slides.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">My Presentation</span></a>
+ <span class="menu-text">Lecture 01</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Week02</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week02/chapter.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Measuring Wellbeing</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week02/dataskills.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">DataSkills 02</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week02/lab.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Now it’s your turn</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week02/lab-slides.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 02 - Overview</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week02/lecture-slides.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture 01</span></a>
   </div>
 </li>
       </ul>
@@ -2806,8 +2835,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./week01/06-ttests.html" class="pagination-link" aria-label="06-ttests">
-        <span class="nav-page-text">06-ttests</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./week01/chapter.html" class="pagination-link" aria-label="T-Tests">
+        <span class="nav-page-text">T-Tests</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

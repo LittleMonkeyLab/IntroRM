@@ -15,11 +15,6 @@ execute:
   warning: false
 ---
 
----
-title: "DataSkills Homework: Wellbeing Measurement Challenge"
-format: quarto
----
-
 # DataSkills Homework: Wellbeing Measurement Challenge
 
 ::: callout-tip
