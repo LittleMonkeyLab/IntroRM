@@ -14,17 +14,7 @@ website:
     alignment: left
     border: true
     collapse-level: 1
-    contents:
-    - section: Module Overview
-      contents:
-      - text: Syllabus
-        href: index.qmd
-      - text: Example Data
-        href: index.qmd
-      - text: Webexercises
-        href: webexercises.qmd
-    - section: Course Content
-      contents: index.qmd
+    contents: auto
   page-footer:
     center: Copyright 2024, Dr. Gordon Wright
 execute:
@@ -47,3 +37,7 @@ format:
     link-external-icon: false
     css: include/webex.css
     include-after-body: include/webex.js
+    
+engine: knitr
+filters:
+  - webr
