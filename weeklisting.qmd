@@ -1,0 +1,21 @@
+---
+title: "WeekListing Example"
+listing:
+  - id: lectures
+    contents: "week**/lecture.qmd"
+    type: table
+  - id: labs
+    contents: "week**/lab.qmd"
+    type: table
+
+---
+
+## Lectures
+
+:::{#lectures}
+:::
+
+## Labs
+
+:::{#labs}
+:::
