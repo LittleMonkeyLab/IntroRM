@@ -17,14 +17,21 @@ execute:
 
 # Chapter: T-Tests in R
 
-::: Content below origially written by Matthew Crump under a CC-BY-NC-SA
+{::: {.callout-note title="CC Attribution" collapse="true"}
+Content below origially written by Matthew Crump under a CC-BY-NC-SA
 Licence. Original Content Chapter 6 of
-https://www.crumplab.com/statistics/06-ttests.html :::
+https://www.crumplab.com/statistics/06-ttests.html 
+:::}
 
-```{r, echo=FALSE}
+:::
 
-
+```{r setup, echo=FALSE}
+library(ggplot2)
+library(rmarkdown)
+library(knitr)
 ```
+
+
 
 Back in the day, William Sealy Gosset got a job working for Guinness
 Breweries. They make the famous Irish stout called Guinness. What
