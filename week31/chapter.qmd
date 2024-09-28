@@ -285,7 +285,8 @@ distribution (mean = 0, sd = 1). Each time I measured the mean and
 standard error of the sample. That gave two descriptive statistics for
 each sample, letting us plot each sample as dot in a scatter plot.
 
-```{r}
+```{r setup}
+install.packages("ggplot2")
 library(ggplot2)
 ```
 

@@ -2,4 +2,10 @@
 title: "RMLecture Slides Week 01"
 categories: [Week01, Lecture, Health&Wellbeing]
 format: revealjs
+webr:
+  packages: ['ggplot2', 'dplyr'] # Install R packages on document open
+# autoload-packages: false       # Disable automatic loading of packages
+# show-startup-message: false    # Disable displaying status of webR initialization
+filters:
+- webr
 ---
