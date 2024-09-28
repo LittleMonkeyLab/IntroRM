@@ -16,6 +16,8 @@ website:
     border: true
     collapse-level: 2
     contents: 
+      - text: "Introduction"
+        href: index.qmd
       - section: "Demos"
         href: demos.qmd
         contents:
@@ -23,9 +25,12 @@ website:
           - webexercises.qmd
           - downloadthis.qmd
           - iframeslides.qmd
+      - text: "---"
       - section: "Weeks"
         href: weeklisting.qmd
         contents: week**/*.qmd
+        exclude: 
+      - "*-slides.qmd"
 
   page-footer:
     center: Copyright 2024, Dr. Gordon Wright
