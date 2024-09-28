@@ -1,31 +1,5 @@
 ---
-title: "Lecture 01"
-subtitle: "An overview of the general topic area"
-format:
-  revealjs:
-    incremental: true   
+title: "RMLecture Slides Week 01"
+categories: [Week01, Lecture, Health&Wellbeing]
+format: revealjs
 ---
-
-# In the morning
-
-## Getting up
-
--   Turn off alarm
--   Get out of bed
-
-## Breakfast
-
--   Eat eggs
--   Drink coffee
-
-# In the evening
-
-## Dinner
-
--   Eat spaghetti
--   Drink wine
-
-## Going to sleep
-
--   Get in bed
--   Count sheep
