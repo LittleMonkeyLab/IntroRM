@@ -2,8 +2,12 @@
   {
     "listing": "/weeklisting.html",
     "items": [
-      "/week01/lab.html",
-      "/week02/lab.html"
+      "/week01/chapter.html",
+      "/week32/chapter.html",
+      "/week31/chapter.html",
+      "/week31/lab.html",
+      "/week32/lab.html",
+      "/week01/lab.html"
     ]
   }
 ]
