@@ -1,0 +1,24 @@
+---
+title: "IframeSLides on Page"
+subtitle: How to nest slides on a page
+format:
+  html: 
+    code-tools: true
+    code-fold: true
+    code-annotations: hover
+    title-block-banner: true
+
+filters: 
+  - webr
+  
+execute: 
+  warning: false
+---
+
+
+```{=html}
+<iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=Px9DDcEgHEaVikaynU4CG8gqdkQ5QElOkXjIDHSz7DVUMUpTNTNPQ1lGS1YyT0k1TUxSUkxJVDBFNy4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+
+
+```

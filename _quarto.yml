@@ -10,11 +10,23 @@ website:
   page-navigation: true
   repo-actions: issue
   sidebar:
+    title: "Navigation"
     style: docked
     alignment: left
     border: true
-    collapse-level: 1
-    contents: auto
+    collapse-level: 2
+    contents: 
+      - section: "Demos"
+        href: demos.qmd
+        contents:
+          - webr.qmd
+          - webexercises.qmd
+          - downloadthis.qmd
+          - iframeslides.qmd
+      - section: "Weeks"
+        href: weeklisting.qmd
+        contents: week**/*.qmd
+
   page-footer:
     center: Copyright 2024, Dr. Gordon Wright
 execute:
