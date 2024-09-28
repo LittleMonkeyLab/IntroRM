@@ -30,7 +30,7 @@ website:
         href: weeklisting.qmd
         contents: week**/*.qmd
         exclude: 
-      - "*-slides.qmd"
+          - "*-slides.qmd"
 
   page-footer:
     center: Copyright 2024, Dr. Gordon Wright
