@@ -6,6 +6,7 @@
     "section": "",
     "text": "Each class session has an interactive lesson that you will work through after doing the readings and watching the lecture. These lessons are a central part of the class—they will teach you how to use {ggplot2} and other packages in the tidyverse to create beautiful and truthful visualizations with R.\nInteractive code sections look like this. Make changes in the text box and click on the green “Run Code” button to see the results. Sometimes there will be a tab with a hint or solution.\n\n\n\n\n\n\nYour turn\n\n\n\nModify the code here to show the relationship between health and wealth for 2002 instead of 2007.\n\n{{&lt; fa code &gt;}} Interactive editor{{&lt; fa lightbulb &gt;}} Hint\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nHint: You’ll want to change something in the code that creates gapminder_filtered. The text in the subtitle won’t change automatically, so you’ll want to edit that too.\n\n\n\n\n\nIf you’re curious how this works, each interactive code section uses the amazing {quarto-webr} package to run R directly in your browser.\n\n\n\nReuseCC BY-NC-SA 4.0CitationBibTeX citation:@online{untitled,\n  author = {},\n  title = {webR in {Quarto} {HTML} {Documents}},\n  url = {http://introrm.littlemonkeylab.com/webr.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“webR in Quarto HTML Documents.” n.d. http://introrm.littlemonkeylab.com/webr.html.",
     "crumbs": [
+      "Demos",
       "webR in Quarto HTML Documents"
     ]
   },
@@ -691,6 +692,79 @@
     "crumbs": [
       "Week02",
       "DataSkills 02"
+    ]
+  },
+  {
+    "objectID": "weeklisting.html",
+    "href": "weeklisting.html",
+    "title": "WeekListing Example",
+    "section": "",
+    "text": "No matching items",
+    "crumbs": [
+      "Weeks"
+    ]
+  },
+  {
+    "objectID": "weeklisting.html#lectures",
+    "href": "weeklisting.html#lectures",
+    "title": "WeekListing Example",
+    "section": "",
+    "text": "No matching items",
+    "crumbs": [
+      "Weeks"
+    ]
+  },
+  {
+    "objectID": "weeklisting.html#labs",
+    "href": "weeklisting.html#labs",
+    "title": "WeekListing Example",
+    "section": "Labs",
+    "text": "Labs\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nLooking at Data\n\n\nDr. Gordon Wright\n\n\n\n\nNow it’s your turn\n\n\nDr. Gordon Wright\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Weeks"
+    ]
+  },
+  {
+    "objectID": "downloadthis.html",
+    "href": "downloadthis.html",
+    "title": "DownloadThis Demo",
+    "section": "",
+    "text": "and this is some sparkling content.\nHow could I possibly download the data you mention?\n Download the lab pdf \nThere you go, mydude!",
+    "crumbs": [
+      "Demos",
+      "DownloadThis Demo"
+    ]
+  },
+  {
+    "objectID": "downloadthis.html#what-a-terrific-website",
+    "href": "downloadthis.html#what-a-terrific-website",
+    "title": "DownloadThis Demo",
+    "section": "",
+    "text": "and this is some sparkling content.\nHow could I possibly download the data you mention?\n Download the lab pdf \nThere you go, mydude!",
+    "crumbs": [
+      "Demos",
+      "DownloadThis Demo"
+    ]
+  },
+  {
+    "objectID": "iframeslides.html",
+    "href": "iframeslides.html",
+    "title": "IframeSLides on Page",
+    "section": "",
+    "text": "ReuseCC BY-NC-SA 4.0CitationBibTeX citation:@online{untitled,\n  author = {},\n  title = {IframeSLides on {Page}},\n  url = {http://introrm.littlemonkeylab.com/iframeslides.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“IframeSLides on Page.” n.d. http://introrm.littlemonkeylab.com/iframeslides.html.",
+    "crumbs": [
+      "Demos",
+      "IframeSLides on Page"
+    ]
+  },
+  {
+    "objectID": "demos.html",
+    "href": "demos.html",
+    "title": "Demonstrations",
+    "section": "",
+    "text": "Here is a demo of web-r web-r demo\nHere is a demo of webexercises webexercises demo\nHere is a demo of a download button downloadthis demo\nHere is a demo of an embedded microsoft form embedded MSForm\n\n\n\nReuseCC BY-NC-SA 4.0CitationBibTeX citation:@online{untitled,\n  author = {},\n  title = {Demonstrations},\n  url = {http://introrm.littlemonkeylab.com/demos.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“Demonstrations.” n.d. http://introrm.littlemonkeylab.com/demos.html.",
+    "crumbs": [
+      "Demos"
     ]
   }
 ]
