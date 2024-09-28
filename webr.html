@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./webexercises.html" rel="next">
-<link href="./demos.qmd" rel="prev">
+<link href="./demos.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -43,6 +43,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -360,7 +362,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"id":1,"options":{"autorun":"false","classes":"","message":"true","context":"interactive","out-height":"","out-width":"100%","label":"unnamed-chunk-1","fig-height":"4.3","editor-max-height":"","fig-width":"7","results":"markup","comment":"","editor-quick-suggestions":"false","read-only":"false","dpi":72,"editor-word-wrap":"true","fig-cap":"","editor-font-scale":"0.8","warning":"true","output":"true"},"code":"gapminder_filtered <- gapminder |>\n  filter(year == 2007)\n\nggplot(data = gapminder_filtered,\n       mapping = aes(x = gdpPercap, y = lifeExp, \n                     size = pop, color = continent)) +\n  geom_point() + \n  scale_x_log10(labels = scales::dollar_format(accuracy = 1)) +\n  scale_size_continuous(labels = scales::label_comma()) +\n  scale_color_viridis_d(option = \"plasma\") +\n  labs(x = \"GDP per capita\", y = \"Life expectancy\",\n       title = \"Health and wealth are strongly related\",\n       subtitle = \"142 countries; 2007 only\", caption = \"Source: The Gapminder Project\",\n       color = \"Continent\", size = \"Population\") +\n  theme_bw()"}];
+globalThis.qwebrCellDetails = [{"id":1,"code":"gapminder_filtered <- gapminder |>\n  filter(year == 2007)\n\nggplot(data = gapminder_filtered,\n       mapping = aes(x = gdpPercap, y = lifeExp, \n                     size = pop, color = continent)) +\n  geom_point() + \n  scale_x_log10(labels = scales::dollar_format(accuracy = 1)) +\n  scale_size_continuous(labels = scales::label_comma()) +\n  scale_color_viridis_d(option = \"plasma\") +\n  labs(x = \"GDP per capita\", y = \"Life expectancy\",\n       title = \"Health and wealth are strongly related\",\n       subtitle = \"142 countries; 2007 only\", caption = \"Source: The Gapminder Project\",\n       color = \"Continent\", size = \"Population\") +\n  theme_bw()","options":{"editor-word-wrap":"true","comment":"","editor-quick-suggestions":"false","warning":"true","results":"markup","autorun":"false","dpi":72,"output":"true","context":"interactive","label":"unnamed-chunk-1","message":"true","read-only":"false","editor-font-scale":"0.8","classes":"","out-height":"","fig-cap":"","editor-max-height":"","fig-width":"7","fig-height":"4.3","out-width":"100%"}}];
 
 </script>
 <script type="module">
@@ -1571,7 +1573,7 @@ globalThis.qwebrExecuteCode = async function (
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./demos.qmd">Demos</a></li><li class="breadcrumb-item"><a href="./webr.html">webR in Quarto HTML Documents</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./demos.html">Demos</a></li><li class="breadcrumb-item"><a href="./webr.html">webR in Quarto HTML Documents</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -1601,7 +1603,7 @@ globalThis.qwebrExecuteCode = async function (
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./demos.qmd" class="sidebar-item-text sidebar-link">
+            <a href="./demos.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Demos</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -2022,7 +2024,7 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 }
 </script>
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./demos.qmd">Demos</a></li><li class="breadcrumb-item"><a href="./webr.html">webR in Quarto HTML Documents</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./demos.html">Demos</a></li><li class="breadcrumb-item"><a href="./webr.html">webR in Quarto HTML Documents</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">webR in Quarto HTML Documents</h1>
 </div>
@@ -2055,7 +2057,7 @@ Your turn
 <div class="callout-body-container callout-body">
 <p>Modify the code here to show the relationship between health and wealth for 2002 instead of 2007.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">{{&lt; fa code &gt;}} Interactive editor</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">{{&lt; fa lightbulb &gt;}} Hint</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page"><i class="fa-solid fa-code" aria-label="code"></i> Interactive editor</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false"><i class="fa-solid fa-lightbulb" aria-label="lightbulb"></i> Hint</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div id="qwebr-insertion-location-1"></div>
@@ -2858,7 +2860,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./demos.qmd" class="pagination-link" aria-label="Demos">
+      <a href="./demos.html" class="pagination-link" aria-label="Demos">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Demos</span>
       </a>          
   </div>
