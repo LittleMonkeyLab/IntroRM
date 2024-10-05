@@ -1,7 +1,7 @@
 project:
   type: website
-mainfont: Atkinson Hyperlegible
-logo: images/LMLLOGO.png
+mainfont: Atkinson Hyperlegible  # You can remove this if it's already in the HTML section.
+# logo: images/LMLLOGO.png
 website:
   title: PS51020A Research Methods & Statistics 2024/5
   repo-url: https://github.com/LittleMonkeyLab/introrm
@@ -21,14 +21,19 @@ website:
       - section: "Demos"
         href: demos.qmd
         contents:
-          - webr.qmd
-          - webexercises.qmd
-          - downloadthis.qmd
-          - iframeslides.qmd
+          - text: "WebR"
+            href: webr.qmd
+          - text: "Web Exercises"
+            href: webexercises.qmd
+          - text: "Download This"
+            href: downloadthis.qmd
+          - text: "Iframe Slides"
+            href: iframeslides.qmd
       - text: "---"
       - section: "Weeks"
         href: weeklisting.qmd
-        contents: week**/*.qmd
+        contents: 
+          - "week**/*.qmd"
         exclude: 
           - "*-slides.qmd"
 
@@ -54,17 +59,19 @@ format:
     link-external-icon: false
     css: include/webex.css
     include-after-body: include/webex.js
+  revealjs: 
+    theme: styles/slides.scss
 # Set default options for every webpage that may or may not include webR.
 webr: 
-  show-startup-message: false    # Display status of webR initialization
-#  show-header-message: false     # Check to see if COOP&COEP headers are set for speed.
-#  packages: ['ggplot2', 'dplyr'] # Pre-install dependencies
-#  base-url: ''                   # Base URL used for specifying where R WebAssembly binaries should be located
-#  home-dir: '/home/rstudio'      # Customize where the working directory is
-#  channel-type: 'post-message'   # Specify communication channel
-#  service-worker-url: ''         # URL from where to load JavaScript worker scripts when loading webR with the ServiceWorker communication channel.
+  show-startup-message: false
+  # Uncomment below as needed
+  # show-header-message: false
+  # packages: ['ggplot2', 'dplyr']
+  # base-url: '' 
+  # home-dir: '/home/rstudio'
+  # channel-type: 'post-message'
+  # service-worker-url: ''
 
- 
 engine: knitr
 filters:
   - webr

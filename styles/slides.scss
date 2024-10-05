@@ -1,0 +1,69 @@
+/*-- scss:defaults --*/
+
+// Color Definitions
+$blue: #588FF9;
+$purple: #725EEC;
+$pink: #DF227C;
+$orange: #FF6018;
+$gold: #FFB02F;
+$cream: #F4F3EE;
+$charcoal: #222222;
+$black: #000000;
+$url-blue: #01BAEF;
+
+// Define Defaults
+$body-bg: $cream;
+$body-color: $charcoal;
+$link-color: $url_blue;
+$presentation-h1-font-size: 2.5em !default;
+$presentation-h2-font-size: 1.6em !default;
+
+.reveal .footer {
+  color: white !important;
+  width: 100vw;  // Full viewport width
+  position: fixed;  // Stick the footer to the bottom of the viewport
+  bottom: 0;  // Align the footer to the very bottom of the page
+  left: 0;  // Make sure the footer aligns to the left edge
+  height: 40px;  // Adjust this height to whatever you need
+  background-color: #CDE5EE;  // Main footer background color (or whatever you prefer)
+
+}
+
+.reveal h1 {
+  font-size: 2.5em;  // Set h1 to 2.5em
+}
+
+
+
+
+
+
+
+/*-- scss:rules --*/
+
+// Quick refs for core palette
+.blue { color: $blue; }
+.purple { color: $purple; }
+.pink { color: $pink; }
+.orange { color: $orange; }
+.gold { color: $gold; }
+
+//Underline URLs
+.reveal .slide a {
+  text-decoration: underline;
+}
+
+.logo img {
+   width: 100%;
+   height: auto;
+   display: block;
+}
+
+.huge { font-size: 200% }
+.extra-large { font-size: 150% }
+.large { font-size: 130% }
+.medium { font-size: 115% }
+.small { font-size: 70% }
+.tiny { font-size: 50% }
+
+
