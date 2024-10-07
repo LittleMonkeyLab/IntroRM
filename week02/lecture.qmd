@@ -8,6 +8,8 @@ format:
     theme: ../styles/slides.scss
     incremental: true
     preview-links: true
+filters: 
+- webr
 ---
 
 ```{r}
@@ -30,19 +32,140 @@ Institute](https://brailleinstitute.org/freefont) or used through
 
 ![](images/Florence.png)
 
+---
+title: "Data Visualisation 1"
+author: "Dr. Gordon Wright"
+format: revealjs
+---
+
+## Data Visualisation 1
+
+Dr. Gordon Wright
+
+------------------------------------------------------------------------
+
+## Schedule
+
+-   **Week 1**: Data Visualisation 1
+-   **Week 2**: Data Visualisation 2
+-   **Open Science with Stacey**
+-   **Mixed Methods with Gordon**
+-   **Qualitative Research (3 weeks) with Hillary**
+
+Lecture, Labs, Data Skills, Application.
+
+------------------------------------------------------------------------
+
+## Important Notes
+
+-   [ ] Lecture slides are **not lectures**. Lectures are **not lecture
+    slides**.
+-   [ ] Introduce myself.
+-   [ ] First real research methods lecture. I've got to set the tone
+    for the coming 3 years. **Caveats**.
+
+------------------------------------------------------------------------
+
+## Setting the Tone
+
+-   Should I introduce myself?\
+-   Any other advice?
+-   Examples, demonstrations, case studies (good and bad).
+-   Experts, added value content.
+-   Pictures, videos, music.\
+-   Should I make it funny? Honest? Intellectual? Geeky?
+-   **Aspirational**, **motivational**, **inspirational**?
+
+------------------------------------------------------------------------
+
+## Introductions vs. Getting to Know Someone
+
+-   Introductions ≠ Getting to know someone.
+-   Are we the same or are we different?
+
+------------------------------------------------------------------------
+
+## Visualising Data
+
+-   **Don't look now**, you're visualising data.
+
+------------------------------------------------------------------------
+
+## What is Data Visualisation?
+
+-   So what **is** data visualisation?
+
+------------------------------------------------------------------------
+
+## Introduce Yourself
+
+Include: - Movies, music lyrics, band - Favourite genius - Favourite
+comedian - Favourite communicator - Who would play you in a movie? -
+Favourite teacher - Favourite non-verbal behaviour - Favourite
+psychologist - Favourite team you'd call in an emergency - What you'd
+want to do when you grow up
+
+------------------------------------------------------------------------
+
+## Research Methods in Positive Psychology
+
+**Stop**.
+
+Visualisation is bringing to life Animation Communicating Captivating
+Convincing Cut-through Sticky
+
+## Inspirational Video and Slides
+
+::: columns
+::: {.column width="40%"}
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/yoEezZD71sc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe>
+:::
+
+::: {.column width="60%" style="position: relative; height: 400px;"}
+![Image 1](images/clipboard-2345556086.png){.fragment .fade-in
+.current-visible
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
+![Image 2](images/clipboard-2976832170.png){.fragment .fade-in
+.current-visible
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
+![Image 3](images/clipboard-1036810540.png){.fragment .fade-in
+.current-visible
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
+![Image 4](images/clipboard-1185044832.png){.fragment .fade-in
+.current-visible
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
+![Image 5](images/clipboard-492947776.png){.fragment .fade-in
+.current-visible
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
+![Image 6](images/clipboard-2791386978.png){.fragment .fade-in
+.current-visible
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
+![Image 7](images/clipboard-3977689435.png){.fragment .fade-in
+.current-visible
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
+![Image 8](images/clipboard-2970447046.png){.fragment .fade-in
+.current-visible
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
+![Image 9](images/clipboard-3152777671.png){.fragment .fade-in
+.current-visible
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
+:::
+:::
+
 ## Header
 
 content
 
-. . .
-
-more content
-
-```{r}
+```{webr-r}
+#| autorun: true
 barplot(table(mtcars$gear), col = "blue")
 ```
 
-```{r}
+## Header 2
+
+```{webr-r}
 
 plot(1:4, 1:4, col=1:4, pch=19, cex=3, xlab="", ylab="")
 ```
@@ -70,6 +193,20 @@ ggplot(data = plot_df,
 ```{r}
 
 ```
+
+## A modern perspective
+
+Quarto
+
+R
+
+Website/portfolio
+
+Open Science
+
+Interactivity
+
+Communication
 
 ## Uncovering Truths
 
@@ -294,3 +431,112 @@ is a site for stuff
 ## Poster 3
 
 ![](images/clipboard-454999097.png)
+
+## Central Word: PLACEHOLDER
+
+::: {.fragment .fade-in}
+![](images/image1.png){.absolute top="200" left="100" width="250"
+height="200"}
+:::
+
+::: {.fragment .fade-in}
+![](images/image2.png){.absolute top="200" left="400" width="250"
+height="200"}
+:::
+
+::: {.fragment .fade-in}
+![](images/image3.png){.absolute top="200" left="700" width="250"
+height="200"}
+:::
+
+## 2x2
+
+::: {.fragment .fade-in}
+![](images/image1.png){.absolute top="100" left="100" width="250"
+height="200"}
+:::
+
+::: {.fragment .fade-in}
+![](images/image2.png){.absolute top="100" left="400" width="250"
+height="200"}
+:::
+
+::: {.fragment .fade-in}
+![](images/image3.png){.absolute top="350" left="100" width="250"
+height="200"}
+:::
+
+::: {.fragment .fade-in}
+![](images/image1.png){.absolute top="350" left="400" width="250"
+height="200"}
+:::
+
+## Triangle
+
+::: {.fragment .fade-in}
+![](images/image1.png){.absolute top="50" left="400" width="250"
+height="200"}
+:::
+
+::: {.fragment .fade-in}
+![](images/image2.png){.absolute top="300" left="200" width="250"
+height="200"}
+:::
+
+::: {.fragment .fade-in}
+![](images/image3.png){.absolute top="300" left="600" width="250"
+height="200"}
+:::
+
+## Test Slide
+
+::: {.fragment .fade-in}
+![](images/image1.png){.absolute top="100" left="50" width="350"
+height="300"}
+:::
+
+::: {.fragment .fade-in}
+![](images/image2.png){.absolute top="0" right="0" width="350"
+height="250"}
+:::
+
+::: {.fragment .fade-in}
+![](images/image3.png){.absolute bottom="100" right="50" width="300"
+height="300"}
+:::
+
+## 1
+
+![](images/clipboard-2345556086.png)
+
+## 2
+
+![](images/clipboard-2976832170.png)
+
+## 3
+
+![](images/clipboard-1036810540.png)
+
+## 4
+
+![](images/clipboard-1185044832.png)
+
+## 5
+
+![](images/clipboard-492947776.png)
+
+## 6
+
+![](images/clipboard-2791386978.png)
+
+## 7
+
+![](images/clipboard-3977689435.png)
+
+## 8
+
+![](images/clipboard-2970447046.png)
+
+## 9
+
+![](images/clipboard-3152777671.png)
