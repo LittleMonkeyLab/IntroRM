@@ -3,16 +3,9 @@ title: "RM Lab Narrative Wellbeing"
 subtitle: "Starting with a difficult question?"
 categories: [Week01, Lab, Health&Wellbeing]
 ---
-<style>
-.slide-deck {
-    border: 3px solid #dee2e6;
-    width: 100%;
-    height: 475px;
-}
-</style>
 
-<div>
-```{=html}
-<iframe class="slide-deck" src="../_site/week01/lab-slides.html"></iframe>
-```
-</div>
+## Content
+
+content
+
+more content
