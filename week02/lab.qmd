@@ -1,6 +1,6 @@
 ---
 title: "RM Lab Narrative Wellbeing"
-subtitle: "Starting with a difficult question"
+subtitle: "Starting with a difficult question?"
 categories: [Week01, Lab, Health&Wellbeing]
 ---
 <style>
