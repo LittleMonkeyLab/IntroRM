@@ -1754,5 +1754,201 @@
     "title": "Data Visualisation 1",
     "section": "Inspirational Video and Slides",
     "text": "Inspirational Video and Slides"
+  },
+  {
+    "objectID": "week02/lecture.html#the-importance-of-data-visualization",
+    "href": "week02/lecture.html#the-importance-of-data-visualization",
+    "title": "Data Visualisation 1",
+    "section": "The Importance of Data Visualization",
+    "text": "The Importance of Data Visualization"
+  },
+  {
+    "objectID": "week02/lecture.html#introduction-to-data-visualization",
+    "href": "week02/lecture.html#introduction-to-data-visualization",
+    "title": "Data Visualisation 1",
+    "section": "Introduction to Data Visualization",
+    "text": "Introduction to Data Visualization\n\nWhat is Data Visualization?\n\nDefinition: The graphical representation of data to find insights, patterns, and trends.\nImportance: Simplifying complex data, making research more accessible, and aiding in decision-making."
+  },
+  {
+    "objectID": "week02/lecture.html#the-goals-of-data-visualization",
+    "href": "week02/lecture.html#the-goals-of-data-visualization",
+    "title": "Data Visualisation 1",
+    "section": "The Goals of Data Visualization",
+    "text": "The Goals of Data Visualization\n\nCommunication of Information\n\nMaking data accessible, clear, and engaging.\nTranslating raw numbers into understandable narratives.\n\nPattern Recognition\n\nIdentifying trends, outliers, and relationships.\nSupporting statistical analysis by visually highlighting key elements.\n\nExploration\n\nUsing visuals to explore and understand datasets during the research process."
+  },
+  {
+    "objectID": "week02/lecture.html#types-of-data",
+    "href": "week02/lecture.html#types-of-data",
+    "title": "Data Visualisation 1",
+    "section": "Types of Data",
+    "text": "Types of Data\n\nCategorical Data\n\nNominal (e.g., types of therapy, animal species)\nOrdinal (e.g., Likert scales, levels of education)\n\nContinuous Data\n\nInterval (e.g., temperature, time of day)\nRatio (e.g., height, reaction time)\n\nDiscrete vs Continuous\n\nThe difference between countable categories and measurements with infinite possible values."
+  },
+  {
+    "objectID": "week02/lecture.html#common-types-of-graphs-and-when-to-use-them",
+    "href": "week02/lecture.html#common-types-of-graphs-and-when-to-use-them",
+    "title": "Data Visualisation 1",
+    "section": "Common Types of Graphs and When to Use Them",
+    "text": "Common Types of Graphs and When to Use Them\n\nBar Charts\n\nBest for comparing discrete categories.\nExample: Comparing the number of participants in different experimental groups.\n\nHistograms\n\nUseful for visualizing the distribution of continuous data.\nExample: Showing the frequency distribution of test scores.\n\nPie Charts\n\nUse for displaying proportions of a whole, though less frequently used in scientific contexts.\n\nLine Graphs\n\nGreat for showing trends over time or continuous data relationships.\nExample: Reaction time changes over time.\n\nScatterplots\n\nIdeal for representing relationships between two continuous variables.\nExample: Relationship between stress levels and performance.\n\nBoxplots\n\nExcellent for summarizing the distribution, central tendency, and variability of continuous data.\n\nHeatmaps and Density Plots\n\nUseful for visualizing large, complex datasets, or relationships between multiple variables.\n\nViolin Plots\n\nCombines boxplot and density information to visualize data distribution."
+  },
+  {
+    "objectID": "week02/lecture.html#the-many-ways-to-convey-information",
+    "href": "week02/lecture.html#the-many-ways-to-convey-information",
+    "title": "Data Visualisation 1",
+    "section": "The Many Ways to Convey Information",
+    "text": "The Many Ways to Convey Information\n\nTables\n\nWhen to use: Presenting precise numerical data or categorical comparisons.\n\nInfographics\n\nA visual story: Combining graphs, icons, and minimal text to tell a narrative (good for public dissemination).\n\nInteractive Visualizations\n\nDynamic data representations, useful for exploring and filtering datasets in real-time (tools like Shiny or Tableau).\n\nDashboards\n\nOverviewing multiple aspects of data in one space for decision-making, often used in applied settings.\n\nFlowcharts and Diagrams\n\nBest for depicting processes or causal relationships.\n\nPresenting Visuals in Scientific Reports\n\nAdapting visuals to APA standards (formatting, labeling, figure legends)."
+  },
+  {
+    "objectID": "week02/lecture.html#design-principles-for-effective-data-visualizations",
+    "href": "week02/lecture.html#design-principles-for-effective-data-visualizations",
+    "title": "Data Visualisation 1",
+    "section": "Design Principles for Effective Data Visualizations",
+    "text": "Design Principles for Effective Data Visualizations\n\nClarity and Simplicity\n\nAvoid unnecessary elements (e.g., chartjunk, 3D effects).\nFocus on the key message and make the visualization intuitive to interpret.\n\nConsistency\n\nUse consistent colors, fonts, and labels across different graphs.\n\nLabeling and Annotations\n\nClear axis titles, units, and legends to make the graph self-explanatory.\n\nColor Choices\n\nConsider color blindness (red-green blindness common) and use color schemes that enhance readability.\n\nAppropriate Scale\n\nAvoid misleading visuals by ensuring that scales are not exaggerated or compressed.\n\nHierarchy and Focus\n\nGuide the viewer’s attention to the most important parts of the graph (using size, bolding, or contrasting colors).\n\nTelling a Story\n\nVisuals should flow logically and lead the reader through the narrative of your data."
+  },
+  {
+    "objectID": "week02/lecture.html#how-to-choose-the-right-graph-for-your-data",
+    "href": "week02/lecture.html#how-to-choose-the-right-graph-for-your-data",
+    "title": "Data Visualisation 1",
+    "section": "How to Choose the Right Graph for Your Data",
+    "text": "How to Choose the Right Graph for Your Data\n\nUnderstanding Your Audience\n\nTailor complexity based on who is consuming the data (public, peers, experts).\n\nData-Driven Decision Making\n\nChoose the graph based on the data structure and the key message you want to convey.\n\nAvoid Common Pitfalls\n\nMisleading graphs (incorrect scales, truncated axes) can misinform rather than clarify.\nOvercomplicating simple messages with too many visual elements or excessive detail."
+  },
+  {
+    "objectID": "week02/lecture.html#psychological-aspects-of-data-visualization",
+    "href": "week02/lecture.html#psychological-aspects-of-data-visualization",
+    "title": "Data Visualisation 1",
+    "section": "Psychological Aspects of Data Visualization",
+    "text": "Psychological Aspects of Data Visualization\n\nCognitive Load\n\nMinimizing mental effort required to interpret visuals.\n\nGestalt Principles of Perception\n\nHow humans perceive visual elements (e.g., proximity, similarity, closure) and how to leverage these in visual design.\n\nEmotional Impact of Visuals\n\nUsing visual design to invoke emotions (e.g., empathy, urgency), particularly in health or social psychology data."
+  },
+  {
+    "objectID": "week02/lecture.html#examples-and-case-studies",
+    "href": "week02/lecture.html#examples-and-case-studies",
+    "title": "Data Visualisation 1",
+    "section": "Examples and Case Studies",
+    "text": "Examples and Case Studies\n\nGood vs Bad Visualizations\n\nComparing effective vs poorly designed graphs.\nExamples from psychological research where data visualizations impacted understanding.\n\nInteractive Exercise\n\nStudents create their own data visualization using sample datasets (e.g., reaction times, Likert scale responses)."
+  },
+  {
+    "objectID": "week02/lecture.html#conclusion",
+    "href": "week02/lecture.html#conclusion",
+    "title": "Data Visualisation 1",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nRecap of key points: Visualization enhances comprehension, facilitates communication, and uncovers hidden patterns in data.\nEncouragement: Practice visualizing data in R or Excel using real datasets."
+  },
+  {
+    "objectID": "week02/lecture.html#introduction-to-data-visualization-1",
+    "href": "week02/lecture.html#introduction-to-data-visualization-1",
+    "title": "Data Visualisation 1",
+    "section": "Introduction to Data Visualization",
+    "text": "Introduction to Data Visualization\n\nWhy is it Important for Psychologists?\n\nFor Self: Making sense of information.\nOutwards: Presenting results to a wider audience (academics, professionals, the public)."
+  },
+  {
+    "objectID": "week02/lecture.html#the-many-ways-to-convey-information-1",
+    "href": "week02/lecture.html#the-many-ways-to-convey-information-1",
+    "title": "Data Visualisation 1",
+    "section": "The Many Ways to Convey Information 1",
+    "text": "The Many Ways to Convey Information 1\n\nTables\n\nWhen to use: Presenting precise numerical data or categorical comparisons.\n\nInfographics\n\nA visual story: Combining graphs, icons, and minimal text to tell a narrative (good for public dissemination)."
+  },
+  {
+    "objectID": "week02/lecture.html#the-many-ways-to-convey-information-2",
+    "href": "week02/lecture.html#the-many-ways-to-convey-information-2",
+    "title": "Data Visualisation 1",
+    "section": "The Many Ways to Convey Information 2",
+    "text": "The Many Ways to Convey Information 2\n\nInteractive Visualizations\n\nDynamic data representations, useful for exploring and filtering datasets in real-time (tools like Shiny or Tableau).\n\nDashboards\n\nOverviewing multiple aspects of data in one space for decision-making, often used in applied settings."
+  },
+  {
+    "objectID": "week02/lecture.html#the-many-ways-to-convey-information-3",
+    "href": "week02/lecture.html#the-many-ways-to-convey-information-3",
+    "title": "Data Visualisation 1",
+    "section": "The Many Ways to Convey Information 3",
+    "text": "The Many Ways to Convey Information 3\n\nFlowcharts and Diagrams\n\nBest for depicting processes or causal relationships.\n\nPresenting Visuals in Scientific Reports\n\nAdapting visuals to APA standards (formatting, labeling, figure legends)."
+  },
+  {
+    "objectID": "week02/lecture.html#data-visualization",
+    "href": "week02/lecture.html#data-visualization",
+    "title": "Data Visualisation 1",
+    "section": "Data Visualization",
+    "text": "Data Visualization\nData Visualization [noun] /ˈdeɪtə vɪʒuəlɪˈzeɪʃən/\n\nData presented visually.\nThe process of turning data into images or graphs to help interpret it.\nThe representation of data through visual means to aid a reader’s understanding.\nThe transformation of data into visual form to communicate patterns, insights, and stories.\nThe creative process of communicating data in a way that captures the imagination and communicates meaning.\n\nsee also: Animation, Infographics, Data Journalism"
+  },
+  {
+    "objectID": "week02/lecture.html#data-visualization-beyond-graphs",
+    "href": "week02/lecture.html#data-visualization-beyond-graphs",
+    "title": "Data Visualisation 1",
+    "section": "Data Visualization Beyond Graphs",
+    "text": "Data Visualization Beyond Graphs\nMore than Just Charts [noun] /ˈdeɪtə vɪʒuəlɪˈzeɪʃən/"
+  },
+  {
+    "objectID": "week02/lecture.html#data-as-stories",
+    "href": "week02/lecture.html#data-as-stories",
+    "title": "Data Visualisation 1",
+    "section": "1. Data as Stories",
+    "text": "1. Data as Stories\nConcept:\nData visualization isn’t just about numbers; it’s about telling a compelling story. The visual elements should guide the viewer through a narrative—showing change over time, revealing relationships, or highlighting key insights.\nApplication:\nCase studies or reports where data unfolds in a logical, easy-to-follow sequence, such as telling the story of a community’s health or an individual’s progress.\nExample:\nAn interactive webpage showing the impact of social media on mental health through a narrative of personal experiences and trends."
+  },
+  {
+    "objectID": "week02/lecture.html#infographics",
+    "href": "week02/lecture.html#infographics",
+    "title": "Data Visualisation 1",
+    "section": "2. Infographics",
+    "text": "2. Infographics\nConcept:\nInfographics combine text, visuals, and data to create a highly accessible, single-view communication tool. They are visually engaging, often using illustrations, icons, and small amounts of data to convey key points at a glance.\nApplication:\nIdeal for social media, brochures, or posters where quick digestion of information is needed. Frequently used in public campaigns, marketing, and education.\nExample:\nAn infographic explaining the psychology of sleep, showing how sleep cycles work and tips to improve sleep habits."
+  },
+  {
+    "objectID": "week02/lecture.html#animations",
+    "href": "week02/lecture.html#animations",
+    "title": "Data Visualisation 1",
+    "section": "3. Animations",
+    "text": "3. Animations\nConcept:\nAnimations bring data to life by adding movement, showing how data evolves over time or revealing complex processes step-by-step. They are effective in capturing attention and illustrating dynamic changes.\nApplication:\nExcellent for presentations, video content, or interactive dashboards. Can be used in education to break down complex processes (e.g., brain activity) or in marketing to show trends over time.\nExample:\nAn animated chart showing the rise of global temperatures over decades, or an animation walking through the steps of a psychological experiment."
+  },
+  {
+    "objectID": "week02/lecture.html#dashboards",
+    "href": "week02/lecture.html#dashboards",
+    "title": "Data Visualisation 1",
+    "section": "4. Dashboards",
+    "text": "4. Dashboards\nConcept:\nDashboards provide a comprehensive, real-time view of data, often integrating multiple graphs and charts into one interface. They allow users to interact with the data, filter information, and explore different aspects on demand.\nApplication:\nUseful in business, healthcare, or education where decision-makers need up-to-date, actionable insights. Dashboards can provide an overview of research data, employee performance, or patient metrics.\nExample:\nA live dashboard tracking the results of a clinical trial, showing participant progress, side effects, and key outcome measures."
+  },
+  {
+    "objectID": "week02/lecture.html#data-driven-art",
+    "href": "week02/lecture.html#data-driven-art",
+    "title": "Data Visualisation 1",
+    "section": "5. Data-Driven Art",
+    "text": "5. Data-Driven Art\nConcept:\nData-driven art turns data into creative visual expressions, where aesthetics and meaning are equally important. It communicates complex ideas through artistic mediums, helping people emotionally connect with the data.\nApplication:\nUseful in public exhibitions, museums, or campaigns designed to evoke emotional responses. Can be particularly impactful when the goal is to inspire action or reflection.\nExample:\nA visual installation representing the world’s most polluted cities, where the intensity of color and shape corresponds to pollution levels."
+  },
+  {
+    "objectID": "week02/lecture.html#interactive-visualizations",
+    "href": "week02/lecture.html#interactive-visualizations",
+    "title": "Data Visualisation 1",
+    "section": "6. Interactive Visualizations",
+    "text": "6. Interactive Visualizations\nConcept:\nInteractive visualizations allow the audience to explore the data themselves. Users can hover over elements, click to reveal additional information, and adjust parameters in real time to see how different variables influence outcomes.\nApplication:\nExcellent for websites, educational tools, and data journalism. This method is perfect for exploring complex datasets where users need control over what they want to see.\nExample:\nA web tool where users can explore the effects of different factors (e.g., age, gender, education) on job satisfaction."
+  },
+  {
+    "objectID": "week02/lecture.html#maps-and-geospatial-visualizations",
+    "href": "week02/lecture.html#maps-and-geospatial-visualizations",
+    "title": "Data Visualisation 1",
+    "section": "7. Maps and Geospatial Visualizations",
+    "text": "7. Maps and Geospatial Visualizations\nConcept:\nData visualized on maps can be incredibly powerful, especially when geographic context is essential to the story. These visuals can show patterns across different locations, reveal relationships between data and place, and help identify regional trends.\nApplication:\nUsed in public health (tracking disease outbreaks), environmental research (tracking deforestation), and social science (mapping crime rates).\nExample:\nA heatmap showing the spread of a disease outbreak, highlighting areas of high infection rates over time."
+  },
+  {
+    "objectID": "week02/lecture.html#narrated-data",
+    "href": "week02/lecture.html#narrated-data",
+    "title": "Data Visualisation 1",
+    "section": "8. Narrated Data",
+    "text": "8. Narrated Data\nConcept:\nNarrated data takes storytelling a step further by adding voiceovers or text to guide the viewer through the visualization, ensuring that key points are not missed and context is clearly explained.\nApplication:\nIdeal for educational content, presentations, and documentaries where understanding the deeper meaning behind the data is essential.\nExample:\nA video presentation explaining the impact of climate change, with data visualizations narrated by an expert who explains each trend."
+  },
+  {
+    "objectID": "week02/lecture.html#data-visualisation-noun-ˈdeɪtə-vɪʒuəlɪˈzeɪʃən",
+    "href": "week02/lecture.html#data-visualisation-noun-ˈdeɪtə-vɪʒuəlɪˈzeɪʃən",
+    "title": "Data Visualisation 1",
+    "section": "Data Visualisation [noun] /ˈdeɪtə vɪʒuəlɪˈzeɪʃən/",
+    "text": "Data Visualisation [noun] /ˈdeɪtə vɪʒuəlɪˈzeɪʃən/\n\n\nData presented visually.\nThe process of turning data into images or graphs to help interpret it.\nThe representation of data through visual means to aid a reader’s understanding.\nThe transformation of data into visual form to communicate patterns, insights, and stories.\nThe creative process of communicating data in a way that captures the imagination and communicates meaning.\n\n\nsee also: Animation, Infographics, Data Journalism"
+  },
+  {
+    "objectID": "DraftCHunks.html",
+    "href": "DraftCHunks.html",
+    "title": "F1",
+    "section": "",
+    "text": "library(f1dataR)\n\nLoading required package: reticulate\n\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlibrary(ggplot2)\n# f1dataR::get_session_drivers_and_teams(2024, 16, session = \"R\")\nlibrary(ggplot2)\n# Load the data\nresults &lt;- load_results(2020, 1) %&gt;%\n  mutate(\n    grid = as.numeric(grid),\n    position = as.numeric(position)\n  )\n\nggplot(results, aes(x = position, y = grid)) +\n  geom_point(color = \"white\") +\n  stat_smooth(method = \"lm\") +\n  theme_dark_f1(axis_marks = TRUE) +\n  ggtitle(\"2020 Austrian Grand Prix Grid - Finish Position\") +\n  xlab(\"Finish Position\") +\n  ylab(\"Grid Position\")\n\n`geom_smooth()` using formula = 'y ~ x'\n# lec &lt;- load_driver_telemetry(2024, 1, \"Q\", driver = \"LEC\", laps = \"fastest\")\n# ham &lt;- load_driver_telemetry(2024, 1, \"Q\", driver = \"HAM\", laps = \"fastest\")\n# per &lt;- load_driver_telemetry(2024, 1, \"Q\", driver = \"PER\", laps = \"fastest\")\n# \n# telem &lt;- bind_rows(lec, ham, per) %&gt;%\n#   select(rpm, speed, n_gear, throttle, brake, drs, distance, time, driver_code) %&gt;%\n#   mutate(drs = ifelse(drs == 12, 1, 0))\n# \n# drivercolours &lt;- c(\n#   \"LEC\" = get_driver_color(\"LEC\", 2022, 1),\n#   \"HAM\" = get_driver_color(\"HAM\", 2022, 1),\n#   \"PER\" = get_driver_color(\"PER\", 2022, 1)\n# )"
+  },
+  {
+    "objectID": "DraftCHunks.html#glossary-of-terms",
+    "href": "DraftCHunks.html#glossary-of-terms",
+    "title": "F1",
+    "section": "Glossary of Terms",
+    "text": "Glossary of Terms\n\n\n\n\n\n\n\nTerm\nDefinition\n\n\n\n\nargument\nA variable that provides input to a function.\n\n\ncategorical\nData that can only take certain values, such as types of pet.\n\n\ncharacter\nA data type representing strings of text.\n\n\nchunk\nA section of code in an R Markdown file.\n\n\ncontinuous\nData that can take on any values between other existing values.\n\n\ndata type\nThe kind of data represented by an object.\n\n\ndefault value\nA value that a function uses for an argument if it is skipped.\n\n\ndouble\nA data type representing a real decimal number.\n\n\nfactor\nA data type where a specific set of values are stored with labels; An explanatory variable manipulated by the experimenter.\n\n\ngeom\nThe geometric style in which data are displayed, such as boxplot, density, or histogram.\n\n\ninteger\nA data type representing whole numbers.\n\n\nknit\nTo create an HTML, PDF, or Word document from an R Markdown (Rmd) document.\n\n\nlikert\nA rating scale with a small number of discrete points in order.\n\n\nlogical\nA data type representing TRUE or FALSE values.\n\n\nmedian\nThe middle number in a distribution where half of the values are larger and half are smaller.\n\n\nnominal\nCategorical variables that don’t have an inherent order, such as types of animal.\n\n\nnumeric\nA data type representing a real decimal number or integer.\n\n\nobservation\nAll of the data about a single trial or question.\n\n\nordinal\nDiscrete variables that have an inherent order, such as level of education or dislike/like.\n\n\noutlier\nA data point that is extremely distant from most of the other data points.\n\n\nr markdown\nThe R-specific version of markdown: a way to specify formatting, such as headers, paragraphs, lists, bolding, and links, as well as code blocks and inline code.\n\n\nstring\nA piece of text inside of quotes.\n\n\ntidy data\nA format for data that maps the meaning onto the structure.\n\n\nvalue\nA single number or piece of data.\n\n\nvariable\n(coding): A word that identifies and stores the value of some data for later use; (stats): An attribute or characteristic of an observation that you can measure, count, or describe.\n\n\nvector\nA type of data structure that collects values with the same data type, like T/F values, numbers, or strings."
   }
 ]

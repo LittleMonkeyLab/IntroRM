@@ -21,6 +21,341 @@ library(palmerpenguins)
 library(ggplot2)
 ```
 
+### /ˈdeɪtə vɪʒuəlɪˈzeɪʃən/ \[noun\]
+
+::: {.incremental .small}
+Data presented visually? ys
+
+The process of turning data into images or graphs to help interpret it?
+
+The representation of data through visual means to aid a reader's
+understanding?
+
+The transformation of data into visual form to communicate patterns,
+insights, and stories?
+
+The creative process of communicating information in a way that captures
+the imagination and communicates meaning?
+:::
+
+## Data Visualization Beyond Graphs
+
+### More than Just Charts **\[***noun\]* /ˈdeɪtə vɪʒuəlɪˈzeɪʃən/
+
+------------------------------------------------------------------------
+
+## 1. Data as Stories
+
+**Concept:**\
+Data visualization isn't just about numbers; it's about telling a
+compelling story. The visual elements should guide the viewer through a
+narrative—showing change over time, revealing relationships, or
+highlighting key insights.
+
+**Application:**\
+Case studies or reports where data unfolds in a logical, easy-to-follow
+sequence, such as telling the story of a community's health or an
+individual's progress.
+
+**Example:**\
+An interactive webpage showing the impact of social media on mental
+health through a narrative of personal experiences and trends.
+
+------------------------------------------------------------------------
+
+## 2. Infographics
+
+**Concept:**\
+Infographics combine text, visuals, and data to create a highly
+accessible, single-view communication tool. They are visually engaging,
+often using illustrations, icons, and small amounts of data to convey
+key points at a glance.
+
+**Application:**\
+Ideal for social media, brochures, or posters where quick digestion of
+information is needed. Frequently used in public campaigns, marketing,
+and education.
+
+**Example:**\
+An infographic explaining the psychology of sleep, showing how sleep
+cycles work and tips to improve sleep habits.
+
+------------------------------------------------------------------------
+
+## 3. Animations
+
+**Concept:**\
+Animations bring data to life by adding movement, showing how data
+evolves over time or revealing complex processes step-by-step. They are
+effective in capturing attention and illustrating dynamic changes.
+
+**Application:**\
+Excellent for presentations, video content, or interactive dashboards.
+Can be used in education to break down complex processes (e.g., brain
+activity) or in marketing to show trends over time.
+
+**Example:**\
+An animated chart showing the rise of global temperatures over decades,
+or an animation walking through the steps of a psychological experiment.
+
+------------------------------------------------------------------------
+
+## 4. Dashboards
+
+**Concept:**\
+Dashboards provide a comprehensive, real-time view of data, often
+integrating multiple graphs and charts into one interface. They allow
+users to interact with the data, filter information, and explore
+different aspects on demand.
+
+**Application:**\
+Useful in business, healthcare, or education where decision-makers need
+up-to-date, actionable insights. Dashboards can provide an overview of
+research data, employee performance, or patient metrics.
+
+**Example:**\
+A live dashboard tracking the results of a clinical trial, showing
+participant progress, side effects, and key outcome measures.
+
+------------------------------------------------------------------------
+
+## 5. Data-Driven Art
+
+**Concept:**\
+Data-driven art turns data into creative visual expressions, where
+aesthetics and meaning are equally important. It communicates complex
+ideas through artistic mediums, helping people emotionally connect with
+the data.
+
+**Application:**\
+Useful in public exhibitions, museums, or campaigns designed to evoke
+emotional responses. Can be particularly impactful when the goal is to
+inspire action or reflection.
+
+**Example:**\
+A visual installation representing the world’s most polluted cities,
+where the intensity of color and shape corresponds to pollution levels.
+
+------------------------------------------------------------------------
+
+## 6. Interactive Visualizations
+
+**Concept:**\
+Interactive visualizations allow the audience to explore the data
+themselves. Users can hover over elements, click to reveal additional
+information, and adjust parameters in real time to see how different
+variables influence outcomes.
+
+**Application:**\
+Excellent for websites, educational tools, and data journalism. This
+method is perfect for exploring complex datasets where users need
+control over what they want to see.
+
+**Example:**\
+A web tool where users can explore the effects of different factors
+(e.g., age, gender, education) on job satisfaction.
+
+------------------------------------------------------------------------
+
+## 7. Maps and Geospatial Visualizations
+
+**Concept:**\
+Data visualized on maps can be incredibly powerful, especially when
+geographic context is essential to the story. These visuals can show
+patterns across different locations, reveal relationships between data
+and place, and help identify regional trends.
+
+**Application:**\
+Used in public health (tracking disease outbreaks), environmental
+research (tracking deforestation), and social science (mapping crime
+rates).
+
+**Example:**\
+A heatmap showing the spread of a disease outbreak, highlighting areas
+of high infection rates over time.
+
+------------------------------------------------------------------------
+
+## 8. Narrated Data
+
+**Concept:**\
+Narrated data takes storytelling a step further by adding voiceovers or
+text to guide the viewer through the visualization, ensuring that key
+points are not missed and context is clearly explained.
+
+**Application:**\
+Ideal for educational content, presentations, and documentaries where
+understanding the deeper meaning behind the data is essential.
+
+**Example:**\
+A video presentation explaining the impact of climate change, with data
+visualizations narrated by an expert who explains each trend.
+
+## **Introduction to Data Visualization**
+
+-   **What is Data Visualization?**
+    -   Definition: The graphical representation of data to find
+        insights, patterns, and trends.
+    -   Importance: Simplifying complex data, making research more
+        accessible, and aiding in decision-making.
+
+## **Introduction to Data Visualization**
+
+-   **Why is it Important for Psychologists?**
+    -   For Self: Making sense of information.
+    -   Outwards: Presenting results to a wider audience (academics,
+        professionals, the public).
+
+## **The Goals of Data Visualization**
+
+-   **Communication of Information**
+    -   Making data accessible, clear, and engaging.
+    -   Translating raw numbers into understandable narratives.
+-   **Pattern Recognition**
+    -   Identifying trends, outliers, and relationships.
+    -   Supporting statistical analysis by visually highlighting key
+        elements.
+-   **Exploration**
+    -   Using visuals to explore and understand datasets during the
+        research process.
+
+## **Types of Data**
+
+-   **Categorical Data**
+    -   Nominal (e.g., types of therapy, animal species)
+    -   Ordinal (e.g., Likert scales, levels of education)
+-   **Continuous Data**
+    -   Interval (e.g., temperature, time of day)
+    -   Ratio (e.g., height, reaction time)
+-   **Discrete vs Continuous**
+    -   The difference between countable categories and measurements
+        with infinite possible values.
+
+## **Common Types of Graphs and When to Use Them**
+
+-   **Bar Charts**
+    -   Best for comparing discrete categories.
+    -   Example: Comparing the number of participants in different
+        experimental groups.
+-   **Histograms**
+    -   Useful for visualizing the distribution of continuous data.
+    -   Example: Showing the frequency distribution of test scores.
+-   **Pie Charts**
+    -   Use for displaying proportions of a whole, though less
+        frequently used in scientific contexts.
+-   **Line Graphs**
+    -   Great for showing trends over time or continuous data
+        relationships.
+    -   Example: Reaction time changes over time.
+-   **Scatterplots**
+    -   Ideal for representing relationships between two continuous
+        variables.
+    -   Example: Relationship between stress levels and performance.
+-   **Boxplots**
+    -   Excellent for summarizing the distribution, central tendency,
+        and variability of continuous data.
+-   **Heatmaps and Density Plots**
+    -   Useful for visualizing large, complex datasets, or relationships
+        between multiple variables.
+-   **Violin Plots**
+    -   Combines boxplot and density information to visualize data
+        distribution.
+
+## **The Many Ways to Convey Information** 1
+
+-   **Tables**
+    -   When to use: Presenting precise numerical data or categorical
+        comparisons.
+-   **Infographics**
+    -   A visual story: Combining graphs, icons, and minimal text to
+        tell a narrative (good for public dissemination).
+
+## **The Many Ways to Convey Information** 2
+
+-   **Interactive Visualizations**
+    -   Dynamic data representations, useful for exploring and filtering
+        datasets in real-time (tools like Shiny or Tableau).
+-   **Dashboards**
+    -   Overviewing multiple aspects of data in one space for
+        decision-making, often used in applied settings.
+
+## **The Many Ways to Convey Information** 3
+
+-   **Flowcharts and Diagrams**
+    -   Best for depicting processes or causal relationships.
+-   **Presenting Visuals in Scientific Reports**
+    -   Adapting visuals to APA standards (formatting, labeling, figure
+        legends).
+
+## **Design Principles for Effective Data Visualizations**
+
+-   **Clarity and Simplicity**
+    -   Avoid unnecessary elements (e.g., chartjunk, 3D effects).
+    -   Focus on the key message and make the visualization intuitive to
+        interpret.
+-   **Consistency**
+    -   Use consistent colors, fonts, and labels across different
+        graphs.
+-   **Labeling and Annotations**
+    -   Clear axis titles, units, and legends to make the graph
+        self-explanatory.
+-   **Color Choices**
+    -   Consider color blindness (red-green blindness common) and use
+        color schemes that enhance readability.
+-   **Appropriate Scale**
+    -   Avoid misleading visuals by ensuring that scales are not
+        exaggerated or compressed.
+-   **Hierarchy and Focus**
+    -   Guide the viewer’s attention to the most important parts of the
+        graph (using size, bolding, or contrasting colors).
+-   **Telling a Story**
+    -   Visuals should flow logically and lead the reader through the
+        narrative of your data.
+
+## **How to Choose the Right Graph for Your Data**
+
+-   **Understanding Your Audience**
+    -   Tailor complexity based on who is consuming the data (public,
+        peers, experts).
+-   **Data-Driven Decision Making**
+    -   Choose the graph based on the data structure and the key message
+        you want to convey.
+-   **Avoid Common Pitfalls**
+    -   Misleading graphs (incorrect scales, truncated axes) can
+        misinform rather than clarify.
+    -   Overcomplicating simple messages with too many visual elements
+        or excessive detail.
+
+## **Psychological Aspects of Data Visualization**
+
+-   **Cognitive Load**
+    -   Minimizing mental effort required to interpret visuals.
+-   **Gestalt Principles of Perception**
+    -   How humans perceive visual elements (e.g., proximity,
+        similarity, closure) and how to leverage these in visual design.
+-   **Emotional Impact of Visuals**
+    -   Using visual design to invoke emotions (e.g., empathy, urgency),
+        particularly in health or social psychology data.
+
+## **Examples and Case Studies**
+
+-   **Good vs Bad Visualizations**
+    -   Comparing effective vs poorly designed graphs.
+    -   Examples from psychological research where data visualizations
+        impacted understanding.
+-   **Interactive Exercise**
+    -   Students create their own data visualization using sample
+        datasets (e.g., reaction times, Likert scale responses).
+
+## **Conclusion**
+
+-   Recap of key points: Visualization enhances comprehension,
+    facilitates communication, and uncovers hidden patterns in data.
+-   Encouragement: Practice visualizing data in R or Excel using real
+    datasets.
+
+------------------------------------------------------------------------
+
 ## Header
 
 Atkinson Hyperlegible is a font developed by the Braille Institute of
@@ -114,45 +449,77 @@ want to do when you grow up
 Visualisation is bringing to life Animation Communicating Captivating
 Convincing Cut-through Sticky
 
-## Inspirational Video and Slides
+<!-- ## Inspirational Video and Slides -->
 
-::: columns
-::: {.column width="40%"}
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/yoEezZD71sc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<!-- ::: columns -->
 
-</iframe>
-:::
+<!-- ::: {.column width="40%"} -->
 
-::: {.column width="60%" style="position: relative; height: 400px;"}
-![Image 1](images/clipboard-2345556086.png){.fragment .fade-in
-.current-visible
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
-![Image 2](images/clipboard-2976832170.png){.fragment .fade-in
-.current-visible
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
-![Image 3](images/clipboard-1036810540.png){.fragment .fade-in
-.current-visible
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
-![Image 4](images/clipboard-1185044832.png){.fragment .fade-in
-.current-visible
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
-![Image 5](images/clipboard-492947776.png){.fragment .fade-in
-.current-visible
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
-![Image 6](images/clipboard-2791386978.png){.fragment .fade-in
-.current-visible
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
-![Image 7](images/clipboard-3977689435.png){.fragment .fade-in
-.current-visible
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
-![Image 8](images/clipboard-2970447046.png){.fragment .fade-in
-.current-visible
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
-![Image 9](images/clipboard-3152777671.png){.fragment .fade-in
-.current-visible
-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"}
-:::
-:::
+<!-- <iframe width="100%" height="400" src="https://www.youtube.com/embed/yoEezZD71sc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> -->
+
+<!-- </iframe> -->
+
+<!-- ::: -->
+
+<!-- ::: {.column width="60%" style="position: relative; height: 400px;"} -->
+
+<!-- ![Image 1](images/clipboard-2345556086.png){.fragment .fade-in -->
+
+<!-- .current-visible -->
+
+<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
+
+<!-- ![Image 2](images/clipboard-2976832170.png){.fragment .fade-in -->
+
+<!-- .current-visible -->
+
+<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
+
+<!-- ![Image 3](images/clipboard-1036810540.png){.fragment .fade-in -->
+
+<!-- .current-visible -->
+
+<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
+
+<!-- ![Image 4](images/clipboard-1185044832.png){.fragment .fade-in -->
+
+<!-- .current-visible -->
+
+<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
+
+<!-- ![Image 5](images/clipboard-492947776.png){.fragment .fade-in -->
+
+<!-- .current-visible -->
+
+<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
+
+<!-- ![Image 6](images/clipboard-2791386978.png){.fragment .fade-in -->
+
+<!-- .current-visible -->
+
+<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
+
+<!-- ![Image 7](images/clipboard-3977689435.png){.fragment .fade-in -->
+
+<!-- .current-visible -->
+
+<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
+
+<!-- ![Image 8](images/clipboard-2970447046.png){.fragment .fade-in -->
+
+<!-- .current-visible -->
+
+<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
+
+<!-- ![Image 9](images/clipboard-3152777671.png){.fragment .fade-in -->
+
+<!-- .current-visible -->
+
+<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
+
+<!-- ::: -->
+
+<!-- ::: -->
 
 ## Header
 
@@ -504,39 +871,3 @@ height="250"}
 ![](images/image3.png){.absolute bottom="100" right="50" width="300"
 height="300"}
 :::
-
-## 1
-
-![](images/clipboard-2345556086.png)
-
-## 2
-
-![](images/clipboard-2976832170.png)
-
-## 3
-
-![](images/clipboard-1036810540.png)
-
-## 4
-
-![](images/clipboard-1185044832.png)
-
-## 5
-
-![](images/clipboard-492947776.png)
-
-## 6
-
-![](images/clipboard-2791386978.png)
-
-## 7
-
-![](images/clipboard-3977689435.png)
-
-## 8
-
-![](images/clipboard-2970447046.png)
-
-## 9
-
-![](images/clipboard-3152777671.png)
