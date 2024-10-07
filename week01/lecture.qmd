@@ -1,5 +1,0 @@
----
-title: "RM Lecture Narrative Wellbeing"
-subtitle: "Starting with a difficult question"
-categories: [Week01, Lecture, Health&Wellbeing]
----
