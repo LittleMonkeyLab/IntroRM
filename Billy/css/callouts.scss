@@ -1,0 +1,92 @@
+/*-- scss:defaults --*/
+:root {
+  --callout-title-padding: 0;
+  --callout-content-padding: 0;
+  --callout-border-width: 0px;
+}
+
+$note-color: #4582EC;
+$warning-color: #FFFF00;
+$tip-color: #02b875;
+$caution-color: #E599F7;
+$important-color: #FF5252;
+
+/*-- scss:rules --*/
+div.callout-warning {
+  border: revert;
+}
+
+.callout {
+  all: revert;
+  border-radius: 8px !important;
+  margin: auto;
+  opacity: 100% !important;
+  display: -webkit-inline-box;
+  width: fit-content;
+  font-size: 0.5em;
+  transition: all 0.2s ease-in-out;
+}
+
+.callout-title {
+  display: flex;
+  align-items: left;
+  gap: 0.5em;
+  padding: 0em 0em;
+  border: none;
+  font-weight: 600;
+  letter-spacing: .05em;
+  font-size: 0.9em;
+}
+
+.callout-body {
+  padding: 0em 0em;
+  font-size: 0.5em;
+}
+
+.callout-icon::before {
+  height: 0rem;
+  width: 0rem;
+  display: inline-block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 0rem 0rem;
+  padding-right: 0rem;
+  vertical-align: top;
+}
+
+div.callout-note { border: 3px solid $note-color !important; }
+div.callout-warning { border: 3px solid $warning-color !important; }
+div.callout-tip { border: 3px solid $tip-color !important; }
+div.callout-caution { border: 3px solid $caution-color !important; }
+div.callout-important { border: 3px solid $important-color !important; }
+
+div.callout-note .callout-title { color: $note-color !important; }
+div.callout-warning .callout-title { color: $warning-color !important; }
+div.callout-tip .callout-title { color: $tip-color !important; }
+div.callout-caution .callout-title { color: $caution-color !important; }
+div.callout-important .callout-title { color: $important-color !important; }
+
+.callout:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 30px;
+  transform: translateY(-2px);
+}
+
+.callout.callout-style-default .callout-title {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.callout.callout-style-simple {
+  padding: 0em 0.8em;
+}
+
+.callout.callout-style-minimal {
+  border: none;
+  
+  .callout-title {
+    padding: 0em 0em;
+  }
+  
+  .callout-body {
+    padding: 0em 0em;
+  }
+}
