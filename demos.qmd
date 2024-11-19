@@ -12,5 +12,4 @@ Here is a demo of webexercises
 Here is a demo of a download button
 [downloadthis demo](downloadthis.qmd)
 
-Here is a demo of an embedded microsoft form
-[embedded MSForm](iframeslides.qmd)
+

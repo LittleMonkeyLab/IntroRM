@@ -1,6 +1,6 @@
 project:
   type: website
-mainfont: Atkinson Hyperlegible  # You can remove this if it's already in the HTML section.
+
 # logo: images/LMLLOGO.png
 website:
   title: PS51020A Research Methods & Statistics 2024/5
@@ -27,11 +27,8 @@ website:
             href: webexercises.qmd
           - text: "Download This"
             href: downloadthis.qmd
-          - text: "Iframe Slides"
-            href: iframeslides.qmd
       - text: "---"
       - section: "Weeks"
-        href: weeklisting.qmd
         contents: 
           - "week**/*.qmd"
         exclude: 
