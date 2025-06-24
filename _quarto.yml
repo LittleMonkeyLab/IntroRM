@@ -17,12 +17,12 @@ website:
     border: true
     collapse-level: 2
     contents: 
-      - section: "Weeks"
-        contents: 
-          - "week**/*.qmd"
-        exclude: 
-          - "*-slides.qmd"
-      - text: "---"
+      # - section: "Weeks"
+      #   contents: 
+      #     - "week**/*.qmd"
+      #   exclude: 
+      #     - "*-slides.qmd"
+      # - text: "---"
       - text: "Course Overview"
         href: index.qmd
       - section: "Demos"
