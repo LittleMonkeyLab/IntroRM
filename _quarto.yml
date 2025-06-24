@@ -59,8 +59,7 @@ format:
     link-external-icon: false
     css: include/webex.css
     include-after-body: include/webex.js
-  revealjs: 
-    theme: styles/slides.scss
+
 # Set default options for every webpage that may or may not include webR.
 webr: 
   show-startup-message: false
