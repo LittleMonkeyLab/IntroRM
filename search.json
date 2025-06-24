@@ -1,37 +1,5 @@
 [
   {
-    "objectID": "downloadthis.html",
-    "href": "downloadthis.html",
-    "title": "DownloadThis Demo",
-    "section": "",
-    "text": "and this is some sparkling content.\nHow could I possibly download the data you mention?\n Download the lab pdf \nThere you go, mydude!",
-    "crumbs": [
-      "Demos",
-      "Download This"
-    ]
-  },
-  {
-    "objectID": "downloadthis.html#what-a-terrific-website",
-    "href": "downloadthis.html#what-a-terrific-website",
-    "title": "DownloadThis Demo",
-    "section": "",
-    "text": "and this is some sparkling content.\nHow could I possibly download the data you mention?\n Download the lab pdf \nThere you go, mydude!",
-    "crumbs": [
-      "Demos",
-      "Download This"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "PS51020A Research Methods & Statistics",
-    "section": "",
-    "text": "HOMEPAGE CONTENT\n\n\n\nReuseCC BY-NC-SA 4.0CitationBibTeX citation:@online{untitled,\n  author = {},\n  title = {PS51020A {Research} {Methods} \\& {Statistics}},\n  url = {http://introrm.littlemonkeylab.com/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“PS51020A Research Methods & Statistics.” n.d. http://introrm.littlemonkeylab.com/.",
-    "crumbs": [
-      "Course Overview"
-    ]
-  },
-  {
     "objectID": "webr.html",
     "href": "webr.html",
     "title": "webR in Quarto HTML Documents",
@@ -526,111 +494,6 @@
     "text": "The Psychology of Happiness\nChapter 6: The Psychology of Happiness\nHappiness, a subjective emotional state often associated with feelings of contentment, satisfaction, and well-being, has long been of interest\n\n\n\n\n\n\nReuseCC BY-NC-SA 4.0CitationBibTeX citation:@online{untitled,\n  author = {},\n  title = {Measuring {Wellbeing}},\n  url = {http://introrm.littlemonkeylab.com/week02/chapter.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“Measuring Wellbeing.” n.d. http://introrm.littlemonkeylab.com/week02/chapter.html."
   },
   {
-    "objectID": "week02/lab.html",
-    "href": "week02/lab.html",
-    "title": "RM Lab Narrative Wellbeing",
-    "section": "",
-    "text": "content\nmore content"
-  },
-  {
-    "objectID": "week02/lab.html#content",
-    "href": "week02/lab.html#content",
-    "title": "RM Lab Narrative Wellbeing",
-    "section": "",
-    "text": "content\nmore content"
-  },
-  {
-    "objectID": "week02/dataskills.html",
-    "href": "week02/dataskills.html",
-    "title": "The Great Wellbeing Challenge",
-    "section": "",
-    "text": "ReuseCC BY-NC-SA 4.0CitationBibTeX citation:@online{untitled,\n  author = {},\n  title = {The {Great} {Wellbeing} {Challenge}},\n  url = {http://introrm.littlemonkeylab.com/week02/dataskills.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“The Great Wellbeing Challenge.” n.d. http://introrm.littlemonkeylab.com/week02/dataskills.html."
-  },
-  {
-    "objectID": "week02/lab-slides.html#slide-1",
-    "href": "week02/lab-slides.html#slide-1",
-    "title": "RMLab Slides Week 01",
-    "section": "Slide 1",
-    "text": "Slide 1\ncontent"
-  },
-  {
-    "objectID": "week02/lab-slides.html#slide-2",
-    "href": "week02/lab-slides.html#slide-2",
-    "title": "RMLab Slides Week 01",
-    "section": "Slide 2",
-    "text": "Slide 2\ncontent2"
-  },
-  {
-    "objectID": "week02/lab-slides.html#slide-3",
-    "href": "week02/lab-slides.html#slide-3",
-    "title": "RMLab Slides Week 01",
-    "section": "Slide 3",
-    "text": "Slide 3\nMore content"
-  },
-  {
-    "objectID": "week02/lab-slides.html#welcome",
-    "href": "week02/lab-slides.html#welcome",
-    "title": "RMLab Slides Week 01",
-    "section": "Welcome",
-    "text": "Welcome\nWelcome to a demo RevealJS presentation that uses the quarto-webr extension to generate interactive code cells with Quarto and webR.\n\n\n\n\n\n\nImportant\n\n\nThis template requires a pre-release version of Quarto that is 1.4.502 or greater that contains an updated copy of pandoc. For more details, please see Issue #14.\n\n\n\nNot the right template? Let’s go back to the documentation portal"
-  },
-  {
-    "objectID": "week02/lab-slides.html#webr-in-revealjs",
-    "href": "week02/lab-slides.html#webr-in-revealjs",
-    "title": "RMLab Slides Week 01",
-    "section": "webR in RevealJS",
-    "text": "webR in RevealJS\nThis is a webR-enabled code cell in a Quarto RevealJS document.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "week02/lab-slides.html#base-r-graphing-with-webr",
-    "href": "week02/lab-slides.html#base-r-graphing-with-webr",
-    "title": "RMLab Slides Week 01",
-    "section": "Base R Graphing with webR",
-    "text": "Base R Graphing with webR\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "week02/lab-slides.html#ggplot2-in-webr",
-    "href": "week02/lab-slides.html#ggplot2-in-webr",
-    "title": "RMLab Slides Week 01",
-    "section": "ggplot2 in webR",
-    "text": "ggplot2 in webR\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "week02/lab-slides.html#help-documentation",
-    "href": "week02/lab-slides.html#help-documentation",
-    "title": "RMLab Slides Week 01",
-    "section": "Help Documentation",
-    "text": "Help Documentation\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "week02/lab-slides.html#prints-warnings-and-errors",
-    "href": "week02/lab-slides.html#prints-warnings-and-errors",
-    "title": "RMLab Slides Week 01",
-    "section": "Prints, Warnings, and Errors",
-    "text": "Prints, Warnings, and Errors\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "week02/lab-slides.html#keyboard-shortcuts",
-    "href": "week02/lab-slides.html#keyboard-shortcuts",
-    "title": "RMLab Slides Week 01",
-    "section": "Keyboard Shortcuts",
-    "text": "Keyboard Shortcuts\n\nRun selected code using either:\n\nmacOS: ⌘ + ↩︎/Return\nWindows/Linux: Ctrl + ↩︎/Enter\n\nRun the entire code by clicking the “Run code” button or pressing Shift+↩︎.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "week02/lab-slides.html#embedded-slides",
-    "href": "week02/lab-slides.html#embedded-slides",
-    "title": "RMLab Slides Week 01",
-    "section": "Embedded Slides",
-    "text": "Embedded Slides\nYou can embed the slide deck inside of a Quarto Website or Book by using:\n&lt;style&gt;\n.slide-deck {\n    border: 3px solid #dee2e6;\n    width: 100%;\n    height: 475px;\n}\n&lt;/style&gt;\n\n&lt;div&gt;\n```{=html}\n&lt;iframe class=\"slide-deck\" src=\"path/to/presentation/\"&gt;&lt;/iframe&gt;\n```\n&lt;/div&gt;\n\n\n\n\n\n\nNote\n\n\nAvoid using within a RevealJS presentation. Only 1 instance of webR should be running."
-  },
-  {
-    "objectID": "week02/lab-slides.html#fin",
-    "href": "week02/lab-slides.html#fin",
-    "title": "RMLab Slides Week 01",
-    "section": "Fin",
-    "text": "Fin\nThanks for checking out the demo! Let’s head back to the documentation portal."
-  },
-  {
     "objectID": "demos.html",
     "href": "demos.html",
     "title": "Demonstrations",
@@ -638,6 +501,28 @@
     "text": "Here is a demo of web-r web-r demo\nHere is a demo of webexercises webexercises demo\nHere is a demo of a download button downloadthis demo\n\n\n\nReuseCC BY-NC-SA 4.0CitationBibTeX citation:@online{untitled,\n  author = {},\n  title = {Demonstrations},\n  url = {http://introrm.littlemonkeylab.com/demos.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“Demonstrations.” n.d. http://introrm.littlemonkeylab.com/demos.html.",
     "crumbs": [
       "Demos"
+    ]
+  },
+  {
+    "objectID": "downloadthis.html",
+    "href": "downloadthis.html",
+    "title": "DownloadThis Demo",
+    "section": "",
+    "text": "and this is some sparkling content.\nHow could I possibly download the data you mention?\n Download the lab pdf \nThere you go, mydude!",
+    "crumbs": [
+      "Demos",
+      "Download This"
+    ]
+  },
+  {
+    "objectID": "downloadthis.html#what-a-terrific-website",
+    "href": "downloadthis.html#what-a-terrific-website",
+    "title": "DownloadThis Demo",
+    "section": "",
+    "text": "and this is some sparkling content.\nHow could I possibly download the data you mention?\n Download the lab pdf \nThere you go, mydude!",
+    "crumbs": [
+      "Demos",
+      "Download This"
     ]
   },
   {
@@ -749,5 +634,120 @@
       "Demos",
       "Web Exercises"
     ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PS51020A Research Methods & Statistics",
+    "section": "",
+    "text": "HOMEPAGE CONTENT\n\n\n\nReuseCC BY-NC-SA 4.0CitationBibTeX citation:@online{untitled,\n  author = {},\n  title = {PS51020A {Research} {Methods} \\& {Statistics}},\n  url = {http://introrm.littlemonkeylab.com/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“PS51020A Research Methods & Statistics.” n.d. http://introrm.littlemonkeylab.com/.",
+    "crumbs": [
+      "Course Overview"
+    ]
+  },
+  {
+    "objectID": "week02/lab-slides.html#slide-1",
+    "href": "week02/lab-slides.html#slide-1",
+    "title": "RMLab Slides Week 01",
+    "section": "Slide 1",
+    "text": "Slide 1\ncontent"
+  },
+  {
+    "objectID": "week02/lab-slides.html#slide-2",
+    "href": "week02/lab-slides.html#slide-2",
+    "title": "RMLab Slides Week 01",
+    "section": "Slide 2",
+    "text": "Slide 2\ncontent2"
+  },
+  {
+    "objectID": "week02/lab-slides.html#slide-3",
+    "href": "week02/lab-slides.html#slide-3",
+    "title": "RMLab Slides Week 01",
+    "section": "Slide 3",
+    "text": "Slide 3\nMore content"
+  },
+  {
+    "objectID": "week02/lab-slides.html#welcome",
+    "href": "week02/lab-slides.html#welcome",
+    "title": "RMLab Slides Week 01",
+    "section": "Welcome",
+    "text": "Welcome\nWelcome to a demo RevealJS presentation that uses the quarto-webr extension to generate interactive code cells with Quarto and webR.\n\n\n\n\n\n\nImportant\n\n\nThis template requires a pre-release version of Quarto that is 1.4.502 or greater that contains an updated copy of pandoc. For more details, please see Issue #14.\n\n\n\nNot the right template? Let’s go back to the documentation portal"
+  },
+  {
+    "objectID": "week02/lab-slides.html#webr-in-revealjs",
+    "href": "week02/lab-slides.html#webr-in-revealjs",
+    "title": "RMLab Slides Week 01",
+    "section": "webR in RevealJS",
+    "text": "webR in RevealJS\nThis is a webR-enabled code cell in a Quarto RevealJS document.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "week02/lab-slides.html#base-r-graphing-with-webr",
+    "href": "week02/lab-slides.html#base-r-graphing-with-webr",
+    "title": "RMLab Slides Week 01",
+    "section": "Base R Graphing with webR",
+    "text": "Base R Graphing with webR\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "week02/lab-slides.html#ggplot2-in-webr",
+    "href": "week02/lab-slides.html#ggplot2-in-webr",
+    "title": "RMLab Slides Week 01",
+    "section": "ggplot2 in webR",
+    "text": "ggplot2 in webR\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "week02/lab-slides.html#help-documentation",
+    "href": "week02/lab-slides.html#help-documentation",
+    "title": "RMLab Slides Week 01",
+    "section": "Help Documentation",
+    "text": "Help Documentation\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "week02/lab-slides.html#prints-warnings-and-errors",
+    "href": "week02/lab-slides.html#prints-warnings-and-errors",
+    "title": "RMLab Slides Week 01",
+    "section": "Prints, Warnings, and Errors",
+    "text": "Prints, Warnings, and Errors\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "week02/lab-slides.html#keyboard-shortcuts",
+    "href": "week02/lab-slides.html#keyboard-shortcuts",
+    "title": "RMLab Slides Week 01",
+    "section": "Keyboard Shortcuts",
+    "text": "Keyboard Shortcuts\n\nRun selected code using either:\n\nmacOS: ⌘ + ↩︎/Return\nWindows/Linux: Ctrl + ↩︎/Enter\n\nRun the entire code by clicking the “Run code” button or pressing Shift+↩︎.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "week02/lab-slides.html#embedded-slides",
+    "href": "week02/lab-slides.html#embedded-slides",
+    "title": "RMLab Slides Week 01",
+    "section": "Embedded Slides",
+    "text": "Embedded Slides\nYou can embed the slide deck inside of a Quarto Website or Book by using:\n&lt;style&gt;\n.slide-deck {\n    border: 3px solid #dee2e6;\n    width: 100%;\n    height: 475px;\n}\n&lt;/style&gt;\n\n&lt;div&gt;\n```{=html}\n&lt;iframe class=\"slide-deck\" src=\"path/to/presentation/\"&gt;&lt;/iframe&gt;\n```\n&lt;/div&gt;\n\n\n\n\n\n\nNote\n\n\nAvoid using within a RevealJS presentation. Only 1 instance of webR should be running."
+  },
+  {
+    "objectID": "week02/lab-slides.html#fin",
+    "href": "week02/lab-slides.html#fin",
+    "title": "RMLab Slides Week 01",
+    "section": "Fin",
+    "text": "Fin\nThanks for checking out the demo! Let’s head back to the documentation portal."
+  },
+  {
+    "objectID": "week02/lab.html",
+    "href": "week02/lab.html",
+    "title": "RM Lab Narrative Wellbeing",
+    "section": "",
+    "text": "content\nmore content"
+  },
+  {
+    "objectID": "week02/lab.html#content",
+    "href": "week02/lab.html#content",
+    "title": "RM Lab Narrative Wellbeing",
+    "section": "",
+    "text": "content\nmore content"
+  },
+  {
+    "objectID": "week02/dataskills.html",
+    "href": "week02/dataskills.html",
+    "title": "The Great Wellbeing Challenge",
+    "section": "",
+    "text": "ReuseCC BY-NC-SA 4.0CitationBibTeX citation:@online{untitled,\n  author = {},\n  title = {The {Great} {Wellbeing} {Challenge}},\n  url = {http://introrm.littlemonkeylab.com/week02/dataskills.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“The Great Wellbeing Challenge.” n.d. http://introrm.littlemonkeylab.com/week02/dataskills.html."
   }
 ]
