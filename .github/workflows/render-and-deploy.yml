@@ -21,6 +21,9 @@ jobs:
       - name: Render website
         run: quarto render
 
+      - name: Create .nojekyll
+        run: touch ./docs/.nojekyll
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
