@@ -34,6 +34,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-renv-cache-
 
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev \
+          libfontconfig1-dev libfreetype6-dev libharfbuzz-dev libfribidi-dev \
+          libjpeg-dev libpng-dev libtiff5-dev
+
       - name: Install R package dependencies with renv
         run: Rscript -e "install.packages('renv'); renv::restore()"
 
