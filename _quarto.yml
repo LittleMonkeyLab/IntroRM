@@ -49,9 +49,7 @@ format:
     code-copy: hover
     comments: 
       hypothesis: true
-    theme:
-      light: light.scss
-      dark: dark.scss
+    theme: default
     mainfont: Atkinson Hyperlegible
     monofont: Fira Code
     toc: true
