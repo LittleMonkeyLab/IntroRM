@@ -12,6 +12,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Print OS info
+        run: |
+          echo "Runner OS: $RUNNER_OS"
+          uname -a
+
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
 
