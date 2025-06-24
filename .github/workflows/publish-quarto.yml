@@ -34,11 +34,7 @@ jobs:
           libjpeg-dev libpng-dev libtiff5-dev
 
       - name: Install R package dependencies
-        run: |
-          Rscript -e '
-            install.packages(c("rmarkdown", "knitr", "devtools", "remotes", "tinytex"));
-            if (file.exists("DESCRIPTION")) devtools::install_deps(dependencies = TRUE)
-          '
+        run: Rscript -e "install.packages(c('rmarkdown', 'knitr', 'devtools', 'remotes', 'tinytex')); if (file.exists('DESCRIPTION')) devtools::install_deps(dependencies = TRUE)"
 
       - name: Install Quarto CLI
         uses: quarto-dev/quarto-actions/setup@v2
