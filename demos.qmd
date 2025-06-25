@@ -1,9 +1,8 @@
 ---
 title: "Demonstrations"
-subtitle: Demonstrations of stuff
 ---
 
-Here is a demo of web-r
+Heres is a demo of web-r
 [web-r demo](webr.qmd)
 
 Here is a demo of webexercises

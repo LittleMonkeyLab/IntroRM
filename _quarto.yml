@@ -1,11 +1,12 @@
 project:
   type: website
+  output-dir: _site
 
 # logo: images/LMLLOGO.png
 website:
-  title: PS51020A Research Methods & Statistics 2024/5
+  title: PS51020A Research Methods & Statistics 2025/6
   repo-url: https://github.com/LittleMonkeyLab/introrm
-  site-url: http://introrm.littlemonkeylab.com
+  site-url: https://introrm.littlemonkeylab.com
   description: Introduction to Research Methods in Psychology at Goldsmiths
   page-navigation: true
   repo-actions: issue
@@ -16,7 +17,13 @@ website:
     border: true
     collapse-level: 2
     contents: 
-      - text: "Introduction"
+      # - section: "Weeks"
+      #   contents: 
+      #     - "week**/*.qmd"
+      #   exclude: 
+      #     - "*-slides.qmd"
+      # - text: "---"
+      - text: "Course Overview"
         href: index.qmd
       - section: "Demos"
         href: demos.qmd
@@ -27,15 +34,11 @@ website:
             href: webexercises.qmd
           - text: "Download This"
             href: downloadthis.qmd
-      - text: "---"
-      - section: "Weeks"
-        contents: 
-          - "week**/*.qmd"
-        exclude: 
-          - "*-slides.qmd"
+      
+      
 
   page-footer:
-    center: Copyright 2024, Dr. Gordon Wright
+    center: Copyright 2025, Dr. Gordon Wright
 execute:
   freeze: auto
   self-contained: true
@@ -44,9 +47,9 @@ format:
     code-overflow: wrap
     code-line-numbers: false
     code-copy: hover
-    theme:
-      light: light.scss
-      dark: dark.scss
+    comments: 
+      hypothesis: true
+    theme: default
     mainfont: Atkinson Hyperlegible
     monofont: Fira Code
     toc: true
@@ -56,8 +59,7 @@ format:
     link-external-icon: false
     css: include/webex.css
     include-after-body: include/webex.js
-  revealjs: 
-    theme: styles/slides.scss
+
 # Set default options for every webpage that may or may not include webR.
 webr: 
   show-startup-message: false
