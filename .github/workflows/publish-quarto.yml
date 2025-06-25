@@ -1,71 +1,27 @@
-name: Publish Quarto site to GitHub Pages
+name: Render and Publish
 
 on:
   push:
-    branches: [main] # Change if your default branch is not 'main'
+    branches:
+      - main  # Trigger on push to main branch
 
 jobs:
-  deploy:
+  build-deploy:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
-      - name: Checkout repository
+      - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Print OS info
-        run: |
-          echo "Runner OS: $RUNNER_OS"
-          uname -a
-
-      - name: Set up R
-        uses: r-lib/actions/setup-r@v2
-
-      - name: Set up Pandoc
-        uses: r-lib/actions/setup-pandoc@v2
-
-      - name: Cache renv library
-        uses: actions/cache@v4
-        with:
-          path: renv/library
-          key: ${{ runner.os }}-renv-library-${{ hashFiles('renv.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-renv-library-
-
-      - name: Cache renv global cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.local/share/renv
-          key: ${{ runner.os }}-renv-cache-${{ hashFiles('renv.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-renv-cache-
-
-      - name: Install system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev \
-          libfontconfig1-dev libfreetype6-dev libharfbuzz-dev libfribidi-dev \
-          libjpeg-dev libpng-dev libtiff5-dev
-
-      - name: Install R package dependencies with renv
-        run: Rscript -e "install.packages('renv'); renv::restore()"
-
-      - name: Install Quarto CLI
+      - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: '1.4.554'
+          version: "1.5.39"  # Specify the desired Quarto version
 
-      - name: Render Quarto site
-        run: quarto render
-
-      - name: Upload site as artifact (on failure)
-        if: failure()
-        uses: actions/upload-artifact@v4
+      - name: Publish to GitHub Pages
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          name: site-build-failed
-          path: _site/
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          target: gh-pages  # Where the rendered files will be pushed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub token for authentication
