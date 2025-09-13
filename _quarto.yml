@@ -5,8 +5,8 @@ project:
 # logo: images/LMLLOGO.png
 website:
   title: PS51020A Research Methods & Statistics 2025/6
-  repo-url: https://github.com/LittleMonkeyLab/introrm
-  site-url: https://introrm.littlemonkeylab.com
+  repo-url: https://github.com/LittleMonkeyLab/IntroRM
+  site-url: https://littlemonkeylab.github.io/IntroRM
   description: Introduction to Research Methods in Psychology at Goldsmiths
   page-navigation: true
   repo-actions: issue
