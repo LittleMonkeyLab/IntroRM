@@ -1,27 +1,5 @@
 [
   {
-    "objectID": "downloadthis.html",
-    "href": "downloadthis.html",
-    "title": "DownloadThis Demo",
-    "section": "",
-    "text": "and this is some sparkling content.\nHow could I possibly download the data you mention?\n Download the lab pdf \nThere you go, mydude!",
-    "crumbs": [
-      "Demos",
-      "Download This"
-    ]
-  },
-  {
-    "objectID": "downloadthis.html#what-a-terrific-website",
-    "href": "downloadthis.html#what-a-terrific-website",
-    "title": "DownloadThis Demo",
-    "section": "",
-    "text": "and this is some sparkling content.\nHow could I possibly download the data you mention?\n Download the lab pdf \nThere you go, mydude!",
-    "crumbs": [
-      "Demos",
-      "Download This"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "PS51020A Research Methods & Statistics",
@@ -29,6 +7,16 @@
     "text": "HOMEPAGE CONTENT\n\n\n\nReuseCC BY-NC-SA 4.0CitationBibTeX citation:@online{untitled,\n  author = {},\n  title = {PS51020A {Research} {Methods} \\& {Statistics}},\n  url = {https://introrm.littlemonkeylab.com/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“PS51020A Research Methods & Statistics.” n.d. https://introrm.littlemonkeylab.com/.",
     "crumbs": [
       "Course Overview"
+    ]
+  },
+  {
+    "objectID": "demos.html",
+    "href": "demos.html",
+    "title": "Demonstrations",
+    "section": "",
+    "text": "Heres is a demo of web-r web-r demo\nHere is a demo of webexercises webexercises demo\nHere is a demo of a download button downloadthis demo\n\n\n\nReuseCC BY-NC-SA 4.0CitationBibTeX citation:@online{untitled,\n  author = {},\n  title = {Demonstrations},\n  url = {https://introrm.littlemonkeylab.com/demos.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“Demonstrations.” n.d. https://introrm.littlemonkeylab.com/demos.html.",
+    "crumbs": [
+      "Demos"
     ]
   },
   {
@@ -40,16 +28,6 @@
     "crumbs": [
       "Demos",
       "WebR"
-    ]
-  },
-  {
-    "objectID": "demos.html",
-    "href": "demos.html",
-    "title": "Demonstrations",
-    "section": "",
-    "text": "Heres is a demo of web-r web-r demo\nHere is a demo of webexercises webexercises demo\nHere is a demo of a download button downloadthis demo\n\n\n\nReuseCC BY-NC-SA 4.0CitationBibTeX citation:@online{untitled,\n  author = {},\n  title = {Demonstrations},\n  url = {https://introrm.littlemonkeylab.com/demos.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\n“Demonstrations.” n.d. https://introrm.littlemonkeylab.com/demos.html.",
-    "crumbs": [
-      "Demos"
     ]
   },
   {
@@ -160,6 +138,28 @@
     "crumbs": [
       "Demos",
       "Web Exercises"
+    ]
+  },
+  {
+    "objectID": "downloadthis.html",
+    "href": "downloadthis.html",
+    "title": "DownloadThis Demo",
+    "section": "",
+    "text": "and this is some sparkling content.\nHow could I possibly download the data you mention?\n Download the lab pdf \nThere you go, mydude!",
+    "crumbs": [
+      "Demos",
+      "Download This"
+    ]
+  },
+  {
+    "objectID": "downloadthis.html#what-a-terrific-website",
+    "href": "downloadthis.html#what-a-terrific-website",
+    "title": "DownloadThis Demo",
+    "section": "",
+    "text": "and this is some sparkling content.\nHow could I possibly download the data you mention?\n Download the lab pdf \nThere you go, mydude!",
+    "crumbs": [
+      "Demos",
+      "Download This"
     ]
   }
 ]
